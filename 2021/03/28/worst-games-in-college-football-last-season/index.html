@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.81.0" />
+
+
+<title>Worst Games in College Football Last Season - Maddie Peterson&#39;s Github Site</title>
+<meta property="og:title" content="Worst Games in College Football Last Season - Maddie Peterson&#39;s Github Site">
+
+
+  <link href='http://petersonmaddie.github.io/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="http://petersonmaddie.github.io/">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/PetersonMaddie0">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Worst Games in College Football Last Season</h1>
+
+    
+    <span class="article-date">2021-03-28</span>
+    
+
+    <div class="article-content">
+      
+<script src="http://petersonmaddie.github.io/2021/03/28/worst-games-in-college-football-last-season/index_files/header-attrs/header-attrs.js"></script>
+
+
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+## ✓ tibble  3.0.5     ✓ dplyr   1.0.3
+## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(ggalt)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggalt&#39;:
+##   method                  from   
+##   grid.draw.absoluteGrob  ggplot2
+##   grobHeight.absoluteGrob ggplot2
+##   grobWidth.absoluteGrob  ggplot2
+##   grobX.absoluteGrob      ggplot2
+##   grobY.absoluteGrob      ggplot2</code></pre>
+<pre class="r"><code>logs&lt;- read_csv(&quot;badfootballlogs19.csv&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   .default = col_double(),
+##   Date = col_character(),
+##   HomeAway = col_character(),
+##   Opponent = col_character(),
+##   Result = col_character(),
+##   TeamFull = col_character(),
+##   TeamURL = col_character(),
+##   Team = col_character(),
+##   Conference = col_character()
+## )
+## ℹ Use `spec()` for the full column specifications.</code></pre>
+<p>To perform valuable data analysis, it’s necessary to clean up some charts to make them easier to work with. Below, I separated a column that was previously named “Results” into two separate column, including the outcome and the score of the game. There were parenthesis surrounding the score, so I used the gsub function to get rid of those to make it look cleaner. I then took it a step further and separated the score column into two separate columns, the team score and the opponent score.</p>
+<pre class="r"><code>cleaningup&lt;- logs %&gt;% separate(Result, into=c(&quot;Outcome&quot;, &quot;Score&quot;), sep=&quot; &quot;) %&gt;%
+   mutate(Score=gsub(&quot;(&quot;,&quot;&quot;,Score, fixed= TRUE)) %&gt;% 
+  mutate(Score=gsub(&quot;)&quot;,&quot;&quot;,Score, fixed= TRUE)) %&gt;% 
+separate(Score, into = c(&quot;TeamScore&quot;, &quot;OpponentScore&quot;), sep = &quot;-&quot;) %&gt;%
+  mutate(TeamScore = as.numeric(TeamScore), OpponentScore = as.numeric(OpponentScore))</code></pre>
+<p>I took the cleaned up data and mutated a new differential field, which took the difference of the team score and opponent score. I then filtered the data to just include the worst games by getting rid of all the differentials under 65.</p>
+<pre class="r"><code>cleaningup %&gt;% 
+  mutate(Differential= `TeamScore`-`OpponentScore`) %&gt;%
+  filter(Differential&gt;65) -&gt;worstgames</code></pre>
+<p>I created a scatterplot based on the entire dataset and made those points grey. I then added a layer with the just the worst games and made those points red, so they would stand out. I circled the worst games to draw even more attention to them. The last step included adding a theme and text (a headline, subtitle, and caption).</p>
+<pre class="r"><code>ggplot() + geom_point(data=cleaningup, aes(x=TeamScore, y=OpponentScore), color=&quot;grey&quot;) +
+  geom_point(data=worstgames, aes(x=TeamScore, y=OpponentScore), color=&quot;red&quot;) +
+  geom_encircle(data=worstgames, aes(x=TeamScore, y=OpponentScore), s_shape=.5, expand=.03, colour=&quot;red&quot;) +
+  labs(title=&quot;The worst games of last year&#39;s college football season&quot;, subtitle=&quot;Four games stick out as being the worst games, based on having the largest score differentials&quot;, caption=&quot;Source: Sports Reference| By Maddie Peterson&quot;)  + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 16, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=10), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/03/28/worst-games-in-college-football-last-season/index_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
