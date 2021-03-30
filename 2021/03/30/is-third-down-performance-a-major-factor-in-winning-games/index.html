@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.81.0" />
+
+
+<title>Is third down performance a major factor in winning games? - Maddie Peterson&#39;s Github Site</title>
+<meta property="og:title" content="Is third down performance a major factor in winning games? - Maddie Peterson&#39;s Github Site">
+
+
+  <link href='http://petersonmaddie.github.io/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="http://petersonmaddie.github.io/">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/PetersonMaddie0">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">Is third down performance a major factor in winning games?</h1>
+
+    
+    <span class="article-date">2021-03-30</span>
+    
+
+    <div class="article-content">
+      
+<script src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/header-attrs/header-attrs.js"></script>
+
+
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+## ✓ tibble  3.0.5     ✓ dplyr   1.0.3
+## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(ggrepel)
+library(cowplot)
+library(ggbeeswarm)
+library(ggalt)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggalt&#39;:
+##   method                  from   
+##   grid.draw.absoluteGrob  ggplot2
+##   grobHeight.absoluteGrob ggplot2
+##   grobWidth.absoluteGrob  ggplot2
+##   grobX.absoluteGrob      ggplot2
+##   grobY.absoluteGrob      ggplot2</code></pre>
+<pre class="r"><code>thirddown&lt;- read_csv(&quot;thirddownconversions.csv&quot;) %&gt;% select(-Rank)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Rank = col_double(),
+##   Team = col_character(),
+##   G = col_double(),
+##   Attempts = col_double(),
+##   Conversions = col_double(),
+##   `Conversion %` = col_double()
+## )</code></pre>
+<pre class="r"><code>opponentthird&lt;- read_csv(&quot;opponentthirddown.csv&quot;) %&gt;% select(-Rank)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Rank = col_double(),
+##   Team = col_character(),
+##   G = col_double(),
+##   Attempts = col_double(),
+##   Conversions = col_double(),
+##   `Conversion %` = col_double()
+## )</code></pre>
+<pre class="r"><code>logs&lt;- read_csv(&quot;footballlogs20.csv&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   .default = col_double(),
+##   Date = col_date(format = &quot;&quot;),
+##   HomeAway = col_character(),
+##   Opponent = col_character(),
+##   Result = col_character(),
+##   TeamFull = col_character(),
+##   TeamURL = col_character(),
+##   Outcome = col_character(),
+##   Team = col_character(),
+##   Conference = col_character()
+## )
+## ℹ Use `spec()` for the full column specifications.</code></pre>
+<pre class="r"><code>bigtenteams &lt;- c(&quot;Michigan&quot;, &quot;Michigan State&quot;, &quot;Ohio State&quot;, &quot;Wisconsin&quot;, &quot;Purdue&quot;, &quot;Illinois&quot;, &quot;Penn State&quot;, &quot;Nebraska&quot;, &quot;Iowa&quot;, &quot;Maryland&quot;, &quot;Rutgers&quot;, &quot;Northwestern&quot;, &quot;Indiana&quot;, &quot;Minnesota&quot;)</code></pre>
+<pre class="r"><code>join1 &lt;- thirddown %&gt;% 
+  left_join(opponentthird, by=c(&quot;Team&quot;, &quot;G&quot;)) %&gt;% 
+  rename(OffensiveAttempts = Attempts.x, OffensiveConversions=Conversions.x, OffensiveConversionPct = `Conversion %.x`,OpponentAttempts = Attempts.y, OpponentConversions=Conversions.y, OpponentConversionPct = `Conversion %.y`)
+record &lt;- logs %&gt;% 
+  group_by(Team, Conference, Outcome) %&gt;% 
+  summarize(Total = n()) %&gt;% 
+  pivot_wider(names_from=Outcome, values_from=Total)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;Team&#39;, &#39;Conference&#39;. You can override using the `.groups` argument.</code></pre>
+<pre class="r"><code>write_csv(record, &quot;record.csv&quot;)
+record&lt;- read_csv(&quot;record.csv&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Team = col_character(),
+##   Conference = col_character(),
+##   L = col_double(),
+##   W = col_double()
+## )</code></pre>
+<pre class="r"><code>combineddata&lt;-join1 %&gt;% left_join(record) %&gt;% filter(G&gt;6)</code></pre>
+<pre><code>## Joining, by = &quot;Team&quot;</code></pre>
+<pre class="r"><code>nebraskacombined&lt;- combineddata %&gt;% filter(Team== &quot;Nebraska&quot;)
+bigtencombined&lt;- combineddata %&gt;% filter(Conference== &quot;Big Ten Conference&quot;)</code></pre>
+<pre class="r"><code>combineddata %&gt;% 
+  ungroup() %&gt;% 
+  summarise(
+    offense = mean(OffensiveConversionPct), 
+    opponent = mean(OpponentConversionPct)
+    )</code></pre>
+<pre><code>## # A tibble: 1 x 2
+##   offense opponent
+##     &lt;dbl&gt;    &lt;dbl&gt;
+## 1    40.8     39.6</code></pre>
+<pre class="r"><code>ggplot() + 
+  geom_point(
+    data=combineddata, 
+    aes(x=OffensiveConversionPct, y=OpponentConversionPct, size=`W`), 
+    color=&quot;grey&quot;, 
+    alpha=.7) + 
+  geom_point(
+    data=bigtencombined, 
+    aes(x=OffensiveConversionPct, y=OpponentConversionPct, size=`W`), 
+    color=&quot;red&quot;) +
+  geom_vline(xintercept = 40.8265) + 
+  geom_hline(yintercept = 39.61053) +
+  geom_text_repel(
+    data=bigtencombined, 
+    aes(x=OffensiveConversionPct, y=OpponentConversionPct, label=Team))+
+  labs(x= &quot;Offensive Third Down Conversion Percentage&quot;, y=&quot;Opponent Third Down Conversion Percentage&quot;,title=&quot;Do third down conversions make or break a football game?&quot;, subtitle=&quot;Aside from some surprises, the more efficient a team is on third downs, the more wins the team acquires.&quot;, caption=&quot;Sources: Sports Reference + cfbstats | By Maddie Peterson&quot;)  + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 16, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=9), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<pre><code>## Warning: Removed 10 rows containing missing values (geom_point).</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<pre class="r"><code>ggplot() + 
+  geom_dumbbell(
+    data=bigtencombined, 
+    aes(y=reorder(Team, OffensiveConversionPct), x=OffensiveConversionPct, xend=OpponentConversionPct),
+    size = 1,
+    color = &quot;grey&quot;,
+    colour_x = &quot;green&quot;,
+    colour_xend = &quot;red&quot;) + 
+  theme_minimal() +
+  labs(x=&quot;Third Down Conversion Percentage&quot;, y=&quot;&quot;,title=&quot;Ohio State has the biggest gap between offensive and opponent third down conversions.&quot;, subtitle=&quot;This makes sense. Good offense on third downs and good defense on opponent third downs wins championships.&quot;, caption=&quot;Source: cfbstats | By Maddie Peterson&quot;)  + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 10, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=8), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<pre class="r"><code>set.seed(1234)
+worstoffconversion&lt;- combineddata %&gt;% filter(OffensiveConversionPct&lt;25)
+besstoffconversion&lt;- combineddata %&gt;% filter(OffensiveConversionPct&gt;55)</code></pre>
+<pre class="r"><code>ggplot() + 
+  geom_beeswarm(
+    data=combineddata, 
+    groupOnX=TRUE, 
+    aes(x=`OffensiveConversionPct`, y=Conference), color=&quot;grey&quot;) +
+  geom_beeswarm(
+    data=besstoffconversion, 
+    groupOnX=TRUE, 
+    aes(x=`OffensiveConversionPct`, y=Conference), color=&quot;blue&quot;) +
+  geom_beeswarm(
+    data=worstoffconversion, 
+    groupOnX=TRUE, 
+    aes(x=`OffensiveConversionPct`, y=Conference), color=&quot;blue&quot;) +
+  geom_beeswarm(
+    data=nebraskacombined, 
+    groupOnX=TRUE, 
+    aes(x=`OffensiveConversionPct`, y=Conference), color=&quot;red&quot;) +
+  geom_text(aes(x=37, y=&quot;Big Ten Conference&quot;, label=&quot;Nebraska&quot;,nudge_y = 3)) +
+  geom_text(aes(x=26, y=&quot;Big 12 Conference&quot;, label=&quot;Kansas&quot;)) +
+  geom_text(aes(x=56, y=&quot;Southeastern Conference&quot;, label=&quot;Alabama&quot;)) +
+  theme_minimal() +
+  labs(x=&quot;Offensive Third Down Conversion Percentage&quot;, y=&quot;&quot;, title=&quot;The best performing team on \nthird downs had an undefeated season&quot;, subtitle=&quot;The worst on third downs went winless. Coincidence? Probably not.&quot;, caption=&quot;Source: cfbstats | By Maddie Peterson&quot;)  + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 16, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=9), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<pre><code>## Warning: Ignoring unknown aesthetics: nudge_y</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
