@@ -62,7 +62,7 @@
 
   <article class="article">
     
-    <span class="article-duration">9 min read</span>
+    <span class="article-duration">8 min read</span>
     
 
     <h1 class="article-title">Is third down performance a major factor in winning games?</h1>
@@ -144,7 +144,7 @@ record &lt;- logs %&gt;%
   summarize(Total = n()) %&gt;% 
   pivot_wider(names_from=Outcome, values_from=Total)</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;Team&#39;, &#39;Conference&#39;. You can override using the `.groups` argument.</code></pre>
-<p>To make things easier, I joined the third down data and the opponent third down data together. I also had to change up the appearance of the logs data set so it was easier to see the wins and losses. Although more work now, this will make the work a lot more simple.</p>
+<p>To make things easier, I joined the third down data and the opponent third down data together. I also had to change up the appearance of the logs data set so it was easier to see the wins and losses. Although more work now, this will make creating charts a lot more simple.</p>
 <pre class="r"><code>write_csv(record, &quot;record.csv&quot;)
 record&lt;- read_csv(&quot;record.csv&quot;)</code></pre>
 <pre><code>## 
@@ -157,7 +157,7 @@ record&lt;- read_csv(&quot;record.csv&quot;)</code></pre>
 ## )</code></pre>
 <pre class="r"><code>combineddata&lt;-join1 %&gt;% left_join(record) %&gt;% filter(G&gt;6)</code></pre>
 <pre><code>## Joining, by = &quot;Team&quot;</code></pre>
-<p>In speaking of manipulating data sets, I also had to go in and fix some things in the data set with the team records. This was because some teams were named different things in this data set. For example, in the records data set, it was “Texas Christian” and in the third down data, it was “TCU.” I need them to be the same in order to combine the two data sets. I also did a filter so that the data frame only consists of teams that played over six games. This is to eliminate major outliers; Conversion percentages are skewed with a small amount of played games.</p>
+<p>In speaking of manipulating data sets, I also had to go in and fix some things in the data set with the team records. This was because some teams names weren’t consistent between data sets. For example, in the records data set, it was “Texas Christian” and in the third down data, it was “TCU.” I need them to be the same in order to combine the two data sets. I also did a filter so that the data frame only consists of teams that played over six games. This is to eliminate major outliers; Conversion percentages are skewed with teams that played a small number of games.</p>
 <pre class="r"><code>nebraskacombined&lt;- combineddata %&gt;% filter(Team== &quot;Nebraska&quot;)
 bigtencombined&lt;- combineddata %&gt;% filter(Conference== &quot;Big Ten Conference&quot;)</code></pre>
 <p>Finally, I have all three data sets combined into one. We’re about ready to get to the fun stuff. But first, I want to make two new data frames. I want one to include just the data for Nebraska and another to have just the data for the Big Ten.</p>
@@ -199,7 +199,7 @@ bigtencombined&lt;- combineddata %&gt;% filter(Conference== &quot;Big Ten Confer
 Here we go. Through this bubble chart, we can see where teams fall based on their offensive and opponent third down conversion percentages. The size of the bubble representing a team is based on how many wins the team had. The bigger the bubble, the more wins. The Big Ten teams are highlighted in red and labeled.</p>
 <p>So we can learn multiple things from this chart. First, it’s obvious that efficiency on third downs does have a correlation with a team’s record. The smallest dots appear in the top left quadrant, meaning they don’t convert on many third downs and their opponents convert on third downs a high percentage of the time. Nebraska fell in this quadrant. If you watched them play this past season, that’s not a big shocker.</p>
 <p>Ohio State did the best on third downs than any other team in the Big Ten. They were also Big Ten Champions, which makes this argument even stronger. Wisconsin and Northwestern also stuck out to me. They didn’t do well at offensively converting on third downs, but they did exceptionally well at not allowing opponents to convert. This makes sense because those two teams were known for having really solid defenses.</p>
-<p>The big dot that falls the farthest right on the chart is Alabama. So the National Champion also had the highest percentage of successful third downs. Again, the argument is strengthened. There is one point that made me scratch my head looking at this, and that is Iowa. They finished second in Big Ten West at 6-2, but apparently performed really poorly on third downs.</p>
+<p>The big dot that falls the farthest right on the chart is Alabama. So the National Champion also had the highest percentage of successful third downs. Again, the argument is strengthened. There is one point that made me scratch my head looking at this, and that is Iowa. They finished second in the Big Ten West at 6-2, but apparently performed really poorly on third downs.</p>
 <pre class="r"><code>ggplot() + 
   geom_dumbbell(
     data=bigtencombined, 
@@ -217,7 +217,7 @@ Here we go. Through this bubble chart, we can see where teams fall based on thei
     panel.grid.minor = element_blank()
     )</code></pre>
 <p><img src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/figure-html/unnamed-chunk-7-1.png" width="672" />
-In this chart, the green dot represents the offensive third down conversion percentage and the red dot represents the opponent third down conversion percentage. This gives us a good visual to see where teams in the Big Ten stack up against each other in both categories. Ohio State is the first team that stuck out to me. They have the largest gap between offensive and opponent conversion percentages. So they are able to convert a large percentage of the time and hold their opponents so they aren’t able to convert much. As we know, the Buckeyes were Big Ten Champions so it this chart makes sense. It’s basically saying that both their offense and defense were efficient on third downs. This chart also gives us another visual to show us just how dominant Wisconsin’s and Northwestern’s defenses were.</p>
+In this chart, the green dot represents the offensive third down conversion percentage and the red dot represents the opponent third down conversion percentage. This gives us a good visual to see where teams in the Big Ten stack up against each other in both categories. Ohio State is the first team that stuck out to me. They have the largest gap between offensive and opponent conversion percentages. So they are able to convert a large percentage of the time and hold their opponents so they aren’t able to convert much. So the Buckeyes’ offense and defense were both efficient on third downs. This chart also gives us another visual to show us just how dominant Wisconsin’s and Northwestern’s defenses were.</p>
 <p>Another visual aspect to this chart is that it’s easy to tell what teams allowed opponents to convert more than they were able to offensively convert. This is where Nebraska fell, which again, is not shocking.</p>
 <pre class="r"><code>set.seed(1234)
 worstoffconversion&lt;- combineddata %&gt;% filter(OffensiveConversionPct&lt;25)
@@ -251,7 +251,7 @@ ggplot() +
     panel.grid.minor = element_blank()
     )</code></pre>
 <p><img src="http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
-For this last chart, I created two new data frames. One with the worst offensive conversion percentage and one with the best offensive conversion percentage. I then created a beeswarm chart. This breaks up the teams by conference so you can easily look at how individual conferences panned out and how conferences compared to each other. Here I highlighted the team with the best percentage, Alabama. As we know, Alabama won the National Championship this past year with an undefeated season. On the other side of things, Kansas had the worst percentage for converted third downs. They ended the season with a grand total of zero wins. I also highlighted Nebraska in this chart to show where the Huskers fell compared to other teams and conferences.</p>
+For this last chart, I created two new data frames. One with the worst offensive conversion percentage and one with the best offensive conversion percentage. I then created a beeswarm chart. This breaks up the teams by conference so you can easily look at how individual conferences panned out and how conferences compared to each other. Here I highlighted the team with the best percentage, Alabama. As we know, Alabama was the best team in the country and finished with an undefeated season. On the other side of things, Kansas had the worst percentage for converted third downs. They ended the season with a grand total of zero wins. I also highlighted Nebraska in this chart to show where the Huskers fell compared to other teams and conferences.</p>
 <p>After three charts, I think we can all agree that if a team is successful on third downs, odds are that they are a successful team, record-wise as well.</p>
 
     </div>
