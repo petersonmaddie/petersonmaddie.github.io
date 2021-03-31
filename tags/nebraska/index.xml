@@ -13,7 +13,7 @@
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>http://petersonmaddie.github.io/2021/03/30/is-third-down-performance-a-major-factor-in-winning-games/</guid>
-      <description>library(tidyverse) ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ── ## ✓ ggplot2 3.3.3 ✓ purrr 0.3.4 ## ✓ tibble 3.0.5 ✓ dplyr 1.0.3 ## ✓ tidyr 1.1.2 ✓ stringr 1.4.0 ## ✓ readr 1.4.0 ✓ forcats 0.5.0 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ── ## x dplyr::filter() masks stats::filter() ## x dplyr::lag() masks stats::lag() library(ggrepel) library(cowplot) library(ggbeeswarm) library(ggalt) ## Registered S3 methods overwritten by &amp;#39;ggalt&amp;#39;: ## method from ## grid.</description>
+      <description>When watching a football game, third downs are a time when energy is high throughout the stadium. It’s a pivotal moment in a game. Performance on third downs decides whether a team will punt it away, kick a field goal or keep driving down the field. But how much does converting on third downs contribute to wins? Does a team that converts more on third downs make a better team?</description>
     </item>
     
   </channel>
