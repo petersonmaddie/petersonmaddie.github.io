@@ -1,0 +1,427 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+17,Final,1,Florida State,1,,46,ACC
+17,Final,2,Notre Dame,4,2,12,Ind
+17,Final,3,Nebraska,2,1,,Big 8
+17,Final,4,Auburn,5,1,4,SEC (West)
+17,Final,5,Florida,8,3,,SEC (East)
+17,Final,6,Wisconsin,9,3,,Big Ten
+17,Final,7,West Virginia,3,4,,Big East
+17,Final,8,Penn State,13,5,,Big Ten
+17,Final,9,Texas A&M,7,2,,SWC
+17,Final,10,Arizona,16,6,,Pac-10
+17,Final,11,Ohio State,11,,,Big Ten
+17,Final,12,Tennessee,6,6,,SEC (East)
+17,Final,13,Boston College,15,2,,Big East
+17,Final,14,Alabama,18,4,,SEC (West)
+17,Final,15,Miami (FL),10,5,,Big East
+17,Final,16,Colorado,17,1,,Big 8
+17,Final,17,Oklahoma,19,2,,Big 8
+17,Final,18,UCLA,14,4,,Pac-10
+17,Final,19,North Carolina,12,7,,ACC
+17,Final,20,Kansas State,20,,,Big 8
+17,Final,21,Michigan,23,2,,Big Ten
+17,Final,22,Virginia Tech,22,,,Big East
+17,Final,23,Clemson,24,1,,ACC
+17,Final,24,Louisville,25,1,,Ind
+17,Final,25,California,,,,Pac-10
+16,1993-12-07,1,Florida State (11-1-0),1,,42,ACC
+16,1993-12-07,2,Nebraska (11-0-0),2,,15,Big 8
+16,1993-12-07,3,West Virginia (11-0-0),3,,3,Big East
+16,1993-12-07,4,Notre Dame (10-1-0),5,1,1,Ind
+16,1993-12-07,5,Auburn (11-0-0),4,1,1,SEC (West)
+16,1993-12-07,6,Tennessee (9-1-1),6,,,SEC (East)
+16,1993-12-07,7,Texas A&M (10-1-0),7,,,SWC
+16,1993-12-07,8,Florida (10-2-0),9,1,,SEC (East)
+16,1993-12-07,9,Wisconsin (9-1-1),10,1,,Big Ten
+16,1993-12-07,10,Miami (FL) (9-2-0),8,2,,Big East
+16,1993-12-07,11,Ohio State (9-1-1),11,,,Big Ten
+16,1993-12-07,12,North Carolina (10-2-0),12,,,ACC
+16,1993-12-07,13,Penn State (9-2-0),13,,,Big Ten
+16,1993-12-07,14,UCLA (8-3-0),14,,,Pac-10
+16,1993-12-07,15,Boston College (8-3-0),15,,,Big East
+16,1993-12-07,16,Arizona (9-2-0),17,1,,Pac-10
+16,1993-12-07,17,Colorado (7-3-1),18,1,,Big 8
+16,1993-12-07,18,Alabama (8-3-1),16,2,,SEC (West)
+16,1993-12-07,19,Oklahoma (8-3-0),19,,,Big 8
+16,1993-12-07,20,Kansas State (8-2-1),20,,,Big 8
+16,1993-12-07,21,Indiana (8-3-0),21,,,Big Ten
+16,1993-12-07,22,Virginia Tech (8-3-0),22,,,Big East
+16,1993-12-07,23,Michigan (7-4-0),23,,,Big Ten
+16,1993-12-07,24,Clemson (8-3-0),24,,,ACC
+16,1993-12-07,25,Fresno State (8-3-0),,,,WAC
+16,1993-12-07,25,Louisville (8-3-0),,,,Ind
+15,1993-11-30,1,Florida State (11-1-0),1,,42,ACC
+15,1993-11-30,2,Nebraska (11-0-0),2,,17,Big 8
+15,1993-11-30,3,West Virginia (11-0-0),5,2,,Big East
+15,1993-11-30,4,Auburn (11-0-0),3,1,2,SEC (West)
+15,1993-11-30,5,Notre Dame (10-1-0),4,1,,Ind
+15,1993-11-30,6,Tennessee (9-1-1),6,,,SEC (East)
+15,1993-11-30,7,Texas A&M (10-1-0),8,1,,SWC
+15,1993-11-30,8,Miami (FL) (9-2-0),9,1,,Big East
+15,1993-11-30,9,Florida (9-2-0),7,2,,SEC (East)
+15,1993-11-30,10,Wisconsin (8-1-1),10,,,Big Ten
+15,1993-11-30,11,Ohio State (9-1-1),12,1,,Big Ten
+15,1993-11-30,12,North Carolina (10-2-0),13,1,,ACC
+15,1993-11-30,13,Penn State (9-2-0),14,1,,Big Ten
+15,1993-11-30,14,UCLA (8-3-0),15,1,,Pac-10
+15,1993-11-30,15,Boston College (8-3-0),11,4,,Big East
+15,1993-11-30,16,Alabama (8-2-1),17,1,,SEC (West)
+15,1993-11-30,17,Arizona (9-2-0),19,2,,Pac-10
+15,1993-11-30,18,Colorado (7-3-1),18,,,Big 8
+15,1993-11-30,19,Oklahoma (8-3-0),16,3,,Big 8
+15,1993-11-30,20,Kansas State (8-2-1),20,,,Big 8
+15,1993-11-30,21,Indiana (8-3-0),21,,,Big Ten
+15,1993-11-30,22,Virginia Tech (8-3-0),22,,,Big East
+15,1993-11-30,23,Michigan (7-4-0),23,,,Big Ten
+15,1993-11-30,24,Clemson (8-3-0),24,,,ACC
+15,1993-11-30,25,Michigan State (6-4-0),25,,,Big Ten
+14,1993-11-23,1,Florida State (10-1-0),2,1,33,ACC
+14,1993-11-23,2,Nebraska (10-0-0),3,1,20,Big 8
+14,1993-11-23,3,Auburn (11-0-0),6,3,6,SEC (West)
+14,1993-11-23,4,Notre Dame (10-1-0),1,3,1,Ind
+14,1993-11-23,5,West Virginia (10-0-0),9,4,1,Big East
+14,1993-11-23,6,Tennessee (8-1-1),7,1,,SEC (East)
+14,1993-11-23,7,Florida (9-1-0),8,1,,SEC (East)
+14,1993-11-23,8,Texas A&M (9-1-0),10,2,,SWC
+14,1993-11-23,9,Miami (FL) (8-2-0),4,5,,Big East
+14,1993-11-23,10,Wisconsin (8-1-1),12,2,,Big Ten
+14,1993-11-23,11,Boston College (8-2-0),17,6,,Big East
+14,1993-11-23,12,Ohio State (9-1-1),5,7,,Big Ten
+14,1993-11-23,13,North Carolina (9-2-0),13,,,ACC
+14,1993-11-23,14,Penn State (8-2-0),14,,,Big Ten
+14,1993-11-23,15,UCLA (8-3-0),16,1,,Pac-10
+14,1993-11-23,16,Oklahoma (8-2-0),15,1,,Big 8
+14,1993-11-23,17,Alabama (8-2-1),11,6,,SEC (West)
+14,1993-11-23,18,Colorado (7-3-1),18,,,Big 8
+14,1993-11-23,19,Arizona (8-2-0),19,,,Pac-10
+14,1993-11-23,20,Kansas State (8-2-1),20,,,Big 8
+14,1993-11-23,21,Indiana (8-3-0),21,,,Big Ten
+14,1993-11-23,22,Virginia Tech (8-3-0),25,3,,Big East
+14,1993-11-23,23,Michigan (7-4-0),,,,Big Ten
+14,1993-11-23,24,Clemson (8-3-0),24,,,ACC
+14,1993-11-23,25,Michigan State (6-3-0),,,,Big Ten
+13,1993-11-16,1,Notre Dame (10-0-0),2,1,62,Ind
+13,1993-11-16,2,Florida State (9-1-0),1,1,,ACC
+13,1993-11-16,3,Nebraska (10-0-0),4,1,,Big 8
+13,1993-11-16,4,Miami (FL) (8-1-0),3,1,,Big East
+13,1993-11-16,5,Ohio State (9-0-1),5,,,Big Ten
+13,1993-11-16,6,Auburn (10-0-0),7,1,,SEC (West)
+13,1993-11-16,7,Tennessee (7-1-1),6,1,,SEC (East)
+13,1993-11-16,8,Florida (8-1-0),8,,,SEC (East)
+13,1993-11-16,9,West Virginia (9-0-0),9,,,Big East
+13,1993-11-16,10,Texas A&M (8-1-0),11,1,,SWC
+13,1993-11-16,11,Alabama (8-1-1),12,1,,SEC (West)
+13,1993-11-16,12,Wisconsin (7-1-1),14,2,,Big Ten
+13,1993-11-16,13,North Carolina (9-2-0),15,2,,ACC
+13,1993-11-16,14,Penn State (7-2-0),16,2,,Big Ten
+13,1993-11-16,15,Oklahoma (8-2-0),17,2,,Big 8
+13,1993-11-16,16,UCLA (7-3-0),10,6,,Pac-10
+13,1993-11-16,17,Boston College (7-2-0),22,5,,Big East
+13,1993-11-16,18,Colorado (6-3-1),21,3,,Big 8
+13,1993-11-16,19,Arizona (8-2-0),13,6,,Pac-10
+13,1993-11-16,20,Kansas State (7-2-1),24,4,,Big 8
+13,1993-11-16,21,Indiana (7-3-0),19,2,,Big Ten
+13,1993-11-16,22,USC (7-4-0),,,,Pac-10
+13,1993-11-16,23,Virginia (7-3-0),18,5,,ACC
+13,1993-11-16,24,Clemson (7-3-0),,,,ACC
+13,1993-11-16,25,Virginia Tech (7-3-0),,,,Big East
+12,1993-11-09,1,Florida State (9-0-0),1,,62,ACC
+12,1993-11-09,2,Notre Dame (9-0-0),2,,,Ind
+12,1993-11-09,3,Miami (FL) (7-1-0),4,1,,Big East
+12,1993-11-09,4,Nebraska (9-0-0),6,2,,Big 8
+12,1993-11-09,5,Ohio State (8-0-1),3,2,,Big Ten
+12,1993-11-09,6,Tennessee (7-1-1),7,1,,SEC (East)
+12,1993-11-09,7,Auburn (9-0-0),8,1,,SEC (West)
+12,1993-11-09,8,Florida (7-1-0),9,1,,SEC (East)
+12,1993-11-09,9,West Virginia (8-0-0),11,2,,Big East
+12,1993-11-09,10,UCLA (7-2-0),12,2,,Pac-10
+12,1993-11-09,11,Texas A&M (7-1-0),10,1,,SWC
+12,1993-11-09,12,Alabama (7-1-1),5,7,,SEC (West)
+12,1993-11-09,13,Arizona (8-1-0),14,1,,Pac-10
+12,1993-11-09,14,Wisconsin (7-1-1),15,1,,Big Ten
+12,1993-11-09,15,North Carolina (8-2-0),16,1,,ACC
+12,1993-11-09,16,Penn State (6-2-0),19,3,,Big Ten
+12,1993-11-09,17,Oklahoma (7-2-0),20,3,,Big 8
+12,1993-11-09,18,Virginia (7-2-0),21,3,,ACC
+12,1993-11-09,19,Indiana (7-2-0),17,2,,Big Ten
+12,1993-11-09,20,Louisville (7-2-0),13,7,,Ind
+12,1993-11-09,21,Colorado (5-3-1),23,2,,Big 8
+12,1993-11-09,22,Boston College (6-2-0),,,,Big East
+12,1993-11-09,23,Wyoming (7-1-0),24,1,,WAC
+12,1993-11-09,24,Kansas State (6-2-1),18,6,,Big 8
+12,1993-11-09,25,Washington (6-3-0),,,,Pac-10
+11,1993-11-02,1,Florida State (8-0-0),1,,62,ACC
+11,1993-11-02,2,Notre Dame (9-0-0),2,,,Ind
+11,1993-11-02,3,Ohio State (8-0-0),3,,,Big Ten
+11,1993-11-02,4,Miami (FL) (6-1-0),4,,,Big East
+11,1993-11-02,5,Alabama (7-0-1),5,,,SEC (West)
+11,1993-11-02,6,Nebraska (8-0-0),6,,,Big 8
+11,1993-11-02,7,Tennessee (6-1-1),8,1,,SEC (East)
+11,1993-11-02,8,Auburn (8-0-0),9,1,,SEC (West)
+11,1993-11-02,9,Florida (6-1-0),10,1,,SEC (East)
+11,1993-11-02,10,Texas A&M (7-1-0),11,1,,SWC
+11,1993-11-02,11,West Virginia (7-0-0),13,2,,Big East
+11,1993-11-02,12,UCLA (6-2-0),15,3,,Pac-10
+11,1993-11-02,13,Louisville (7-1-0),17,4,,Ind
+11,1993-11-02,14,Arizona (7-1-0),7,7,,Pac-10
+11,1993-11-02,15,Wisconsin (7-1-0),21,6,,Big Ten
+11,1993-11-02,16,North Carolina (7-2-0),18,2,,ACC
+11,1993-11-02,17,Indiana (7-1-0),23,6,,Big Ten
+11,1993-11-02,18,Kansas State (6-1-1),25,7,,Big 8
+11,1993-11-02,19,Penn State (5-2-0),12,7,,Big Ten
+11,1993-11-02,20,Oklahoma (6-2-0),14,6,,Big 8
+11,1993-11-02,21,Virginia (6-2-0),16,5,,ACC
+11,1993-11-02,22,North Carolina State (6-2-0),,,,ACC
+11,1993-11-02,23,Colorado (4-3-1),20,3,,Big 8
+11,1993-11-02,24,Wyoming (7-1-0),,,,WAC
+11,1993-11-02,25,Virginia Tech (6-2-0),,,,Big East
+10,1993-10-26,1,Florida State (7-0-0),1,,62,ACC
+10,1993-10-26,2,Notre Dame (8-0-0),2,,,Ind
+10,1993-10-26,3,Ohio State (7-0-0),3,,,Big Ten
+10,1993-10-26,4,Miami (FL) (5-1-0),6,2,,Big East
+10,1993-10-26,5,Alabama (6-0-1),4,1,,SEC (West)
+10,1993-10-26,6,Nebraska (7-0-0),5,1,,Big 8
+10,1993-10-26,7,Arizona (7-0-0),7,,,Pac-10
+10,1993-10-26,8,Tennessee (5-1-1),8,,,SEC (East)
+10,1993-10-26,9,Auburn (7-0-0),10,1,,SEC (West)
+10,1993-10-26,10,Florida (5-1-0),9,1,,SEC (East)
+10,1993-10-26,11,Texas A&M (6-1-0),11,,,SWC
+10,1993-10-26,12,Penn State (5-1-0),14,2,,Big Ten
+10,1993-10-26,13,West Virginia (6-0-0),18,5,,Big East
+10,1993-10-26,14,Oklahoma (6-1-0),17,3,,Big 8
+10,1993-10-26,15,UCLA (5-2-0),19,4,,Pac-10
+10,1993-10-26,16,Virginia (6-1-0),21,5,,ACC
+10,1993-10-26,17,Louisville (7-1-0),20,3,,Ind
+10,1993-10-26,18,North Carolina (7-2-0),12,6,,ACC
+10,1993-10-26,19,Washington (5-2-0),22,3,,Pac-10
+10,1993-10-26,20,Colorado (4-2-1),16,4,,Big 8
+10,1993-10-26,21,Wisconsin (6-1-0),15,6,,Big Ten
+10,1993-10-26,22,Michigan State (4-2-0),24,2,,Big Ten
+10,1993-10-26,23,Indiana (6-1-0),,,,Big Ten
+10,1993-10-26,24,Michigan (4-3-0),13,11,,Big Ten
+10,1993-10-26,25,Kansas State (5-1-1),,,,Big 8
+9,1993-10-19,1,Florida State (7-0-0),1,,62,ACC
+9,1993-10-19,2,Notre Dame (7-0-0),3,1,,Ind
+9,1993-10-19,3,Ohio State (6-0-0),5,2,,Big Ten
+9,1993-10-19,4,Alabama (5-0-1),2,2,,SEC (West)
+9,1993-10-19,5,Nebraska (6-0-0),6,1,,Big 8
+9,1993-10-19,6,Miami (FL) (4-1-0),8,2,,Big East
+9,1993-10-19,7,Arizona (6-0-0),11,4,,Pac-10
+9,1993-10-19,8,Tennessee (5-1-1),10,2,,SEC (East)
+9,1993-10-19,9,Florida (5-1-0),4,5,,SEC (East)
+9,1993-10-19,10,Auburn (7-0-0),19,9,,SEC (West)
+9,1993-10-19,11,Texas A&M (5-1-0),13,2,,SWC
+9,1993-10-19,12,North Carolina (7-1-0),14,2,,ACC
+9,1993-10-19,13,Michigan (4-2-0),18,5,,Big Ten
+9,1993-10-19,14,Penn State (5-1-0),7,7,,Big Ten
+9,1993-10-19,15,Wisconsin (6-0-0),16,1,,Big Ten
+9,1993-10-19,16,Colorado (4-2-0),20,4,,Big 8
+9,1993-10-19,17,Oklahoma (5-1-0),9,8,,Big 8
+9,1993-10-19,18,West Virginia (5-0-0),17,1,,Big East
+9,1993-10-19,19,UCLA (4-2-0),22,3,,Pac-10
+9,1993-10-19,20,Louisville (6-1-0),23,3,,Ind
+9,1993-10-19,21,Virginia (5-1-0),15,6,,ACC
+9,1993-10-19,22,Washington (4-2-0),12,10,,Pac-10
+9,1993-10-19,23,Syracuse (4-1-1),24,1,,Big East
+9,1993-10-19,24,Michigan State (3-2-0),25,1,,Big Ten
+9,1993-10-19,25,Washington State (5-2-0),,,,Pac-10
+8,1993-10-12,1,Florida State (6-0-0),1,,61,ACC
+8,1993-10-12,2,Alabama (5-0-0),2,,1,SEC (West)
+8,1993-10-12,3,Notre Dame (6-0-0),4,1,,Ind
+8,1993-10-12,4,Florida (5-0-0),5,1,,SEC (East)
+8,1993-10-12,5,Ohio State (5-0-0),6,1,,Big Ten
+8,1993-10-12,6,Nebraska (5-0-0),7,1,,Big 8
+8,1993-10-12,7,Penn State (5-0-0),8,1,,Big Ten
+8,1993-10-12,8,Miami (FL) (4-1-0),3,5,,Big East
+8,1993-10-12,9,Oklahoma (5-0-0),10,1,,Big 8
+8,1993-10-12,10,Tennessee (5-1-0),11,1,,SEC (East)
+8,1993-10-12,11,Arizona (5-0-0),12,1,,Pac-10
+8,1993-10-12,12,Washington (4-1-0),13,1,,Pac-10
+8,1993-10-12,13,Texas A&M (4-1-0),14,1,,SWC
+8,1993-10-12,14,North Carolina (6-1-0),15,1,,ACC
+8,1993-10-12,15,Virginia (5-0-0),18,3,,ACC
+8,1993-10-12,16,Wisconsin (5-0-0),21,5,,Big Ten
+8,1993-10-12,17,West Virginia (5-0-0),24,7,,Big East
+8,1993-10-12,18,Michigan (3-2-0),9,9,,Big Ten
+8,1993-10-12,19,Auburn (6-0-0),22,3,,SEC (West)
+8,1993-10-12,20,Colorado (3-2-0),20,,,Big 8
+8,1993-10-12,21,California (5-1-0),16,5,,Pac-10
+8,1993-10-12,22,UCLA (3-2-0),25,3,,Pac-10
+8,1993-10-12,23,Louisville (5-1-0),17,6,,Ind
+8,1993-10-12,24,Syracuse (3-1-1),23,1,,Big East
+8,1993-10-12,25,Michigan State (3-1-0),,,,Big Ten
+7,1993-10-05,1,Florida State (5-0-0),1,,61,ACC
+7,1993-10-05,2,Alabama (5-0-0),2,,1,SEC (West)
+7,1993-10-05,3,Miami (FL) (4-0-0),3,,,Big East
+7,1993-10-05,4,Notre Dame (5-0-0),4,,,Ind
+7,1993-10-05,5,Florida (4-0-0),5,,,SEC (East)
+7,1993-10-05,6,Ohio State (4-0-0),7,1,,Big Ten
+7,1993-10-05,7,Nebraska (4-0-0),6,1,,Big 8
+7,1993-10-05,8,Penn State (5-0-0),9,1,,Big Ten
+7,1993-10-05,9,Michigan (3-1-0),8,1,,Big Ten
+7,1993-10-05,10,Oklahoma (4-0-0),10,,,Big 8
+7,1993-10-05,11,Tennessee (4-1-0),11,,,SEC (East)
+7,1993-10-05,12,Arizona (5-0-0),12,,,Pac-10
+7,1993-10-05,13,Washington (3-1-0),15,2,,Pac-10
+7,1993-10-05,14,Texas A&M (3-1-0),14,,,SWC
+7,1993-10-05,15,North Carolina (5-1-0),16,1,,ACC
+7,1993-10-05,16,California (5-0-0),17,1,,Pac-10
+7,1993-10-05,17,Louisville (5-0-0),18,1,,Ind
+7,1993-10-05,18,Virginia (5-0-0),21,3,,ACC
+7,1993-10-05,19,BYU (4-0-0),20,1,,WAC
+7,1993-10-05,20,Colorado (2-2-0),19,1,,Big 8
+7,1993-10-05,21,Wisconsin (4-0-0),22,1,,Big Ten
+7,1993-10-05,22,Auburn (5-0-0),23,1,,SEC (West)
+7,1993-10-05,23,Syracuse (3-1-1),13,10,,Big East
+7,1993-10-05,24,West Virginia (4-0-0),25,1,,Big East
+7,1993-10-05,25,UCLA (2-2-0),,,,Pac-10
+6,1993-09-28,1,Florida State (4-0-0),1,,58,ACC
+6,1993-09-28,2,Alabama (4-0-0),2,,4,SEC (West)
+6,1993-09-28,3,Miami (FL) (3-0-0),3,,,Big East
+6,1993-09-28,4,Notre Dame (4-0-0),4,,,Ind
+6,1993-09-28,5,Florida (3-0-0),5,,,SEC (East)
+6,1993-09-28,6,Nebraska (4-0-0),6,,,Big 8
+6,1993-09-28,7,Ohio State (3-0-0),7,,,Big Ten
+6,1993-09-28,8,Michigan (2-1-0),8,,,Big Ten
+6,1993-09-28,9,Penn State (4-0-0),9,,,Big Ten
+6,1993-09-28,10,Oklahoma (3-0-0),10,,,Big 8
+6,1993-09-28,11,Tennessee (3-1-0),11,,,SEC (East)
+6,1993-09-28,12,Arizona (4-0-0),15,3,,Pac-10
+6,1993-09-28,13,Syracuse (3-0-1),12,1,,Big East
+6,1993-09-28,14,Texas A&M (2-1-0),14,,,SWC
+6,1993-09-28,15,Washington (2-1-0),16,1,,Pac-10
+6,1993-09-28,16,North Carolina (4-1-0),18,2,,ACC
+6,1993-09-28,17,California (4-0-0),20,3,,Pac-10
+6,1993-09-28,18,Louisville (4-0-0),24,6,,Ind
+6,1993-09-28,19,Colorado (2-2-0),13,6,,Big 8
+6,1993-09-28,20,BYU (4-0-0),21,1,,WAC
+6,1993-09-28,21,Virginia (4-0-0),22,1,,ACC
+6,1993-09-28,22,Wisconsin (4-0-0),23,1,,Big Ten
+6,1993-09-28,23,Auburn (4-0-0),25,2,,SEC (West)
+6,1993-09-28,24,North Carolina State (2-1-0),19,5,,ACC
+6,1993-09-28,25,West Virginia (3-0-0),,,,Big East
+5,1993-09-21,1,Florida State (4-0-0),1,,57,ACC
+5,1993-09-21,2,Alabama (3-0-0),2,,5,SEC (West)
+5,1993-09-21,3,Miami (FL) (2-0-0),3,,,Big East
+5,1993-09-21,4,Notre Dame (3-0-0),4,,,Ind
+5,1993-09-21,5,Florida (3-0-0),9,4,,SEC (East)
+5,1993-09-21,6,Nebraska (3-0-0),8,2,,Big 8
+5,1993-09-21,7,Ohio State (3-0-0),11,4,,Big Ten
+5,1993-09-21,8,Michigan (1-1-0),10,2,,Big Ten
+5,1993-09-21,9,Penn State (3-0-0),14,5,,Big Ten
+5,1993-09-21,10,Oklahoma (2-0-0),12,2,,Big 8
+5,1993-09-21,11,Tennessee (2-1-0),5,6,,SEC (East)
+5,1993-09-21,12,Syracuse (2-0-1),6,6,,Big East
+5,1993-09-21,13,Colorado (2-1-0),7,6,,Big 8
+5,1993-09-21,14,Texas A&M (2-1-0),16,2,,SWC
+5,1993-09-21,15,Arizona (3-0-0),15,,,Pac-10
+5,1993-09-21,16,Washington (1-1-0),18,2,,Pac-10
+5,1993-09-21,17,Stanford (2-1-0),20,3,,Pac-10
+5,1993-09-21,18,North Carolina (3-1-0),13,5,,ACC
+5,1993-09-21,19,North Carolina State (2-0-0),17,2,,ACC
+5,1993-09-21,20,California (3-0-0),21,1,,Pac-10
+5,1993-09-21,21,BYU (3-0-0),19,2,,WAC
+5,1993-09-21,22,Virginia (3-0-0),25,3,,ACC
+5,1993-09-21,23,Wisconsin (3-0-0),24,1,,Big Ten
+5,1993-09-21,24,Louisville (3-0-0),,,,Ind
+5,1993-09-21,25,Auburn (3-0-0),,,,SEC (West)
+4,1993-09-14,1,Florida State (3-0-0),1,,59,ACC
+4,1993-09-14,2,Alabama (2-0-0),2,,3,SEC (West)
+4,1993-09-14,3,Miami (FL) (1-0-0),4,1,,Big East
+4,1993-09-14,4,Notre Dame (2-0-0),11,7,,Ind
+4,1993-09-14,5,Tennessee (2-0-0),8,3,,SEC (East)
+4,1993-09-14,6,Syracuse (2-0-0),6,,,Big East
+4,1993-09-14,7,Colorado (2-0-0),10,3,,Big 8
+4,1993-09-14,8,Nebraska (2-0-0),9,1,,Big 8
+4,1993-09-14,9,Florida (2-0-0),7,2,,SEC (East)
+4,1993-09-14,10,Michigan (1-1-0),3,7,,Big Ten
+4,1993-09-14,11,Ohio State (2-0-0),16,5,,Big Ten
+4,1993-09-14,12,Oklahoma (2-0-0),17,5,,Big 8
+4,1993-09-14,13,North Carolina (3-0-0),14,1,,ACC
+4,1993-09-14,14,Penn State (2-0-0),15,1,,Big Ten
+4,1993-09-14,15,Arizona (2-0-0),13,2,,Pac-10
+4,1993-09-14,16,Texas A&M (1-1-0),5,11,,SWC
+4,1993-09-14,17,North Carolina State (2-0-0),18,1,,ACC
+4,1993-09-14,18,Washington (1-1-0),12,6,,Pac-10
+4,1993-09-14,19,BYU (2-0-0),20,1,,WAC
+4,1993-09-14,20,Stanford (1-1-0),23,3,,Pac-10
+4,1993-09-14,21,California (2-0-0),,,,Pac-10
+4,1993-09-14,22,Boston College (0-1-0),25,3,,Big East
+4,1993-09-14,23,Arizona State (1-0-0),,,,Pac-10
+4,1993-09-14,24,Wisconsin (2-0-0),,,,Big Ten
+4,1993-09-14,25,Virginia (2-0-0),,,,ACC
+3,1993-09-07,1,Florida State (2-0-0),1,,50,ACC
+3,1993-09-07,2,Alabama (1-0-0),2,,10,SEC (West)
+3,1993-09-07,3,Michigan (1-0-0),3,,2,Big Ten
+3,1993-09-07,4,Miami (FL) (1-0-0),3,1,,Big East
+3,1993-09-07,5,Texas A&M (1-0-0),5,,,SWC
+3,1993-09-07,6,Syracuse (1-0-0),6,,,Big East
+3,1993-09-07,7,Florida (1-0-0),8,1,,SEC (East)
+3,1993-09-07,8,Tennessee (1-0-0),10,2,,SEC (East)
+3,1993-09-07,9,Nebraska (1-0-0),9,,,Big 8
+3,1993-09-07,10,Colorado (1-0-0),11,1,,Big 8
+3,1993-09-07,11,Notre Dame (1-0-0),7,4,,Ind
+3,1993-09-07,12,Washington (1-0-0),12,,,Pac-10
+3,1993-09-07,13,Arizona (1-0-0),13,,,Pac-10
+3,1993-09-07,14,North Carolina (2-0-0),16,2,,ACC
+3,1993-09-07,15,Penn State (1-0-0),17,2,,Big Ten
+3,1993-09-07,16,Ohio State (1-0-0),18,2,,Big Ten
+3,1993-09-07,17,Oklahoma (1-0-0),21,4,,Big 8
+3,1993-09-07,18,North Carolina State (1-0-0),24,6,,ACC
+3,1993-09-07,19,South Carolina (1-0-0),,,,SEC (East)
+3,1993-09-07,20,BYU (1-0-0),19,1,,WAC
+3,1993-09-07,21,Clemson (1-0-0),22,1,,ACC
+3,1993-09-07,22,Georgia (0-1-0),14,8,,SEC (East)
+3,1993-09-07,23,Stanford (0-1-0),15,8,,Pac-10
+3,1993-09-07,24,Baylor (1-0-0),,,,SWC
+3,1993-09-07,25,Boston College (0-1-0),20,5,,Big East
+2,1993-08-31,1,Florida State (1-0-0),1,,47,ACC
+2,1993-08-31,2,Alabama,2,,11,SEC (West)
+2,1993-08-31,3,Miami (FL),5,2,2,Big East
+2,1993-08-31,3,Michigan,3,,2,Big Ten
+2,1993-08-31,5,Texas A&M,4,1,,SWC
+2,1993-08-31,6,Syracuse,6,,1,Big East
+2,1993-08-31,7,Notre Dame,7,,,Ind
+2,1993-08-31,8,Florida,9,1,,SEC (East)
+2,1993-08-31,9,Nebraska,8,1,,Big 8
+2,1993-08-31,10,Tennessee,10,,,SEC (East)
+2,1993-08-31,11,Colorado,11,,,Big 8
+2,1993-08-31,12,Washington,12,,,Pac-10
+2,1993-08-31,13,Arizona,14,1,,Pac-10
+2,1993-08-31,14,Georgia,13,1,,SEC (East)
+2,1993-08-31,15,Stanford,15,,1,Pac-10
+2,1993-08-31,16,North Carolina (1-0-0),20,4,,ACC
+2,1993-08-31,17,Penn State,16,1,,Big Ten
+2,1993-08-31,18,Ohio State,17,1,,Big Ten
+2,1993-08-31,19,BYU,19,,,WAC
+2,1993-08-31,20,Boston College,21,1,,Big East
+2,1993-08-31,21,Oklahoma,22,1,,Big 8
+2,1993-08-31,22,Clemson,23,1,,ACC
+2,1993-08-31,23,Mississippi State,24,1,,SEC (West)
+2,1993-08-31,24,North Carolina State,25,1,,ACC
+2,1993-08-31,25,Fresno State,,,,WAC
+1,Preseason,1,Florida State,NA,—,42,ACC
+1,Preseason,2,Alabama,NA,—,14,SEC (West)
+1,Preseason,3,Michigan,NA,—,3,Big Ten
+1,Preseason,4,Texas A&M,NA,—,,SWC
+1,Preseason,5,Miami (FL),NA,—,,Big East
+1,Preseason,6,Syracuse,NA,—,2,Big East
+1,Preseason,7,Notre Dame,NA,—,,Ind
+1,Preseason,8,Nebraska,NA,—,,Big 8
+1,Preseason,9,Florida,NA,—,,SEC (East)
+1,Preseason,10,Tennessee,NA,—,,SEC (East)
+1,Preseason,11,Colorado,NA,—,,Big 8
+1,Preseason,12,Washington,NA,—,,Pac-10
+1,Preseason,13,Georgia,NA,—,,SEC (East)
+1,Preseason,14,Arizona,NA,—,,Pac-10
+1,Preseason,15,Stanford,NA,—,1,Pac-10
+1,Preseason,16,Penn State,NA,—,,Big Ten
+1,Preseason,17,Ohio State,NA,—,,Big Ten
+1,Preseason,18,USC,NA,—,,Pac-10
+1,Preseason,19,BYU,NA,—,,WAC
+1,Preseason,20,North Carolina,NA,—,,ACC
+1,Preseason,21,Boston College,NA,—,,Big East
+1,Preseason,22,Oklahoma,NA,—,,Big 8
+1,Preseason,23,Clemson,NA,—,,ACC
+1,Preseason,24,Mississippi State,NA,—,,SEC (West)
+1,Preseason,25,North Carolina State,NA,—,,ACC

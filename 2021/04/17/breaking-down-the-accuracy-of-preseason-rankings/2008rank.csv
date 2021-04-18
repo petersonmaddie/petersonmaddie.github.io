@@ -1,0 +1,426 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+17,Final,1,Florida,1,,48,SEC (East)
+17,Final,2,Utah,7,5,16,MWC
+17,Final,3,USC,5,2,1,Pac-10
+17,Final,4,Texas,3,1,,Big 12 (South)
+17,Final,5,Oklahoma,2,3,,Big 12 (South)
+17,Final,6,Alabama,4,2,,SEC (West)
+17,Final,7,Texas Christian,11,4,,MWC
+17,Final,8,Penn State,6,2,,Big Ten
+17,Final,9,Ohio State,10,1,,Big Ten
+17,Final,10,Oregon,15,5,,Pac-10
+17,Final,11,Boise State,9,2,,WAC
+17,Final,12,Texas Tech,8,4,,Big 12 (South)
+17,Final,13,Georgia,16,3,,SEC (East)
+17,Final,14,Ole Miss,20,6,,SEC (West)
+17,Final,15,Virginia Tech,21,6,,ACC (Coastal)
+17,Final,16,Oklahoma State,13,3,,Big 12 (South)
+17,Final,17,Cincinnati,12,5,,Big East
+17,Final,18,Oregon State,24,6,,Pac-10
+17,Final,19,Missouri,25,6,,Big 12 (North)
+17,Final,20,Iowa,,,,Big Ten
+17,Final,21,Florida State,,,,ACC (Atlantic)
+17,Final,22,Georgia Tech,14,8,,ACC (Coastal)
+17,Final,23,West Virginia,,,,Big East
+17,Final,24,Michigan State,19,5,,Big Ten
+17,Final,25,BYU,17,8,,MWC
+16,2008-12-07,1,Florida (12-1),2,1,50,SEC (East)
+16,2008-12-07,2,Oklahoma (12-1),4,2,9,Big 12 (South)
+16,2008-12-07,3,Texas (11-1),3,,6,Big 12 (South)
+16,2008-12-07,4,Alabama (12-1),1,3,,SEC (West)
+16,2008-12-07,5,USC (11-1),5,,,Pac-10
+16,2008-12-07,6,Penn State (11-1),6,,,Big Ten
+16,2008-12-07,7,Utah (12-0),7,,,MWC
+16,2008-12-07,8,Texas Tech (11-1),8,,,Big 12 (South)
+16,2008-12-07,9,Boise State (12-0),9,,,WAC
+16,2008-12-07,10,Ohio State (10-2),10,,,Big Ten
+16,2008-12-07,11,Texas Christian (10-2),11,,,MWC
+16,2008-12-07,12,Cincinnati (11-2),13,1,,Big East
+16,2008-12-07,13,Oklahoma State (9-3),14,1,,Big 12 (South)
+16,2008-12-07,14,Georgia Tech (9-3),15,1,,ACC (Coastal)
+16,2008-12-07,15,Oregon (9-3),16,1,,Pac-10
+16,2008-12-07,16,Georgia (9-3),17,1,,SEC (East)
+16,2008-12-07,17,BYU (10-2),20,3,,MWC
+16,2008-12-07,18,Pitt (9-3),23,5,,Big East
+16,2008-12-07,19,Michigan State (9-3),21,2,,Big Ten
+16,2008-12-07,20,Ole Miss (8-4),22,2,,SEC (West)
+16,2008-12-07,21,Virginia Tech (9-4),,,,ACC (Coastal)
+16,2008-12-07,22,Northwestern (9-3),24,2,,Big Ten
+16,2008-12-07,23,Ball State (12-1),12,11,,MAC (West)
+16,2008-12-07,24,Oregon State (8-4),25,1,,Pac-10
+16,2008-12-07,25,Missouri (9-4),19,6,,Big 12 (North)
+15,2008-11-30,1,Alabama (12-0),1,,62,SEC (West)
+15,2008-11-30,2,Florida (11-1),2,,3,SEC (East)
+15,2008-11-30,3,Texas (11-1),4,1,,Big 12 (South)
+15,2008-11-30,4,Oklahoma (11-1),3,1,,Big 12 (South)
+15,2008-11-30,5,USC (10-1),5,,,Pac-10
+15,2008-11-30,6,Penn State (11-1),6,,,Big Ten
+15,2008-11-30,7,Utah (12-0),8,1,,MWC
+15,2008-11-30,8,Texas Tech (11-1),7,1,,Big 12 (South)
+15,2008-11-30,9,Boise State (12-0),9,,,WAC
+15,2008-11-30,10,Ohio State (10-2),10,,,Big Ten
+15,2008-11-30,11,Texas Christian (10-2),14,3,,MWC
+15,2008-11-30,12,Ball State (12-0),15,3,,MAC (West)
+15,2008-11-30,13,Cincinnati (10-2),16,3,,Big East
+15,2008-11-30,14,Oklahoma State (9-3),11,3,,Big 12 (South)
+15,2008-11-30,15,Georgia Tech (9-3),18,3,,ACC (Coastal)
+15,2008-11-30,16,Oregon (9-3),19,3,,Pac-10
+15,2008-11-30,17,Georgia (9-3),13,4,,SEC (East)
+15,2008-11-30,18,Boston College (9-3),20,2,,ACC (Atlantic)
+15,2008-11-30,19,Missouri (9-3),12,7,,Big 12 (North)
+15,2008-11-30,20,BYU (10-2),20,,,MWC
+15,2008-11-30,21,Michigan State (9-3),22,1,,Big Ten
+15,2008-11-30,22,Ole Miss (8-4),25,3,,SEC (West)
+15,2008-11-30,23,Pitt (8-3),,,,Big East
+15,2008-11-30,24,Northwestern (9-3),24,,,Big Ten
+15,2008-11-30,25,Oregon State (8-4),17,8,,Pac-10
+14,2008-11-23,1,Alabama (11-0),1,,63,SEC (West)
+14,2008-11-23,2,Florida (10-1),3,1,2,SEC (East)
+14,2008-11-23,3,Oklahoma (10-1),5,2,,Big 12 (South)
+14,2008-11-23,4,Texas (10-1),4,,,Big 12 (South)
+14,2008-11-23,5,USC (9-1),6,1,,Pac-10
+14,2008-11-23,6,Penn State (11-1),7,1,,Big Ten
+14,2008-11-23,7,Texas Tech (10-1),2,5,,Big 12 (South)
+14,2008-11-23,8,Utah (12-0),8,,,MWC
+14,2008-11-23,9,Boise State (11-0),9,,,WAC
+14,2008-11-23,10,Ohio State (10-2),10,,,Big Ten
+14,2008-11-23,11,Oklahoma State (9-2),11,,,Big 12 (South)
+14,2008-11-23,12,Missouri (9-2),12,,,Big 12 (North)
+14,2008-11-23,13,Georgia (9-2),13,,,SEC (East)
+14,2008-11-23,14,Texas Christian (10-2),15,1,,MWC
+14,2008-11-23,15,Ball State (11-0),14,1,,MAC (West)
+14,2008-11-23,16,Cincinnati (9-2),19,3,,Big East
+14,2008-11-23,17,Oregon State (8-3),21,4,,Pac-10
+14,2008-11-23,18,Georgia Tech (8-3),,,,ACC (Coastal)
+14,2008-11-23,19,Oregon (8-3),24,5,,Pac-10
+14,2008-11-23,20,Boston College (8-3),,,,ACC (Atlantic)
+14,2008-11-23,20,BYU (10-2),16,4,,MWC
+14,2008-11-23,22,Michigan State (9-3),17,5,,Big Ten
+14,2008-11-23,23,Florida State (8-3),,,,ACC (Atlantic)
+14,2008-11-23,24,Northwestern (9-3),,,,Big Ten
+14,2008-11-23,25,Ole Miss (7-4),,,,SEC (West)
+13,2008-11-16,1,Alabama (11-0),1,,42,SEC (West)
+13,2008-11-16,2,Texas Tech (10-0),2,,21,Big 12 (South)
+13,2008-11-16,3,Florida (9-1),3,,2,SEC (East)
+13,2008-11-16,4,Texas (10-1),4,,,Big 12 (South)
+13,2008-11-16,5,Oklahoma (9-1),5,,,Big 12 (South)
+13,2008-11-16,6,USC (9-1),6,,,Pac-10
+13,2008-11-16,7,Penn State (10-1),7,,,Big Ten
+13,2008-11-16,8,Utah (11-0),8,,,MWC
+13,2008-11-16,9,Boise State (10-0),9,,,WAC
+13,2008-11-16,10,Ohio State (9-2),10,,,Big Ten
+13,2008-11-16,11,Oklahoma State (9-2),11,,,Big 12 (South)
+13,2008-11-16,12,Missouri (9-2),12,,,Big 12 (North)
+13,2008-11-16,13,Georgia (9-2),13,,,SEC (East)
+13,2008-11-16,14,Ball State (10-0),14,,,MAC (West)
+13,2008-11-16,15,Texas Christian (9-2),15,,,MWC
+13,2008-11-16,16,BYU (10-1),16,,,MWC
+13,2008-11-16,17,Michigan State (9-2),18,1,,Big Ten
+13,2008-11-16,18,LSU (7-3),19,1,,SEC (West)
+13,2008-11-16,19,Cincinnati (8-2),22,3,,Big East
+13,2008-11-16,20,Pitt (7-2),21,1,,Big East
+13,2008-11-16,21,Oregon State (7-3),23,2,,Pac-10
+13,2008-11-16,22,Maryland (7-3),,,,ACC (Atlantic)
+13,2008-11-16,23,Miami (FL) (7-3),,,,ACC (Coastal)
+13,2008-11-16,24,Oregon (8-3),,,,Pac-10
+13,2008-11-16,25,North Carolina (7-3),17,8,,ACC (Coastal)
+12,2008-11-09,1,Alabama (10-0),1,,44,SEC (West)
+12,2008-11-09,2,Texas Tech (10-0),2,,21,Big 12 (South)
+12,2008-11-09,3,Florida (8-1),4,1,,SEC (East)
+12,2008-11-09,4,Texas (9-1),5,1,,Big 12 (South)
+12,2008-11-09,5,Oklahoma (9-1),6,1,,Big 12 (South)
+12,2008-11-09,6,USC (8-1),7,1,,Pac-10
+12,2008-11-09,7,Penn State (9-1),3,4,,Big Ten
+12,2008-11-09,8,Utah (10-0),10,2,,MWC
+12,2008-11-09,9,Boise State (9-0),9,,,WAC
+12,2008-11-09,10,Ohio State (8-2),12,2,,Big Ten
+12,2008-11-09,11,Oklahoma State (8-2),8,3,,Big 12 (South)
+12,2008-11-09,12,Missouri (8-2),13,1,,Big 12 (North)
+12,2008-11-09,13,Georgia (8-2),14,1,,SEC (East)
+12,2008-11-09,14,Ball State (9-0),16,2,,MAC (West)
+12,2008-11-09,15,Texas Christian (9-2),11,4,,MWC
+12,2008-11-09,16,BYU (9-1),17,1,,MWC
+12,2008-11-09,17,North Carolina (7-2),19,2,,ACC (Coastal)
+12,2008-11-09,18,Michigan State (9-2),18,,,Big Ten
+12,2008-11-09,19,LSU (6-3),15,4,,SEC (West)
+12,2008-11-09,20,Florida State (7-2),24,4,,ACC (Atlantic)
+12,2008-11-09,21,Pitt (7-2),25,4,,Big East
+12,2008-11-09,22,Cincinnati (7-2),,,,Big East
+12,2008-11-09,23,Oregon State (6-3),,,,Pac-10
+12,2008-11-09,24,South Carolina (7-3),,,,SEC (East)
+12,2008-11-09,25,Tulsa (8-1),,,,CUSA (West)
+11,2008-11-02,1,Alabama (9-0),2,1,46,SEC (West)
+11,2008-11-02,2,Texas Tech (9-0),6,4,12,Big 12 (South)
+11,2008-11-02,3,Penn State (9-0),3,,6,Big Ten
+11,2008-11-02,4,Florida (7-1),5,1,1,SEC (East)
+11,2008-11-02,5,Texas (8-1),1,4,,Big 12 (South)
+11,2008-11-02,6,Oklahoma (8-1),4,2,,Big 12 (South)
+11,2008-11-02,7,USC (7-1),7,,,Pac-10
+11,2008-11-02,8,Oklahoma State (8-1),9,1,,Big 12 (South)
+11,2008-11-02,9,Boise State (8-0),11,2,,WAC
+11,2008-11-02,10,Utah (9-0),10,,,MWC
+11,2008-11-02,11,Texas Christian (9-1),12,1,,MWC
+11,2008-11-02,12,Ohio State (7-2),13,1,,Big Ten
+11,2008-11-02,13,Missouri (7-2),14,1,,Big 12 (North)
+11,2008-11-02,14,Georgia (7-2),8,6,,SEC (East)
+11,2008-11-02,15,LSU (6-2),15,,,SEC (West)
+11,2008-11-02,16,Ball State (8-0),18,2,,MAC (West)
+11,2008-11-02,17,BYU (8-1),17,,,MWC
+11,2008-11-02,18,Michigan State (8-2),22,4,,Big Ten
+11,2008-11-02,19,North Carolina (6-2),21,2,,ACC (Coastal)
+11,2008-11-02,20,West Virginia (6-2),,,,Big East
+11,2008-11-02,21,California (6-2),,,,Pac-10
+11,2008-11-02,22,Georgia Tech (7-2),,,,ACC (Coastal)
+11,2008-11-02,23,Maryland (6-2),25,2,,ACC (Atlantic)
+11,2008-11-02,24,Florida State (6-2),16,8,,ACC (Atlantic)
+11,2008-11-02,25,Pitt (6-2),,,,Big East
+10,2008-10-26,1,Texas (8-0),1,,65,Big 12 (South)
+10,2008-10-26,2,Alabama (8-0),2,,,SEC (West)
+10,2008-10-26,3,Penn State (9-0),3,,,Big Ten
+10,2008-10-26,4,Oklahoma (7-1),4,,,Big 12 (South)
+10,2008-10-26,5,Florida (6-1),5,,,SEC (East)
+10,2008-10-26,6,Texas Tech (8-0),8,2,,Big 12 (South)
+10,2008-10-26,7,USC (6-1),6,1,,Pac-10
+10,2008-10-26,8,Georgia (7-1),9,1,,SEC (East)
+10,2008-10-26,9,Oklahoma State (7-1),7,2,,Big 12 (South)
+10,2008-10-26,10,Utah (8-0),12,2,,MWC
+10,2008-10-26,11,Boise State (7-0),13,2,,WAC
+10,2008-10-26,12,Texas Christian (8-1),15,3,,MWC
+10,2008-10-26,13,Ohio State (7-2),10,3,,Big Ten
+10,2008-10-26,14,Missouri (6-2),16,2,,Big 12 (North)
+10,2008-10-26,15,LSU (5-2),11,4,,SEC (West)
+10,2008-10-26,16,Florida State (6-1),24,8,,ACC (Atlantic)
+10,2008-10-26,17,BYU (7-1),18,1,,MWC
+10,2008-10-26,18,Ball State (8-0),20,2,,MAC (West)
+10,2008-10-26,19,Tulsa (7-0),22,3,,CUSA (West)
+10,2008-10-26,20,Minnesota (7-1),25,5,,Big Ten
+10,2008-10-26,21,North Carolina (6-2),,,,ACC (Coastal)
+10,2008-10-26,22,Michigan State (7-2),,,,Big Ten
+10,2008-10-26,23,Oregon (6-2),,,,Pac-10
+10,2008-10-26,24,South Florida (6-2),14,10,,Big East
+10,2008-10-26,25,Maryland (6-2),,,,ACC (Atlantic)
+9,2008-10-19,1,Texas (7-0),1,,65,Big 12 (South)
+9,2008-10-19,2,Alabama (7-0),2,,,SEC (West)
+9,2008-10-19,3,Penn State (8-0),3,,,Big Ten
+9,2008-10-19,4,Oklahoma (6-1),4,,,Big 12 (South)
+9,2008-10-19,5,Florida (5-1),5,,,SEC (East)
+9,2008-10-19,6,USC (5-1),6,,,Pac-10
+9,2008-10-19,7,Oklahoma State (7-0),8,1,,Big 12 (South)
+9,2008-10-19,8,Texas Tech (7-0),7,1,,Big 12 (South)
+9,2008-10-19,9,Georgia (6-1),10,1,,SEC (East)
+9,2008-10-19,10,Ohio State (7-1),12,2,,Big Ten
+9,2008-10-19,11,LSU (5-1),13,2,,SEC (West)
+9,2008-10-19,12,Utah (8-0),14,2,,MWC
+9,2008-10-19,13,Boise State (6-0),15,2,,WAC
+9,2008-10-19,14,South Florida (6-1),19,5,,Big East
+9,2008-10-19,15,Texas Christian (7-1),,,,MWC
+9,2008-10-19,16,Missouri (5-2),11,5,,Big 12 (North)
+9,2008-10-19,17,Pitt (5-1),23,6,,Big East
+9,2008-10-19,18,BYU (6-1),9,9,,MWC
+9,2008-10-19,19,Kansas (5-2),16,3,,Big 12 (North)
+9,2008-10-19,20,Ball State (7-0),24,4,,MAC (West)
+9,2008-10-19,21,Georgia Tech (6-1),,,,ACC (Coastal)
+9,2008-10-19,22,Tulsa (7-0),,,,CUSA (West)
+9,2008-10-19,23,Boston College (5-1),,,,ACC (Atlantic)
+9,2008-10-19,24,Florida State (5-1),,,,ACC (Atlantic)
+9,2008-10-19,25,Minnesota (6-1),,,,Big Ten
+8,2008-10-12,1,Texas (6-0),5,4,39,Big 12 (South)
+8,2008-10-12,2,Alabama (6-0),2,,26,SEC (West)
+8,2008-10-12,3,Penn State (7-0),6,3,,Big Ten
+8,2008-10-12,4,Oklahoma (5-1),1,3,,Big 12 (South)
+8,2008-10-12,5,Florida (5-1),11,6,,SEC (East)
+8,2008-10-12,6,USC (4-1),8,2,,Pac-10
+8,2008-10-12,7,Texas Tech (6-0),7,,,Big 12 (South)
+8,2008-10-12,8,Oklahoma State (6-0),17,9,,Big 12 (South)
+8,2008-10-12,9,BYU (6-0),9,,,MWC
+8,2008-10-12,10,Georgia (5-1),10,,,SEC (East)
+8,2008-10-12,11,Missouri (5-1),3,8,,Big 12 (North)
+8,2008-10-12,12,Ohio State (6-1),12,,,Big Ten
+8,2008-10-12,13,LSU (4-1),4,9,,SEC (West)
+8,2008-10-12,14,Utah (7-0),14,,,MWC
+8,2008-10-12,15,Boise State (5-0),15,,,WAC
+8,2008-10-12,16,Kansas (5-1),16,,,Big 12 (North)
+8,2008-10-12,17,Virginia Tech (5-1),18,1,,ACC (Coastal)
+8,2008-10-12,18,North Carolina (5-1),22,4,,ACC (Coastal)
+8,2008-10-12,19,South Florida (5-1),19,,,Big East
+8,2008-10-12,20,Michigan State (6-1),23,3,,Big Ten
+8,2008-10-12,21,Wake Forest (4-1),21,,,ACC (Atlantic)
+8,2008-10-12,22,Vanderbilt (5-1),13,9,,SEC (East)
+8,2008-10-12,23,Pitt (4-1),24,1,,Big East
+8,2008-10-12,24,Ball State (7-0),25,1,,MAC (West)
+8,2008-10-12,25,California (4-1),,,,Pac-10
+7,2008-10-05,1,Oklahoma (5-0),1,,51,Big 12 (South)
+7,2008-10-05,2,Alabama (6-0),2,,13,SEC (West)
+7,2008-10-05,3,Missouri (5-0),4,1,1,Big 12 (North)
+7,2008-10-05,4,LSU (4-0),3,1,,SEC (West)
+7,2008-10-05,5,Texas (5-0),5,,,Big 12 (South)
+7,2008-10-05,6,Penn State (6-0),6,,,Big Ten
+7,2008-10-05,7,Texas Tech (5-0),7,,,Big 12 (South)
+7,2008-10-05,8,USC (3-1),9,1,,Pac-10
+7,2008-10-05,9,BYU (5-0),8,1,,MWC
+7,2008-10-05,10,Georgia (4-1),11,1,,SEC (East)
+7,2008-10-05,11,Florida (4-1),12,1,,SEC (East)
+7,2008-10-05,12,Ohio State (5-1),14,2,,Big Ten
+7,2008-10-05,13,Vanderbilt (5-0),19,6,,SEC (East)
+7,2008-10-05,14,Utah (6-0),15,1,,MWC
+7,2008-10-05,15,Boise State (4-0),17,2,,WAC
+7,2008-10-05,16,Kansas (4-1),16,,,Big 12 (North)
+7,2008-10-05,17,Oklahoma State (5-0),21,4,,Big 12 (South)
+7,2008-10-05,18,Virginia Tech (5-1),20,2,,ACC (Coastal)
+7,2008-10-05,19,South Florida (5-1),10,9,,Big East
+7,2008-10-05,20,Auburn (4-2),13,7,,SEC (West)
+7,2008-10-05,21,Wake Forest (3-1),25,4,,ACC (Atlantic)
+7,2008-10-05,22,North Carolina (4-1),,,,ACC (Coastal)
+7,2008-10-05,23,Michigan State (5-1),,,,Big Ten
+7,2008-10-05,24,Pitt (4-1),,,,Big East
+7,2008-10-05,25,Ball State (6-0),,,,MAC (West)
+6,2008-09-28,1,Oklahoma (4-0),2,1,43,Big 12 (South)
+6,2008-09-28,2,Alabama (5-0),8,6,21,SEC (West)
+6,2008-09-28,3,LSU (4-0),5,2,,SEC (West)
+6,2008-09-28,4,Missouri (4-0),6,2,1,Big 12 (North)
+6,2008-09-28,5,Texas (4-0),7,2,,Big 12 (South)
+6,2008-09-28,6,Penn State (5-0),12,6,,Big Ten
+6,2008-09-28,7,Texas Tech (4-0),10,3,,Big 12 (South)
+6,2008-09-28,8,BYU (4-0),11,3,,MWC
+6,2008-09-28,9,USC (2-1),1,8,,Pac-10
+6,2008-09-28,10,South Florida (5-0),13,3,,Big East
+6,2008-09-28,11,Georgia (4-1),3,8,,SEC (East)
+6,2008-09-28,12,Florida (3-1),4,8,,SEC (East)
+6,2008-09-28,13,Auburn (4-1),15,2,,SEC (West)
+6,2008-09-28,14,Ohio State (4-1),14,,,Big Ten
+6,2008-09-28,15,Utah (5-0),17,2,,MWC
+6,2008-09-28,16,Kansas (3-1),18,2,,Big 12 (North)
+6,2008-09-28,17,Boise State (3-0),19,2,,WAC
+6,2008-09-28,18,Wisconsin (3-1),9,9,,Big Ten
+6,2008-09-28,19,Vanderbilt (4-0),21,2,,SEC (East)
+6,2008-09-28,20,Virginia Tech (4-1),,,,ACC (Coastal)
+6,2008-09-28,21,Oklahoma State (4-0),,,,Big 12 (South)
+6,2008-09-28,22,Fresno State (3-1),25,3,,WAC
+6,2008-09-28,23,Oregon (4-1),,,,Pac-10
+6,2008-09-28,24,Connecticut (5-0),,,,Big East
+6,2008-09-28,25,Wake Forest (3-1),16,9,,ACC (Atlantic)
+5,2008-09-21,1,USC (2-0),1,,62,Pac-10
+5,2008-09-21,2,Oklahoma (3-0),2,,,Big 12 (South)
+5,2008-09-21,3,Georgia (4-0),3,,2,SEC (East)
+5,2008-09-21,4,Florida (3-0),4,,1,SEC (East)
+5,2008-09-21,5,LSU (3-0),6,1,,SEC (West)
+5,2008-09-21,6,Missouri (4-0),5,1,,Big 12 (North)
+5,2008-09-21,7,Texas (3-0),7,,,Big 12 (South)
+5,2008-09-21,8,Alabama (4-0),9,1,,SEC (West)
+5,2008-09-21,9,Wisconsin (3-0),8,1,,Big Ten
+5,2008-09-21,10,Texas Tech (4-0),11,1,,Big 12 (South)
+5,2008-09-21,11,BYU (4-0),14,3,,MWC
+5,2008-09-21,12,Penn State (4-0),16,4,,Big Ten
+5,2008-09-21,13,South Florida (4-0),12,1,,Big East
+5,2008-09-21,14,Ohio State (3-1),13,1,,Big Ten
+5,2008-09-21,15,Auburn (3-1),10,5,,SEC (West)
+5,2008-09-21,16,Wake Forest (3-0),18,2,,ACC (Atlantic)
+5,2008-09-21,17,Utah (4-0),20,3,,MWC
+5,2008-09-21,18,Kansas (3-1),19,1,,Big 12 (North)
+5,2008-09-21,19,Boise State (3-0),,,,WAC
+5,2008-09-21,20,Clemson (3-1),23,3,,ACC (Atlantic)
+5,2008-09-21,21,Vanderbilt (4-0),,,,SEC (East)
+5,2008-09-21,22,Illinois (2-1),22,,,Big Ten
+5,2008-09-21,23,East Carolina (3-1),15,8,,CUSA (East)
+5,2008-09-21,24,Texas Christian (4-0),,,,MWC
+5,2008-09-21,25,Fresno State (2-1),25,,,WAC
+4,2008-09-14,1,USC (2-0),1,,61,Pac-10
+4,2008-09-14,2,Oklahoma (3-0),3,1,,Big 12 (South)
+4,2008-09-14,3,Georgia (3-0),2,1,2,SEC (East)
+4,2008-09-14,4,Florida (2-0),4,,1,SEC (East)
+4,2008-09-14,5,Missouri (3-0),6,1,,Big 12 (North)
+4,2008-09-14,6,LSU (2-0),7,1,,SEC (West)
+4,2008-09-14,7,Texas (2-0),8,1,,Big 12 (South)
+4,2008-09-14,8,Wisconsin (3-0),10,2,,Big Ten
+4,2008-09-14,9,Alabama (3-0),11,2,,SEC (West)
+4,2008-09-14,10,Auburn (3-0),9,1,,SEC (West)
+4,2008-09-14,11,Texas Tech (3-0),12,1,,Big 12 (South)
+4,2008-09-14,12,South Florida (3-0),19,7,,Big East
+4,2008-09-14,13,Ohio State (2-1),5,8,,Big Ten
+4,2008-09-14,14,BYU (3-0),18,4,,MWC
+4,2008-09-14,15,East Carolina (3-0),14,1,,CUSA (East)
+4,2008-09-14,16,Penn State (3-0),17,1,,Big Ten
+4,2008-09-14,17,Oregon (3-0),16,1,,Pac-10
+4,2008-09-14,18,Wake Forest (2-0),20,2,,ACC (Atlantic)
+4,2008-09-14,19,Kansas (2-1),13,6,,Big 12 (North)
+4,2008-09-14,20,Utah (3-0),22,2,,MWC
+4,2008-09-14,21,West Virginia (1-1),25,4,,Big East
+4,2008-09-14,22,Illinois (2-1),24,2,,Big Ten
+4,2008-09-14,23,Clemson (2-1),,,,ACC (Atlantic)
+4,2008-09-14,24,Florida State (2-0),,,,ACC (Atlantic)
+4,2008-09-14,25,Fresno State (1-1),21,4,,WAC
+3,2008-09-07,1,USC (1-0),1,,33,Pac-10
+3,2008-09-07,2,Georgia (2-0),2,,23,SEC (East)
+3,2008-09-07,3,Oklahoma (2-0),4,1,2,Big 12 (South)
+3,2008-09-07,4,Florida (2-0),5,1,4,SEC (East)
+3,2008-09-07,5,Ohio State (2-0),3,2,1,Big Ten
+3,2008-09-07,6,Missouri (2-0),6,,1,Big 12 (North)
+3,2008-09-07,7,LSU (1-0),7,,1,SEC (West)
+3,2008-09-07,8,Texas (2-0),10,2,,Big 12 (South)
+3,2008-09-07,9,Auburn (2-0),9,,,SEC (West)
+3,2008-09-07,10,Wisconsin (2-0),11,1,,Big Ten
+3,2008-09-07,11,Alabama (2-0),13,2,,SEC (West)
+3,2008-09-07,12,Texas Tech (2-0),12,,,Big 12 (South)
+3,2008-09-07,13,Kansas (2-0),14,1,,Big 12 (North)
+3,2008-09-07,14,East Carolina (2-0),,,,CUSA (East)
+3,2008-09-07,15,Arizona State (2-0),15,,,Pac-10
+3,2008-09-07,16,Oregon (2-0),18,2,,Pac-10
+3,2008-09-07,17,Penn State (2-0),19,2,,Big Ten
+3,2008-09-07,18,BYU (2-0),15,3,,MWC
+3,2008-09-07,19,South Florida (2-0),17,2,,Big East
+3,2008-09-07,20,Wake Forest (2-0),20,,,ACC (Atlantic)
+3,2008-09-07,21,Fresno State (1-0),21,,,WAC
+3,2008-09-07,22,Utah (2-0),22,,,MWC
+3,2008-09-07,23,California (2-0),,,,Pac-10
+3,2008-09-07,24,Illinois (1-1),24,,,Big Ten
+3,2008-09-07,25,West Virginia (1-1),8,17,,Big East
+2,2008-09-02,1,USC (1-0),3,2,21,Pac-10
+2,2008-09-02,2,Georgia (1-0),1,1,20,SEC (East)
+2,2008-09-02,3,Ohio State (1-0),2,1,15,Big Ten
+2,2008-09-02,4,Oklahoma (1-0),4,,2,Big 12 (South)
+2,2008-09-02,5,Florida (1-0),5,,5,SEC (East)
+2,2008-09-02,6,Missouri (1-0),6,,1,Big 12 (North)
+2,2008-09-02,7,LSU (1-0),7,,1,SEC (West)
+2,2008-09-02,8,West Virginia (1-0),8,,,Big East
+2,2008-09-02,9,Auburn (1-0),10,1,,SEC (West)
+2,2008-09-02,10,Texas (1-0),11,1,,Big 12 (South)
+2,2008-09-02,11,Wisconsin (1-0),13,2,,Big Ten
+2,2008-09-02,12,Texas Tech (1-0),12,,,Big 12 (South)
+2,2008-09-02,13,Alabama (1-0),24,11,,SEC (West)
+2,2008-09-02,14,Kansas (1-0),14,,,Big 12 (North)
+2,2008-09-02,15,Arizona State (1-0),15,,,Pac-10
+2,2008-09-02,15,BYU (1-0),16,1,,MWC
+2,2008-09-02,17,South Florida (1-0),19,2,,Big East
+2,2008-09-02,18,Oregon (1-0),21,3,,Pac-10
+2,2008-09-02,19,Penn State (1-0),22,3,,Big Ten
+2,2008-09-02,20,Wake Forest (1-0),23,3,,ACC (Atlantic)
+2,2008-09-02,21,Fresno State (1-0),,,,WAC
+2,2008-09-02,22,Utah (1-0),,,,MWC
+2,2008-09-02,23,UCLA (1-0),,,,Pac-10
+2,2008-09-02,24,Illinois (0-1),20,4,,Big Ten
+2,2008-09-02,24,South Carolina (1-0),,,,SEC (East)
+1,Preseason,1,Georgia,NA,—,22,SEC (East)
+1,Preseason,2,Ohio State,NA,—,21,Big Ten
+1,Preseason,3,USC,NA,—,12,Pac-10
+1,Preseason,4,Oklahoma,NA,—,4,Big 12 (South)
+1,Preseason,5,Florida,NA,—,6,SEC (East)
+1,Preseason,6,Missouri,NA,—,,Big 12 (North)
+1,Preseason,7,LSU,NA,—,,SEC (West)
+1,Preseason,8,West Virginia,NA,—,,Big East
+1,Preseason,9,Clemson,NA,—,,ACC (Atlantic)
+1,Preseason,10,Auburn,NA,—,,SEC (West)
+1,Preseason,11,Texas,NA,—,,Big 12 (South)
+1,Preseason,12,Texas Tech,NA,—,,Big 12 (South)
+1,Preseason,13,Wisconsin,NA,—,,Big Ten
+1,Preseason,14,Kansas,NA,—,,Big 12 (North)
+1,Preseason,15,Arizona State,NA,—,,Pac-10
+1,Preseason,16,BYU,NA,—,,MWC
+1,Preseason,17,Virginia Tech,NA,—,,ACC (Coastal)
+1,Preseason,18,Tennessee,NA,—,,SEC (East)
+1,Preseason,19,South Florida,NA,—,,Big East
+1,Preseason,20,Illinois,NA,—,,Big Ten
+1,Preseason,21,Oregon,NA,—,,Pac-10
+1,Preseason,22,Penn State,NA,—,,Big Ten
+1,Preseason,23,Wake Forest,NA,—,,ACC (Atlantic)
+1,Preseason,24,Alabama,NA,—,,SEC (West)
+1,Preseason,25,Pitt,NA,—,,Big East

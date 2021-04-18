@@ -1,0 +1,401 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+16,Final,1,Colorado,1,,39,Big 8
+16,Final,2,Georgia Tech,2,,20,ACC
+16,Final,3,Miami (FL),4,1,1,Ind
+16,Final,4,Florida State,6,2,,Ind
+16,Final,5,Washington,8,3,,Pac-10
+16,Final,6,Notre Dame,5,1,,Ind
+16,Final,7,Michigan,12,5,,Big Ten
+16,Final,8,Tennessee,10,2,,SEC
+16,Final,9,Clemson,14,5,,ACC
+16,Final,10,Houston,9,1,,SWC
+16,Final,11,Penn State,7,4,,Ind
+16,Final,12,Texas,3,9,,SWC
+16,Final,13,Florida,11,2,,SEC
+16,Final,14,Louisville,18,4,,Ind
+16,Final,15,Texas A&M,,,,SWC
+16,Final,16,Michigan State,22,6,,Big Ten
+16,Final,17,Oklahoma,20,3,,Big 8
+16,Final,18,Iowa,17,1,,Big Ten
+16,Final,19,Auburn,,,,SEC
+16,Final,20,USC,21,1,,Pac-10
+16,Final,21,Ole Miss,15,6,,SEC
+16,Final,22,BYU,13,9,,WAC
+16,Final,23,Virginia,,,,ACC
+16,Final,24,Nebraska,19,5,,Big 8
+16,Final,25,Illinois,16,9,,Big Ten
+15,1990-12-04,1,Colorado (10-1-1),1,,42,Big 8
+15,1990-12-04,2,Georgia Tech (10-0-1),2,,16,ACC
+15,1990-12-04,3,Texas (10-1-0),5,2,2,SWC
+15,1990-12-04,4,Miami (FL) (9-2-0),3,1,,Ind
+15,1990-12-04,5,Notre Dame (9-2-0),7,2,,Ind
+15,1990-12-04,6,Florida State (9-2-0),8,2,,Ind
+15,1990-12-04,7,Penn State (9-2-0),10,3,,Ind
+15,1990-12-04,8,Washington (9-2-0),9,1,,Pac-10
+15,1990-12-04,9,Houston (10-1-0),11,2,,SWC
+15,1990-12-04,10,Tennessee (8-2-2),12,2,,SEC
+15,1990-12-04,11,Florida (9-2-0),6,5,,SEC
+15,1990-12-04,12,Michigan (8-3-0),13,1,,Big Ten
+15,1990-12-04,13,BYU (10-2-0),4,9,,WAC
+15,1990-12-04,14,Clemson (9-2-0),14,,,ACC
+15,1990-12-04,15,Ole Miss (9-2-0),15,,,SEC
+15,1990-12-04,16,Illinois (8-3-0),16,,,Big Ten
+15,1990-12-04,17,Iowa (8-3-0),18,1,,Big Ten
+15,1990-12-04,18,Louisville (9-1-1),17,1,,Ind
+15,1990-12-04,19,Nebraska (9-2-0),19,,,Big 8
+15,1990-12-04,20,Oklahoma (8-3-0),22,2,,Big 8
+15,1990-12-04,21,USC (8-3-1),21,,,Pac-10
+15,1990-12-04,22,Michigan State (7-3-1),23,1,,Big Ten
+15,1990-12-04,23,Southern Mississippi (8-3-0),24,1,,Ind
+15,1990-12-04,24,Ohio State (7-3-1),25,1,,Big Ten
+15,1990-12-04,25,Alabama (7-4-0),,,,SEC
+14,1990-11-27,1,Colorado (10-1-1),1,,41,Big 8
+14,1990-11-27,2,Georgia Tech (9-0-1),3,1,10,ACC
+14,1990-11-27,3,Miami (FL) (8-2-0),2,1,2,Ind
+14,1990-11-27,4,BYU (10-1-0),4,,3,WAC
+14,1990-11-27,5,Texas (9-1-0),6,1,3,SWC
+14,1990-11-27,6,Florida (9-1-0),5,1,1,SEC
+14,1990-11-27,7,Notre Dame (9-2-0),7,,,Ind
+14,1990-11-27,8,Florida State (8-2-0),8,,,Ind
+14,1990-11-27,9,Washington (9-2-0),9,,,Pac-10
+14,1990-11-27,10,Penn State (9-2-0),11,1,,Ind
+14,1990-11-27,11,Houston (9-1-0),12,1,,SWC
+14,1990-11-27,12,Tennessee (7-2-2),14,2,,SEC
+14,1990-11-27,13,Michigan (8-3-0),15,2,,Big Ten
+14,1990-11-27,14,Clemson (9-2-0),16,2,,ACC
+14,1990-11-27,15,Ole Miss (9-2-0),21,6,,SEC
+14,1990-11-27,16,Illinois (8-3-0),22,6,,Big Ten
+14,1990-11-27,17,Louisville (9-1-1),20,3,,Ind
+14,1990-11-27,18,Iowa (8-3-0),13,5,,Big Ten
+14,1990-11-27,19,Nebraska (9-2-0),10,9,,Big 8
+14,1990-11-27,20,Auburn (7-2-1),23,3,,SEC
+14,1990-11-27,21,USC (8-3-1),18,3,,Pac-10
+14,1990-11-27,22,Oklahoma (8-3-0),,,,Big 8
+14,1990-11-27,23,Michigan State (7-3-1),24,1,,Big Ten
+14,1990-11-27,24,Southern Mississippi (8-3-0),25,1,,Ind
+14,1990-11-27,25,Ohio State (7-3-1),19,6,,Big Ten
+13,1990-11-20,1,Colorado (10-1-1),2,1,45,Big 8
+13,1990-11-20,2,Miami (FL) (7-2-0),3,1,3,Ind
+13,1990-11-20,3,Georgia Tech (9-0-1),4,1,8,ACC
+13,1990-11-20,4,BYU (9-1-0),5,1,2,WAC
+13,1990-11-20,5,Florida (9-1-0),6,1,1,SEC
+13,1990-11-20,6,Texas (8-1-0),7,1,1,SWC
+13,1990-11-20,7,Notre Dame (8-2-0),1,6,,Ind
+13,1990-11-20,8,Florida State (8-2-0),9,1,,Ind
+13,1990-11-20,9,Washington (9-2-0),10,1,,Pac-10
+13,1990-11-20,10,Nebraska (9-1-0),11,1,,Big 8
+13,1990-11-20,11,Penn State (8-2-0),18,7,,Ind
+13,1990-11-20,12,Houston (9-1-0),12,,,SWC
+13,1990-11-20,13,Iowa (8-2-0),13,,,Big Ten
+13,1990-11-20,14,Tennessee (6-2-2),14,,,SEC
+13,1990-11-20,15,Michigan (7-3-0),16,1,,Big Ten
+13,1990-11-20,16,Clemson (9-2-0),17,1,,ACC
+13,1990-11-20,17,Virginia (8-2-0),8,9,,ACC
+13,1990-11-20,18,USC (8-2-1),19,1,,Pac-10
+13,1990-11-20,19,Ohio State (7-2-1),21,2,,Big Ten
+13,1990-11-20,20,Louisville (9-1-1),20,,,Ind
+13,1990-11-20,21,Ole Miss (8-2-0),15,6,,SEC
+13,1990-11-20,22,Illinois (7-3-0),22,,,Big Ten
+13,1990-11-20,23,Auburn (7-2-1),24,1,,SEC
+13,1990-11-20,24,Michigan State (6-3-1),23,1,,Big Ten
+13,1990-11-20,25,Southern Mississippi (8-3-0),25,,,Ind
+12,1990-11-13,1,Notre Dame (8-1-0),1,,55,Ind
+12,1990-11-13,2,Colorado (9-1-1),4,2,5,Big 8
+12,1990-11-13,3,Miami (FL) (6-2-0),5,2,,Ind
+12,1990-11-13,4,Georgia Tech (8-0-1),7,3,,ACC
+12,1990-11-13,5,BYU (8-1-0),8,3,,WAC
+12,1990-11-13,6,Florida (8-1-0),10,4,,SEC
+12,1990-11-13,7,Texas (7-1-0),14,7,,SWC
+12,1990-11-13,8,Virginia (8-1-0),11,3,,ACC
+12,1990-11-13,9,Florida State (7-2-0),12,3,,Ind
+12,1990-11-13,10,Washington (8-2-0),2,8,,Pac-10
+12,1990-11-13,11,Nebraska (9-1-0),13,2,,Big 8
+12,1990-11-13,12,Houston (8-1-0),3,9,,SWC
+12,1990-11-13,13,Iowa (7-2-0),6,7,,Big Ten
+12,1990-11-13,14,Tennessee (5-2-2),9,5,,SEC
+12,1990-11-13,15,Ole Miss (8-1-0),16,1,,SEC
+12,1990-11-13,16,Michigan (6-3-0),19,3,,Big Ten
+12,1990-11-13,17,Clemson (8-2-0),18,1,,ACC
+12,1990-11-13,18,Penn State (7-2-0),21,3,,Ind
+12,1990-11-13,19,USC (7-2-1),23,4,,Pac-10
+12,1990-11-13,20,Louisville (9-1-1),22,2,,Ind
+12,1990-11-13,21,Ohio State (6-2-1),,,,Big Ten
+12,1990-11-13,22,Illinois (6-3-0),17,5,,Big Ten
+12,1990-11-13,23,Michigan State (5-3-1),24,1,,Big Ten
+12,1990-11-13,24,Auburn (6-2-1),15,9,,SEC
+12,1990-11-13,25,Southern Mississippi (8-3-0),,,,Ind
+11,1990-11-06,1,Notre Dame (7-1-0),2,1,37,Ind
+11,1990-11-06,2,Washington (8-1-0),7,5,13,Pac-10
+11,1990-11-06,3,Houston (8-0-0),6,3,5,SWC
+11,1990-11-06,4,Colorado (8-1-1),9,5,5,Big 8
+11,1990-11-06,5,Miami (FL) (6-2-0),8,3,,Ind
+11,1990-11-06,6,Iowa (7-1-0),13,7,,Big Ten
+11,1990-11-06,7,Georgia Tech (7-0-1),16,9,,ACC
+11,1990-11-06,8,BYU (7-1-0),10,2,,WAC
+11,1990-11-06,9,Tennessee (5-1-2),11,2,,SEC
+11,1990-11-06,10,Florida (7-1-0),15,5,,SEC
+11,1990-11-06,11,Virginia (7-1-0),1,10,,ACC
+11,1990-11-06,12,Florida State (6-2-0),12,,,Ind
+11,1990-11-06,13,Nebraska (8-1-0),3,10,,Big 8
+11,1990-11-06,14,Texas (6-1-0),14,,,SWC
+11,1990-11-06,15,Auburn (6-1-1),4,11,,SEC
+11,1990-11-06,16,Ole Miss (8-1-0),17,1,,SEC
+11,1990-11-06,17,Illinois (6-2-0),5,12,,Big Ten
+11,1990-11-06,18,Clemson (8-2-0),18,,,ACC
+11,1990-11-06,19,Michigan (5-3-0),20,1,,Big Ten
+11,1990-11-06,20,Oregon (7-2-0),22,2,,Pac-10
+11,1990-11-06,21,Penn State (6-2-0),24,3,,Ind
+11,1990-11-06,22,Louisville (8-1-1),25,3,,Ind
+11,1990-11-06,23,USC (6-2-1),21,2,,Pac-10
+11,1990-11-06,24,Michigan State (4-3-1),,,,Big Ten
+11,1990-11-06,25,Wyoming (9-1-0),19,6,,WAC
+10,1990-10-30,1,Virginia (7-0-0),1,,44,ACC
+10,1990-10-30,2,Notre Dame (6-1-0),3,1,6,Ind
+10,1990-10-30,3,Nebraska (8-0-0),4,1,5,Big 8
+10,1990-10-30,4,Auburn (6-0-1),2,2,2,SEC
+10,1990-10-30,5,Illinois (6-1-0),5,,,Big Ten
+10,1990-10-30,6,Houston (7-0-0),6,,2,SWC
+10,1990-10-30,7,Washington (7-1-0),7,,1,Pac-10
+10,1990-10-30,8,Miami (FL) (5-2-0),8,,,Ind
+10,1990-10-30,9,Colorado (7-1-1),10,1,,Big 8
+10,1990-10-30,10,BYU (6-1-0),9,1,,WAC
+10,1990-10-30,11,Tennessee (4-1-2),11,,,SEC
+10,1990-10-30,12,Florida State (5-2-0),12,,,Ind
+10,1990-10-30,13,Iowa (6-1-0),15,2,,Big Ten
+10,1990-10-30,14,Texas (5-1-0),13,1,,SWC
+10,1990-10-30,15,Florida (6-1-0),14,1,,SEC
+10,1990-10-30,16,Georgia Tech (6-0-1),16,,,ACC
+10,1990-10-30,17,Ole Miss (7-1-0),17,,,SEC
+10,1990-10-30,18,Clemson (7-2-0),19,1,,ACC
+10,1990-10-30,19,Wyoming (9-0-0),18,1,,WAC
+10,1990-10-30,20,Michigan (4-3-0),20,,,Big Ten
+10,1990-10-30,21,USC (6-2-0),21,,,Pac-10
+10,1990-10-30,22,Oregon (6-2-0),25,3,,Pac-10
+10,1990-10-30,23,Arizona (6-2-0),23,,,Pac-10
+10,1990-10-30,24,Penn State (5-2-0),,,,Ind
+10,1990-10-30,25,Louisville (7-1-1),,,,Ind
+9,1990-10-23,1,Virginia (7-0-0),1,,45,ACC
+9,1990-10-23,2,Auburn (5-0-1),5,3,4,SEC
+9,1990-10-23,3,Notre Dame (5-1-0),6,3,5,Ind
+9,1990-10-23,4,Nebraska (7-0-0),4,,5,Big 8
+9,1990-10-23,5,Illinois (5-1-0),8,3,,Big Ten
+9,1990-10-23,6,Houston (6-0-0),9,3,1,SWC
+9,1990-10-23,7,Washington (6-1-0),13,6,,Pac-10
+9,1990-10-23,8,Miami (FL) (4-2-0),2,6,,Ind
+9,1990-10-23,9,BYU (5-1-0),12,3,,WAC
+9,1990-10-23,10,Colorado (6-1-1),14,4,,Big 8
+9,1990-10-23,11,Tennessee (4-1-2),3,8,,SEC
+9,1990-10-23,12,Florida State (4-2-0),7,5,,Ind
+9,1990-10-23,13,Texas (4-1-0),19,6,,SWC
+9,1990-10-23,14,Florida (6-1-0),17,3,,SEC
+9,1990-10-23,15,Iowa (5-1-0),22,7,,Big Ten
+9,1990-10-23,16,Georgia Tech (5-0-1),11,5,,ACC
+9,1990-10-23,17,Ole Miss (6-1-0),18,1,,SEC
+9,1990-10-23,18,Wyoming (8-0-0),21,3,,WAC
+9,1990-10-23,19,Clemson (6-2-0),22,3,,ACC
+9,1990-10-23,20,Michigan (3-3-0),10,10,,Big Ten
+9,1990-10-23,21,USC (5-2-0),15,6,,Pac-10
+9,1990-10-23,22,Oklahoma (5-2-0),16,6,,Big 8
+9,1990-10-23,23,Arizona (5-2-0),,,,Pac-10
+9,1990-10-23,24,Texas Christian (5-1-0),,,,SWC
+9,1990-10-23,25,Oregon (5-2-0),,,,Pac-10
+8,1990-10-16,1,Virginia (6-0-0),2,1,38,ACC
+8,1990-10-16,2,Miami (FL) (4-1-0),3,1,15,Ind
+8,1990-10-16,3,Tennessee (4-0-2),5,2,2,SEC
+8,1990-10-16,4,Nebraska (6-0-0),7,3,3,Big 8
+8,1990-10-16,5,Auburn (4-0-1),6,1,,SEC
+8,1990-10-16,6,Notre Dame (4-1-0),8,2,1,Ind
+8,1990-10-16,7,Florida State (4-1-0),10,3,,Ind
+8,1990-10-16,8,Illinois (4-1-0),11,3,,Big Ten
+8,1990-10-16,9,Houston (5-0-0),12,3,1,SWC
+8,1990-10-16,10,Michigan (3-2-0),1,9,,Big Ten
+8,1990-10-16,11,Georgia Tech (5-0-0),18,7,,ACC
+8,1990-10-16,12,BYU (5-1-0),13,1,,WAC
+8,1990-10-16,13,Washington (5-1-0),17,4,,Pac-10
+8,1990-10-16,14,Colorado (5-1-1),14,,,Big 8
+8,1990-10-16,15,USC (5-1-0),16,1,,Pac-10
+8,1990-10-16,16,Oklahoma (5-1-0),4,12,,Big 8
+8,1990-10-16,17,Florida (5-1-0),9,8,,SEC
+8,1990-10-16,18,Ole Miss (5-1-0),24,6,,SEC
+8,1990-10-16,19,Texas (3-1-0),,,,SWC
+8,1990-10-16,20,Indiana (4-0-1),22,2,,Big Ten
+8,1990-10-16,21,Wyoming (7-0-0),23,2,,WAC
+8,1990-10-16,22,Clemson (5-2-0),15,7,,ACC
+8,1990-10-16,22,Iowa (4-1-0),25,3,,Big Ten
+8,1990-10-16,24,Michigan State (2-2-1),,,,Big Ten
+8,1990-10-16,25,Texas A&M (4-2-0),20,5,,SWC
+7,1990-10-09,1,Michigan (3-1-0),3,2,34,Big Ten
+7,1990-10-09,2,Virginia (5-0-0),4,2,14,ACC
+7,1990-10-09,3,Miami (FL) (3-1-0),9,6,6,Ind
+7,1990-10-09,4,Oklahoma (5-0-0),7,3,1,Big 8
+7,1990-10-09,5,Tennessee (3-0-2),6,1,1,SEC
+7,1990-10-09,6,Auburn (3-0-1),5,1,,SEC
+7,1990-10-09,7,Nebraska (5-0-0),8,1,2,Big 8
+7,1990-10-09,8,Notre Dame (3-1-0),1,7,,Ind
+7,1990-10-09,9,Florida (5-0-0),10,1,1,SEC
+7,1990-10-09,10,Florida State (4-1-0),2,8,,Ind
+7,1990-10-09,11,Illinois (3-1-0),13,2,,Big Ten
+7,1990-10-09,12,Houston (4-0-0),13,1,1,SWC
+7,1990-10-09,13,BYU (4-1-0),11,2,,WAC
+7,1990-10-09,14,Colorado (4-1-1),12,2,,Big 8
+7,1990-10-09,15,Clemson (5-1-0),16,1,,ACC
+7,1990-10-09,16,USC (4-1-0),15,1,,Pac-10
+7,1990-10-09,17,Washington (4-1-0),17,,,Pac-10
+7,1990-10-09,18,Georgia Tech (4-0-0),23,5,,ACC
+7,1990-10-09,19,Oregon (4-1-0),22,3,,Pac-10
+7,1990-10-09,20,Texas A&M (4-1-0),19,1,,SWC
+7,1990-10-09,21,Arizona (4-1-0),25,4,,Pac-10
+7,1990-10-09,22,Indiana (4-0-0),,,,Big Ten
+7,1990-10-09,23,Wyoming (6-0-0),,,,WAC
+7,1990-10-09,24,Ole Miss (4-1-0),,,,SEC
+7,1990-10-09,25,Iowa (3-1-0),,,,Big Ten
+6,1990-10-02,1,Notre Dame (3-0-0),1,,48,Ind
+6,1990-10-02,2,Florida State (4-0-0),2,,10,Ind
+6,1990-10-02,3,Michigan (2-1-0),6,3,,Big Ten
+6,1990-10-02,4,Virginia (5-0-0),7,3,1,ACC
+6,1990-10-02,5,Auburn (2-0-1),3,2,,SEC
+6,1990-10-02,6,Tennessee (3-0-2),5,1,,SEC
+6,1990-10-02,7,Oklahoma (4-0-0),9,2,,Big 8
+6,1990-10-02,8,Nebraska (4-0-0),8,,,Big 8
+6,1990-10-02,9,Miami (FL) (2-1-0),10,1,,Ind
+6,1990-10-02,10,Florida (4-0-0),17,7,,SEC
+6,1990-10-02,11,BYU (4-1-0),4,7,,WAC
+6,1990-10-02,12,Colorado (3-1-1),20,8,,Big 8
+6,1990-10-02,13,Houston (3-0-0),13,,,SWC
+6,1990-10-02,13,Illinois (2-1-0),14,1,,Big Ten
+6,1990-10-02,15,USC (3-1-0),18,3,,Pac-10
+6,1990-10-02,16,Clemson (4-1-0),19,3,,ACC
+6,1990-10-02,17,Washington (3-1-0),12,5,,Pac-10
+6,1990-10-02,18,Michigan State (1-1-1),22,4,,Big Ten
+6,1990-10-02,19,Texas A&M (3-1-0),11,8,,SWC
+6,1990-10-02,20,Ohio State (2-1-0),15,5,,Big Ten
+6,1990-10-02,21,Arkansas (2-1-0),23,2,,SWC
+6,1990-10-02,22,Oregon (3-1-0),,,,Pac-10
+6,1990-10-02,23,Georgia Tech (3-0-0),,,,ACC
+6,1990-10-02,24,Fresno State (5-0-0),24,,,Big West
+6,1990-10-02,25,Arizona (3-1-0),16,9,,Pac-10
+5,1990-09-25,1,Notre Dame (2-0-0),1,,43,Ind
+5,1990-09-25,2,Florida State (3-0-0),2,,11,Ind
+5,1990-09-25,3,Auburn (2-0-0),3,,3,SEC
+5,1990-09-25,4,BYU (4-0-0),4,,3,WAC
+5,1990-09-25,5,Tennessee (3-0-1),6,1,,SEC
+5,1990-09-25,6,Michigan (1-1-0),7,1,,Big Ten
+5,1990-09-25,7,Virginia (4-0-0),10,3,,ACC
+5,1990-09-25,8,Nebraska (3-0-0),8,,,Big 8
+5,1990-09-25,9,Oklahoma (3-0-0),11,2,,Big 8
+5,1990-09-25,10,Miami (FL) (1-1-0),9,1,,Ind
+5,1990-09-25,11,Texas A&M (3-0-0),12,1,,SWC
+5,1990-09-25,12,Washington (3-0-0),21,9,,Pac-10
+5,1990-09-25,13,Houston (2-0-0),14,1,,SWC
+5,1990-09-25,14,Illinois (2-1-0),15,1,,Big Ten
+5,1990-09-25,15,Ohio State (2-0-0),16,1,,Big Ten
+5,1990-09-25,16,Arizona (3-0-0),18,2,,Pac-10
+5,1990-09-25,17,Florida (3-0-0),19,2,,SEC
+5,1990-09-25,18,USC (2-1-0),5,13,,Pac-10
+5,1990-09-25,19,Clemson (3-1-0),17,2,,ACC
+5,1990-09-25,20,Colorado (2-1-1),20,,,Big 8
+5,1990-09-25,21,Arizona State (2-0-0),23,2,,Pac-10
+5,1990-09-25,22,Michigan State (0-1-1),24,2,,Big Ten
+5,1990-09-25,23,Arkansas (1-1-0),13,10,,SWC
+5,1990-09-25,24,Fresno State (4-0-0),,,,Big West
+5,1990-09-25,25,South Carolina (3-0-0),,,,Ind
+4,1990-09-18,1,Notre Dame (1-0-0),1,,44,Ind
+4,1990-09-18,2,Florida State (2-0-0),3,1,10,Ind
+4,1990-09-18,3,Auburn (2-0-0),2,1,4,SEC
+4,1990-09-18,4,BYU (3-0-0),5,1,2,WAC
+4,1990-09-18,5,USC (2-0-0),6,1,,Pac-10
+4,1990-09-18,6,Tennessee (3-0-1),7,1,,SEC
+4,1990-09-18,7,Michigan (0-1-0),4,3,,Big Ten
+4,1990-09-18,8,Nebraska (2-0-0),8,,,Big 8
+4,1990-09-18,9,Miami (FL) (1-1-0),10,1,,Ind
+4,1990-09-18,10,Virginia (3-0-0),11,1,,ACC
+4,1990-09-18,11,Oklahoma (2-0-0),14,3,,Big 8
+4,1990-09-18,12,Texas A&M (2-0-0),12,,,SWC
+4,1990-09-18,13,Arkansas (1-0-0),15,2,,SWC
+4,1990-09-18,14,Houston (2-0-0),18,4,,SWC
+4,1990-09-18,15,Illinois (1-1-0),21,6,,Big Ten
+4,1990-09-18,16,Ohio State (2-0-0),17,1,,Big Ten
+4,1990-09-18,17,Clemson (2-1-0),16,1,,ACC
+4,1990-09-18,18,Arizona (2-0-0),20,2,,Pac-10
+4,1990-09-18,19,Florida (2-0-0),24,5,,SEC
+4,1990-09-18,20,Colorado (1-1-1),9,11,,Big 8
+4,1990-09-18,21,Washington (2-0-0),22,1,,Pac-10
+4,1990-09-18,22,Texas (1-0-0),23,1,,SWC
+4,1990-09-18,23,Arizona State (2-0-0),25,2,,Pac-10
+4,1990-09-18,24,Michigan State (0-0-1),19,5,,Big Ten
+4,1990-09-18,25,Pitt (2-1-0),13,12,,Ind
+3,1990-09-11,1,Notre Dame,2,1,37,Ind
+3,1990-09-11,2,Auburn (1-0-0),3,1,8,SEC
+3,1990-09-11,3,Florida State (1-0-0),3,,11,Ind
+3,1990-09-11,4,Michigan,5,1,7,Big Ten
+3,1990-09-11,5,BYU (2-0-0),16,11,3,WAC
+3,1990-09-11,6,USC (1-0-0),7,1,,Pac-10
+3,1990-09-11,7,Tennessee (2-0-1),8,1,,SEC
+3,1990-09-11,8,Nebraska (2-0-0),10,2,1,Big 8
+3,1990-09-11,9,Colorado (1-0-1),6,3,,Big 8
+3,1990-09-11,10,Miami (FL) (0-1-0),1,9,,Ind
+3,1990-09-11,11,Virginia (2-0-0),14,3,,ACC
+3,1990-09-11,12,Texas A&M (1-0-0),12,,,SWC
+3,1990-09-11,13,Pitt (2-0-0),17,4,,Ind
+3,1990-09-11,14,Oklahoma (1-0-0),23,9,,Big 8
+3,1990-09-11,15,Arkansas,15,,,SWC
+3,1990-09-11,16,Clemson (1-1-0),9,7,,ACC
+3,1990-09-11,17,Ohio State (1-0-0),18,1,,Big Ten
+3,1990-09-11,18,Houston (1-0-0),24,6,,SWC
+3,1990-09-11,19,Michigan State,22,3,,Big Ten
+3,1990-09-11,20,Arizona (1-0-0),,,,Pac-10
+3,1990-09-11,21,Illinois (0-1-0),11,10,,Big Ten
+3,1990-09-11,22,Washington (1-0-0),20,2,,Pac-10
+3,1990-09-11,23,Texas (1-0-0),,,,SWC
+3,1990-09-11,24,Florida (1-0-0),,,,SEC
+3,1990-09-11,25,Arizona State (1-0-0),,,,Pac-10
+2,1990-09-04,1,Miami (FL),1,,27,Ind
+2,1990-09-04,2,Notre Dame,2,,20,Ind
+2,1990-09-04,3,Auburn,3,,4,SEC
+2,1990-09-04,3,Florida State,4,1,7,Ind
+2,1990-09-04,5,Michigan,6,1,,Big Ten
+2,1990-09-04,6,Colorado (0-0-1),5,1,,Big 8
+2,1990-09-04,7,USC (1-0-0),9,2,,Pac-10
+2,1990-09-04,8,Tennessee (1-0-1),8,,1,SEC
+2,1990-09-04,9,Clemson (1-0-0),10,1,,ACC
+2,1990-09-04,10,Nebraska (1-0-0),7,3,1,Big 8
+2,1990-09-04,11,Illinois,11,,,Big Ten
+2,1990-09-04,12,Texas A&M (1-0-0),13,1,,SWC
+2,1990-09-04,13,Alabama,12,1,,SEC
+2,1990-09-04,14,Virginia (1-0-0),15,1,,ACC
+2,1990-09-04,15,Arkansas,14,1,,SWC
+2,1990-09-04,16,BYU (1-0-0),16,,,WAC
+2,1990-09-04,17,Pitt (1-0-0),18,1,,Ind
+2,1990-09-04,18,Ohio State,17,1,,Big Ten
+2,1990-09-04,19,UCLA,19,,,Pac-10
+2,1990-09-04,20,Washington,20,,,Pac-10
+2,1990-09-04,21,Penn State,21,,,Ind
+2,1990-09-04,22,Michigan State,23,1,1,Big Ten
+2,1990-09-04,23,Oklahoma,22,1,,Big 8
+2,1990-09-04,24,Houston,24,,,SWC
+2,1990-09-04,25,West Virginia (1-0-0),25,,,Ind
+1,Preseason,1,Miami (FL),NA,—,24,Ind
+1,Preseason,2,Notre Dame,NA,—,22,Ind
+1,Preseason,3,Auburn,NA,—,3,SEC
+1,Preseason,4,Florida State,NA,—,6,Ind
+1,Preseason,5,Colorado,NA,—,4,Big 8
+1,Preseason,6,Michigan,NA,—,,Big Ten
+1,Preseason,7,Nebraska,NA,—,,Big 8
+1,Preseason,8,Tennessee,NA,—,,SEC
+1,Preseason,9,USC,NA,—,,Pac-10
+1,Preseason,10,Clemson,NA,—,,ACC
+1,Preseason,11,Illinois,NA,—,,Big Ten
+1,Preseason,12,Alabama,NA,—,,SEC
+1,Preseason,13,Texas A&M,NA,—,,SWC
+1,Preseason,14,Arkansas,NA,—,,SWC
+1,Preseason,15,Virginia,NA,—,,ACC
+1,Preseason,16,BYU,NA,—,,WAC
+1,Preseason,17,Ohio State,NA,—,,Big Ten
+1,Preseason,18,Pitt,NA,—,,Ind
+1,Preseason,19,UCLA,NA,—,,Pac-10
+1,Preseason,20,Washington,NA,—,,Pac-10
+1,Preseason,21,Penn State,NA,—,,Ind
+1,Preseason,22,Oklahoma,NA,—,,Big 8
+1,Preseason,23,Michigan State,NA,—,1,Big Ten
+1,Preseason,24,Houston,NA,—,,SWC
+1,Preseason,25,West Virginia,NA,—,,Ind

@@ -1,0 +1,401 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+16,Final,1,Tennessee,1,,70,SEC (East)
+16,Final,2,Ohio State,3,1,,Big Ten
+16,Final,3,Florida State,2,1,,ACC
+16,Final,4,Arizona,5,1,,Pac-10
+16,Final,5,Florida,7,2,,SEC (East)
+16,Final,6,Wisconsin,9,3,,Big Ten
+16,Final,7,Tulane,10,3,,CUSA
+16,Final,8,UCLA,6,2,,Pac-10
+16,Final,9,Georgia Tech,12,3,,ACC
+16,Final,10,Kansas State,4,6,,Big 12 (North)
+16,Final,11,Texas A&M,8,3,,Big 12 (South)
+16,Final,12,Michigan,15,3,,Big Ten
+16,Final,13,Air Force,16,3,,WAC (Mountain)
+16,Final,14,Georgia,19,5,,SEC (East)
+16,Final,15,Texas,20,5,,Big 12 (South)
+16,Final,16,Arkansas,11,5,,SEC (West)
+16,Final,17,Penn State,22,5,,Big Ten
+16,Final,18,Virginia,13,5,,ACC
+16,Final,19,Nebraska,14,5,,Big 12 (North)
+16,Final,20,Miami (FL),24,4,,Big East
+16,Final,21,Missouri,23,2,,Big 12 (North)
+16,Final,22,Notre Dame,17,5,,Ind
+16,Final,23,Virginia Tech,,,,Big East
+16,Final,24,Purdue,,,,Big Ten
+16,Final,25,Syracuse,18,7,,Big East
+15,1998-12-07,1,Tennessee (12-0),1,,70,SEC (East)
+15,1998-12-07,2,Florida State (11-1),4,2,,ACC
+15,1998-12-07,3,Ohio State (10-1),5,2,,Big Ten
+15,1998-12-07,4,Kansas State (11-1),2,2,,Big 12 (North)
+15,1998-12-07,5,Arizona (11-1),6,1,,Pac-10
+15,1998-12-07,6,UCLA (10-1),3,3,,Pac-10
+15,1998-12-07,7,Florida (9-2),7,,,SEC (East)
+15,1998-12-07,8,Texas A&M (11-2),10,2,,Big 12 (South)
+15,1998-12-07,9,Wisconsin (10-1),8,1,,Big Ten
+15,1998-12-07,10,Tulane (11-0),9,1,,CUSA
+15,1998-12-07,11,Arkansas (9-2),11,,,SEC (West)
+15,1998-12-07,12,Georgia Tech (9-2),12,,,ACC
+15,1998-12-07,13,Virginia (9-2),14,1,,ACC
+15,1998-12-07,14,Nebraska (9-3),13,1,,Big 12 (North)
+15,1998-12-07,15,Michigan (9-3),15,,,Big Ten
+15,1998-12-07,16,Air Force (11-1),17,1,,WAC (Mountain)
+15,1998-12-07,17,Notre Dame (9-2),16,1,,Ind
+15,1998-12-07,18,Syracuse (8-3),18,,,Big East
+15,1998-12-07,19,Georgia (8-3),19,,,SEC (East)
+15,1998-12-07,20,Texas (8-3),20,,,Big 12 (South)
+15,1998-12-07,21,Oregon (8-3),21,,,Pac-10
+15,1998-12-07,22,Penn State (8-3),22,,,Big Ten
+15,1998-12-07,23,Missouri (7-4),24,1,,Big 12 (North)
+15,1998-12-07,24,Miami (FL) (8-3),,,,Big East
+15,1998-12-07,25,Mississippi State (8-4),23,2,,SEC (West)
+14,1998-11-30,1,Tennessee (11-0),1,,41,SEC (East)
+14,1998-11-30,2,Kansas State (11-0),2,,24,Big 12 (North)
+14,1998-11-30,3,UCLA (10-0),3,,3,Pac-10
+14,1998-11-30,4,Florida State (11-1),4,,,ACC
+14,1998-11-30,5,Ohio State (10-1),5,,,Big Ten
+14,1998-11-30,6,Arizona (11-1),7,1,,Pac-10
+14,1998-11-30,7,Florida (9-2),8,1,,SEC (East)
+14,1998-11-30,8,Wisconsin (10-1),10,2,,Big Ten
+14,1998-11-30,9,Tulane (11-0),11,2,,CUSA
+14,1998-11-30,10,Texas A&M (10-2),6,4,,Big 12 (South)
+14,1998-11-30,11,Arkansas (9-2),13,2,,SEC (West)
+14,1998-11-30,12,Georgia Tech (9-2),17,5,,ACC
+14,1998-11-30,13,Nebraska (9-3),14,1,,Big 12 (North)
+14,1998-11-30,14,Virginia (9-2),16,2,,ACC
+14,1998-11-30,15,Michigan (9-3),15,,,Big Ten
+14,1998-11-30,16,Notre Dame (9-2),9,7,,Ind
+14,1998-11-30,17,Air Force (10-1),18,1,,WAC (Mountain)
+14,1998-11-30,18,Syracuse (8-3),21,3,,Big East
+14,1998-11-30,19,Georgia (8-3),12,7,,SEC (East)
+14,1998-11-30,20,Texas (8-3),,,,Big 12 (South)
+14,1998-11-30,21,Oregon (8-3),22,1,,Pac-10
+14,1998-11-30,22,Penn State (8-3),23,1,,Big Ten
+14,1998-11-30,23,Mississippi State (8-3),25,2,,SEC (West)
+14,1998-11-30,24,Missouri (7-4),24,,,Big 12 (North)
+14,1998-11-30,25,Virginia Tech (8-3),20,5,,Big East
+13,1998-11-23,1,Tennessee (10-0),1,,42,SEC (East)
+13,1998-11-23,2,Kansas State (11-0),2,,24,Big 12 (North)
+13,1998-11-23,3,UCLA (10-0),3,,4,Pac-10
+13,1998-11-23,4,Florida State (11-1),5,1,,ACC
+13,1998-11-23,5,Ohio State (10-1),7,2,,Big Ten
+13,1998-11-23,6,Texas A&M (10-1),6,,,Big 12 (South)
+13,1998-11-23,7,Arizona (10-1),8,1,,Pac-10
+13,1998-11-23,8,Florida (9-2),4,4,,SEC (East)
+13,1998-11-23,9,Notre Dame (9-1),10,1,,Ind
+13,1998-11-23,10,Wisconsin (10-1),13,3,,Big Ten
+13,1998-11-23,11,Tulane (10-0),12,1,,CUSA
+13,1998-11-23,12,Georgia (8-2),14,2,,SEC (East)
+13,1998-11-23,13,Arkansas (8-2),9,4,,SEC (West)
+13,1998-11-23,14,Nebraska (8-3),17,3,,Big 12 (North)
+13,1998-11-23,15,Michigan (8-3),11,4,,Big Ten
+13,1998-11-23,16,Virginia (8-2),18,2,,ACC
+13,1998-11-23,17,Georgia Tech (8-2),21,4,,ACC
+13,1998-11-23,18,Air Force (10-1),20,2,,WAC (Mountain)
+13,1998-11-23,19,Miami (FL) (7-2),22,3,,Big East
+13,1998-11-23,20,Virginia Tech (8-2),23,3,,Big East
+13,1998-11-23,21,Syracuse (7-3),24,3,,Big East
+13,1998-11-23,22,Oregon (8-3),15,7,,Pac-10
+13,1998-11-23,23,Penn State (7-3),16,7,,Big Ten
+13,1998-11-23,24,Missouri (7-4),19,5,,Big 12 (North)
+13,1998-11-23,25,Mississippi State (7-3),,,,SEC (West)
+12,1998-11-16,1,Tennessee (9-0),1,,37,SEC (East)
+12,1998-11-16,2,Kansas State (10-0),2,,29,Big 12 (North)
+12,1998-11-16,3,UCLA (9-0),3,,4,Pac-10
+12,1998-11-16,4,Florida (9-1),4,,,SEC (East)
+12,1998-11-16,5,Florida State (10-1),5,,,ACC
+12,1998-11-16,6,Texas A&M (10-1),6,,,Big 12 (South)
+12,1998-11-16,7,Ohio State (9-1),7,,,Big Ten
+12,1998-11-16,8,Arizona (10-1),9,1,,Pac-10
+12,1998-11-16,9,Arkansas (8-1),10,1,,SEC (West)
+12,1998-11-16,10,Notre Dame (8-1),12,2,,Ind
+12,1998-11-16,11,Michigan (8-2),15,4,,Big Ten
+12,1998-11-16,12,Tulane (9-0),14,2,,CUSA
+12,1998-11-16,13,Wisconsin (9-1),8,5,,Big Ten
+12,1998-11-16,14,Georgia (7-2),17,3,,SEC (East)
+12,1998-11-16,15,Oregon (8-2),20,5,,Pac-10
+12,1998-11-16,16,Penn State (7-2),19,3,,Big Ten
+12,1998-11-16,17,Nebraska (8-3),11,6,,Big 12 (North)
+12,1998-11-16,18,Virginia (8-2),21,3,,ACC
+12,1998-11-16,19,Missouri (7-3),13,6,,Big 12 (North)
+12,1998-11-16,20,Air Force (9-1),23,3,,WAC (Mountain)
+12,1998-11-16,21,Georgia Tech (7-2),22,1,,ACC
+12,1998-11-16,22,Miami (FL) (6-2),24,2,,Big East
+12,1998-11-16,23,Virginia Tech (7-2),16,7,,Big East
+12,1998-11-16,24,Syracuse (6-3),,,,Big East
+12,1998-11-16,25,Texas (7-3),18,7,,Big 12 (South)
+11,1998-11-09,1,Tennessee (8-0),2,1,46,SEC (East)
+11,1998-11-09,2,Kansas State (9-0),4,2,19,Big 12 (North)
+11,1998-11-09,3,UCLA (8-0),3,,4,Pac-10
+11,1998-11-09,4,Florida (8-1),5,1,,SEC (East)
+11,1998-11-09,5,Florida State (9-1),6,1,1,ACC
+11,1998-11-09,6,Texas A&M (9-1),7,1,,Big 12 (South)
+11,1998-11-09,7,Ohio State (8-1),1,6,,Big Ten
+11,1998-11-09,8,Wisconsin (9-0),8,,,Big Ten
+11,1998-11-09,9,Arizona (9-1),10,1,,Pac-10
+11,1998-11-09,10,Arkansas (8-0),11,1,,SEC (West)
+11,1998-11-09,11,Nebraska (8-2),14,3,,Big 12 (North)
+11,1998-11-09,12,Notre Dame (7-1),13,1,,Ind
+11,1998-11-09,13,Missouri (7-2),18,5,,Big 12 (North)
+11,1998-11-09,14,Tulane (8-0),15,1,,CUSA
+11,1998-11-09,15,Michigan (7-2),22,7,,Big Ten
+11,1998-11-09,16,Virginia Tech (7-1),15,1,,Big East
+11,1998-11-09,17,Georgia (6-2),19,2,,SEC (East)
+11,1998-11-09,18,Texas (7-2),20,2,,Big 12 (South)
+11,1998-11-09,19,Penn State (6-2),9,10,,Big Ten
+11,1998-11-09,20,Oregon (7-2),21,1,,Pac-10
+11,1998-11-09,21,Virginia (7-2),12,9,,ACC
+11,1998-11-09,22,Georgia Tech (6-2),23,1,,ACC
+11,1998-11-09,23,Air Force (8-1),25,2,,WAC (Mountain)
+11,1998-11-09,24,Miami (FL) (5-2),24,,,Big East
+11,1998-11-09,25,Wyoming (8-1),,,,WAC (Mountain)
+10,1998-11-02,1,Ohio State (8-0),1,,63,Big Ten
+10,1998-11-02,2,Tennessee (7-0),3,1,3,SEC (East)
+10,1998-11-02,3,UCLA (7-0),2,1,1,Pac-10
+10,1998-11-02,4,Kansas State (8-0),4,,3,Big 12 (North)
+10,1998-11-02,5,Florida (7-1),6,1,,SEC (East)
+10,1998-11-02,6,Florida State (8-1),5,1,,ACC
+10,1998-11-02,7,Texas A&M (8-1),8,1,,Big 12 (South)
+10,1998-11-02,8,Wisconsin (8-0),9,1,,Big Ten
+10,1998-11-02,9,Penn State (6-1),10,1,,Big Ten
+10,1998-11-02,10,Arizona (8-1),13,3,,Pac-10
+10,1998-11-02,11,Arkansas (7-0),14,3,,SEC (West)
+10,1998-11-02,12,Virginia (7-1),15,3,,ACC
+10,1998-11-02,13,Notre Dame (6-1),16,3,,Ind
+10,1998-11-02,14,Nebraska (7-2),7,7,,Big 12 (North)
+10,1998-11-02,15,Syracuse (5-2),17,2,,Big East
+10,1998-11-02,15,Tulane (7-0),19,4,,CUSA
+10,1998-11-02,15,Virginia Tech (7-1),20,5,,Big East
+10,1998-11-02,18,Missouri (6-2),18,,,Big 12 (North)
+10,1998-11-02,19,Georgia (6-2),11,8,,SEC (East)
+10,1998-11-02,20,Texas (6-2),,,,Big 12 (South)
+10,1998-11-02,21,Oregon (6-2),12,9,,Pac-10
+10,1998-11-02,22,Michigan (6-2),22,,,Big Ten
+10,1998-11-02,23,Georgia Tech (6-2),23,,,ACC
+10,1998-11-02,24,Miami (FL) (5-2),25,1,,Big East
+10,1998-11-02,25,Air Force (7-1),,,,WAC (Mountain)
+9,1998-10-26,1,Ohio State (7-0),1,,64,Big Ten
+9,1998-10-26,2,UCLA (6-0),2,,1,Pac-10
+9,1998-10-26,3,Tennessee (6-0),3,,3,SEC (East)
+9,1998-10-26,4,Kansas State (7-0),4,,2,Big 12 (North)
+9,1998-10-26,5,Florida State (7-1),6,1,,ACC
+9,1998-10-26,6,Florida (6-1),5,1,,SEC (East)
+9,1998-10-26,7,Nebraska (7-1),7,,,Big 12 (North)
+9,1998-10-26,8,Texas A&M (7-1),8,,,Big 12 (South)
+9,1998-10-26,9,Wisconsin (8-0),9,,,Big Ten
+9,1998-10-26,10,Penn State (5-1),10,,,Big Ten
+9,1998-10-26,11,Georgia (6-1),11,,,SEC (East)
+9,1998-10-26,12,Oregon (6-1),12,,,Pac-10
+9,1998-10-26,13,Arizona (7-1),14,1,,Pac-10
+9,1998-10-26,14,Arkansas (6-0),15,1,,SEC (West)
+9,1998-10-26,15,Virginia (6-1),16,1,,ACC
+9,1998-10-26,16,Notre Dame (5-1),18,2,,Ind
+9,1998-10-26,17,Syracuse (4-2),21,4,,Big East
+9,1998-10-26,18,Missouri (5-2),19,1,,Big 12 (North)
+9,1998-10-26,19,Tulane (6-0),22,3,,CUSA
+9,1998-10-26,20,Virginia Tech (6-1),23,3,,Big East
+9,1998-10-26,21,West Virginia (4-2),13,8,,Big East
+9,1998-10-26,22,Michigan (5-2),,,,Big Ten
+9,1998-10-26,23,Georgia Tech (5-2),20,3,,ACC
+9,1998-10-26,24,Colorado (6-2),17,7,,Big 12 (North)
+9,1998-10-26,25,Miami (FL) (4-2),,,,Big East
+8,1998-10-19,1,Ohio State (6-0),1,,64,Big Ten
+8,1998-10-19,2,UCLA (5-0),2,,1,Pac-10
+8,1998-10-19,3,Tennessee (5-0),3,,3,SEC (East)
+8,1998-10-19,4,Kansas State (6-0),4,,2,Big 12 (North)
+8,1998-10-19,5,Florida (6-1),5,,,SEC (East)
+8,1998-10-19,6,Florida State (6-1),6,,,ACC
+8,1998-10-19,7,Nebraska (6-1),8,1,,Big 12 (North)
+8,1998-10-19,8,Texas A&M (6-1),10,2,,Big 12 (South)
+8,1998-10-19,9,Wisconsin (7-0),9,,,Big Ten
+8,1998-10-19,10,Penn State (5-1),12,2,,Big Ten
+8,1998-10-19,11,Georgia (5-1),13,2,,SEC (East)
+8,1998-10-19,12,Oregon (5-1),11,1,,Pac-10
+8,1998-10-19,13,West Virginia (4-1),15,2,,Big East
+8,1998-10-19,14,Arizona (6-1),16,2,,Pac-10
+8,1998-10-19,15,Arkansas (6-0),17,2,,SEC (West)
+8,1998-10-19,16,Virginia (5-1),7,9,,ACC
+8,1998-10-19,17,Colorado (6-1),19,2,,Big 12 (North)
+8,1998-10-19,18,Notre Dame (4-1),18,,,Ind
+8,1998-10-19,19,Missouri (5-1),20,1,,Big 12 (North)
+8,1998-10-19,20,Georgia Tech (5-1),25,5,,ACC
+8,1998-10-19,21,Syracuse (4-2),23,2,,Big East
+8,1998-10-19,22,Tulane (5-0),24,2,,CUSA
+8,1998-10-19,23,Virginia Tech (5-1),14,9,,Big East
+8,1998-10-19,24,Mississippi State (5-1),,,,SEC (West)
+8,1998-10-19,25,Texas Tech (6-1),22,3,,Big 12 (South)
+7,1998-10-12,1,Ohio State (5-0),1,,64,Big Ten
+7,1998-10-12,2,UCLA (4-0),3,1,1,Pac-10
+7,1998-10-12,3,Tennessee (5-0),4,1,3,SEC (East)
+7,1998-10-12,4,Kansas State (5-0),5,1,2,Big 12 (North)
+7,1998-10-12,5,Florida (5-1),6,1,,SEC (East)
+7,1998-10-12,6,Florida State (5-1),8,2,,ACC
+7,1998-10-12,7,Virginia (5-0),9,2,,ACC
+7,1998-10-12,8,Nebraska (5-1),2,6,,Big 12 (North)
+7,1998-10-12,9,Wisconsin (6-0),12,3,,Big Ten
+7,1998-10-12,10,Texas A&M (5-1),18,8,,Big 12 (South)
+7,1998-10-12,11,Oregon (5-0),15,4,,Pac-10
+7,1998-10-12,12,Penn State (4-1),13,1,,Big Ten
+7,1998-10-12,13,Georgia (4-1),7,6,,SEC (East)
+7,1998-10-12,14,Virginia Tech (5-0),17,3,,Big East
+7,1998-10-12,15,West Virginia (4-1),16,1,,Big East
+7,1998-10-12,16,Arizona (5-1),10,6,,Pac-10
+7,1998-10-12,17,Arkansas (5-0),20,3,,SEC (West)
+7,1998-10-12,18,Notre Dame (4-1),22,4,,Ind
+7,1998-10-12,19,Colorado (5-1),14,5,,Big 12 (North)
+7,1998-10-12,20,Missouri (4-1),21,1,,Big 12 (North)
+7,1998-10-12,21,LSU (3-2),11,10,,SEC (West)
+7,1998-10-12,22,Texas Tech (6-0),,,,Big 12 (South)
+7,1998-10-12,23,Syracuse (3-2),24,1,,Big East
+7,1998-10-12,24,Tulane (4-0),25,1,,CUSA
+7,1998-10-12,25,Georgia Tech (4-1),,,,ACC
+6,1998-10-05,1,Ohio State (4-0),1,,66,Big Ten
+6,1998-10-05,2,Nebraska (5-0),2,,1,Big 12 (North)
+6,1998-10-05,3,UCLA (3-0),4,1,1,Pac-10
+6,1998-10-05,4,Tennessee (4-0),3,1,,SEC (East)
+6,1998-10-05,5,Kansas State (4-0),5,,2,Big 12 (North)
+6,1998-10-05,6,Florida (4-1),8,2,,SEC (East)
+6,1998-10-05,7,Georgia (4-0),12,5,,SEC (East)
+6,1998-10-05,8,Florida State (4-1),9,1,,ACC
+6,1998-10-05,9,Virginia (5-0),10,1,,ACC
+6,1998-10-05,10,Arizona (5-0),14,4,,Pac-10
+6,1998-10-05,11,LSU (3-1),6,5,,SEC (West)
+6,1998-10-05,12,Wisconsin (5-0),13,1,,Big Ten
+6,1998-10-05,13,Penn State (3-1),7,6,,Big Ten
+6,1998-10-05,14,Colorado (5-0),15,1,,Big 12 (North)
+6,1998-10-05,15,Oregon (4-0),17,2,,Pac-10
+6,1998-10-05,16,West Virginia (3-1),16,,,Big East
+6,1998-10-05,17,Virginia Tech (4-0),19,2,,Big East
+6,1998-10-05,18,Texas A&M (4-1),18,,,Big 12 (South)
+6,1998-10-05,19,USC (4-1),21,2,,Pac-10
+6,1998-10-05,20,Arkansas (4-0),22,2,,SEC (West)
+6,1998-10-05,21,Missouri (3-1),23,2,,Big 12 (North)
+6,1998-10-05,22,Notre Dame (3-1),23,1,,Ind
+6,1998-10-05,23,North Carolina State (3-1),,,,ACC
+6,1998-10-05,24,Syracuse (2-2),11,13,,Big East
+6,1998-10-05,25,Tulane (4-0),,,,CUSA
+5,1998-09-28,1,Ohio State (3-0),1,,58,Big Ten
+5,1998-09-28,2,Nebraska (4-0),2,,7,Big 12 (North)
+5,1998-09-28,3,Tennessee (3-0),4,1,2,SEC (East)
+5,1998-09-28,4,UCLA (2-0),3,1,1,Pac-10
+5,1998-09-28,5,Kansas State (4-0),5,,2,Big 12 (North)
+5,1998-09-28,6,LSU (3-0),6,,,SEC (West)
+5,1998-09-28,7,Penn State (3-0),7,,,Big Ten
+5,1998-09-28,8,Florida (3-1),8,,,SEC (East)
+5,1998-09-28,9,Florida State (3-1),10,1,,ACC
+5,1998-09-28,10,Virginia (4-0),11,1,,ACC
+5,1998-09-28,11,Syracuse (2-1),12,1,,Big East
+5,1998-09-28,12,Georgia (3-0),13,1,,SEC (East)
+5,1998-09-28,13,Wisconsin (4-0),14,1,,Big Ten
+5,1998-09-28,14,Arizona (4-0),16,2,,Pac-10
+5,1998-09-28,15,Colorado (4-0),15,,,Big 12 (North)
+5,1998-09-28,16,West Virginia (2-1),19,3,,Big East
+5,1998-09-28,17,Oregon (4-0),20,3,,Pac-10
+5,1998-09-28,18,Texas A&M (3-1),17,1,,Big 12 (South)
+5,1998-09-28,19,Virginia Tech (4-0),21,2,,Big East
+5,1998-09-28,20,Washington (2-1),9,11,,Pac-10
+5,1998-09-28,21,USC (3-1),18,3,,Pac-10
+5,1998-09-28,22,Arkansas (3-0),,,,SEC (West)
+5,1998-09-28,23,Missouri (2-1),25,2,,Big 12 (North)
+5,1998-09-28,23,Notre Dame (2-1),23,,,Ind
+5,1998-09-28,25,Michigan (2-2),,,,Big Ten
+4,1998-09-21,1,Ohio State (3-0),1,,64,Big Ten
+4,1998-09-21,2,Nebraska (3-0),3,1,1,Big 12 (North)
+4,1998-09-21,3,UCLA (2-0),4,1,1,Pac-10
+4,1998-09-21,4,Tennessee (2-0),6,2,2,SEC (East)
+4,1998-09-21,5,Kansas State (3-0),5,,2,Big 12 (North)
+4,1998-09-21,6,LSU (2-0),7,1,,SEC (West)
+4,1998-09-21,7,Penn State (3-0),8,1,,Big Ten
+4,1998-09-21,8,Florida (2-1),2,6,,SEC (East)
+4,1998-09-21,9,Washington (2-0),9,,,Pac-10
+4,1998-09-21,10,Florida State (2-1),11,1,,ACC
+4,1998-09-21,11,Virginia (3-0),10,1,,ACC
+4,1998-09-21,12,Syracuse (2-1),13,1,,Big East
+4,1998-09-21,13,Georgia (3-0),12,1,,SEC (East)
+4,1998-09-21,14,Wisconsin (3-0),14,,,Big Ten
+4,1998-09-21,15,Colorado (3-0),15,,,Big 12 (North)
+4,1998-09-21,16,Arizona (3-0),16,,,Pac-10
+4,1998-09-21,17,Texas A&M (2-1),17,,,Big 12 (South)
+4,1998-09-21,18,USC (3-0),18,,,Pac-10
+4,1998-09-21,19,West Virginia (1-1),19,,,Big East
+4,1998-09-21,20,Oregon (3-0),22,2,,Pac-10
+4,1998-09-21,21,Virginia Tech (3-0),,,,Big East
+4,1998-09-21,22,Alabama (2-0),24,2,,SEC (West)
+4,1998-09-21,23,Air Force (3-0),,,,WAC (Mountain)
+4,1998-09-21,23,Notre Dame (1-1),23,,,Ind
+4,1998-09-21,25,Missouri (2-1),21,4,,Big 12 (North)
+3,1998-09-14,1,Ohio State (2-0),1,,57,Big Ten
+3,1998-09-14,2,Florida (2-0),3,1,9,SEC (East)
+3,1998-09-14,3,Nebraska (3-0),4,1,1,Big 12 (North)
+3,1998-09-14,4,UCLA (1-0),6,2,1,Pac-10
+3,1998-09-14,5,Kansas State (2-0),5,,2,Big 12 (North)
+3,1998-09-14,6,Tennessee (1-0),8,2,,SEC (East)
+3,1998-09-14,7,LSU (1-0),7,,,SEC (West)
+3,1998-09-14,8,Penn State (2-0),9,1,,Big Ten
+3,1998-09-14,9,Washington (1-0),11,2,,Pac-10
+3,1998-09-14,10,Virginia (2-0),12,2,,ACC
+3,1998-09-14,11,Florida State (1-1),2,9,,ACC
+3,1998-09-14,12,Georgia (2-0),15,3,,SEC (East)
+3,1998-09-14,13,Syracuse (1-1),19,6,,Big East
+3,1998-09-14,14,Wisconsin (2-0),17,3,,Big Ten
+3,1998-09-14,15,Colorado (2-0),16,1,,Big 12 (North)
+3,1998-09-14,16,Arizona (2-0),21,5,,Pac-10
+3,1998-09-14,17,Texas A&M (1-1),18,1,,Big 12 (South)
+3,1998-09-14,18,USC (2-0),22,4,,Pac-10
+3,1998-09-14,19,West Virginia (0-1),20,1,,Big East
+3,1998-09-14,20,North Carolina State (2-0),,,,ACC
+3,1998-09-14,21,Missouri (2-0),25,4,,Big 12 (North)
+3,1998-09-14,22,Oregon (2-0),24,2,,Pac-10
+3,1998-09-14,23,Notre Dame (1-1),10,13,,Ind
+3,1998-09-14,24,Alabama (2-0),,,,SEC (West)
+3,1998-09-14,25,Mississippi State (2-0),,,,SEC (West)
+2,1998-09-07,1,Ohio State (1-0),1,,39,Big Ten
+2,1998-09-07,2,Florida State (1-0),2,,22,ACC
+2,1998-09-07,3,Florida (1-0),3,,4,SEC (East)
+2,1998-09-07,4,Nebraska (2-0),4,,2,Big 12 (North)
+2,1998-09-07,5,Kansas State (1-0),6,1,2,Big 12 (North)
+2,1998-09-07,6,UCLA,7,1,1,Pac-10
+2,1998-09-07,7,LSU,9,2,,SEC (West)
+2,1998-09-07,8,Tennessee (1-0),10,2,,SEC (East)
+2,1998-09-07,9,Penn State (1-0),13,4,,Big Ten
+2,1998-09-07,10,Notre Dame (1-0),22,12,,Ind
+2,1998-09-07,11,Washington (1-0),18,7,,Pac-10
+2,1998-09-07,12,Virginia (1-0),16,4,,ACC
+2,1998-09-07,13,Michigan (0-1),5,8,,Big Ten
+2,1998-09-07,14,Arizona State (0-1),8,6,,Pac-10
+2,1998-09-07,15,Georgia (1-0),19,4,,SEC (East)
+2,1998-09-07,16,Colorado (1-0),,,,Big 12 (North)
+2,1998-09-07,17,Wisconsin (1-0),20,3,,Big Ten
+2,1998-09-07,18,Texas A&M (0-1),14,4,,Big 12 (South)
+2,1998-09-07,19,Syracuse (0-1),17,2,,Big East
+2,1998-09-07,20,West Virginia (0-1),11,9,,Big East
+2,1998-09-07,21,Arizona (1-0),24,3,,Pac-10
+2,1998-09-07,22,USC (1-0),,,,Pac-10
+2,1998-09-07,23,Texas (1-0),,,,Big 12 (South)
+2,1998-09-07,24,Oregon (1-0),,,,Pac-10
+2,1998-09-07,25,Missouri (1-0),,,,Big 12 (North)
+1,Preseason,1,Ohio State,NA,—,30,Big Ten
+1,Preseason,2,Florida State,NA,—,22,ACC
+1,Preseason,3,Florida,NA,—,5,SEC (East)
+1,Preseason,4,Nebraska,NA,—,4,Big 12 (North)
+1,Preseason,5,Michigan,NA,—,4,Big Ten
+1,Preseason,6,Kansas State,NA,—,2,Big 12 (North)
+1,Preseason,7,UCLA,NA,—,1,Pac-10
+1,Preseason,8,Arizona State,NA,—,2,Pac-10
+1,Preseason,9,LSU,NA,—,,SEC (West)
+1,Preseason,10,Tennessee,NA,—,,SEC (East)
+1,Preseason,11,West Virginia,NA,—,,Big East
+1,Preseason,12,North Carolina,NA,—,,ACC
+1,Preseason,13,Penn State,NA,—,,Big Ten
+1,Preseason,14,Texas A&M,NA,—,,Big 12 (South)
+1,Preseason,15,Colorado State,NA,—,,WAC (Mountain)
+1,Preseason,16,Virginia,NA,—,,ACC
+1,Preseason,17,Syracuse,NA,—,,Big East
+1,Preseason,18,Washington,NA,—,,Pac-10
+1,Preseason,19,Georgia,NA,—,,SEC (East)
+1,Preseason,20,Wisconsin,NA,—,,Big Ten
+1,Preseason,21,Southern Mississippi,NA,—,,CUSA
+1,Preseason,22,Notre Dame,NA,—,,Ind
+1,Preseason,23,Michigan State,NA,—,,Big Ten
+1,Preseason,24,Arizona,NA,—,,Pac-10
+1,Preseason,25,Auburn,NA,—,,SEC (West)

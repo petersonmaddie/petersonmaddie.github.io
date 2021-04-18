@@ -1,0 +1,451 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+18,Final,1,Florida,3,2,65,SEC (East)
+18,Final,2,Ohio State,4,2,1,Big Ten
+18,Final,3,Florida State,1,2,,ACC
+18,Final,4,Arizona State,2,2,,Pac-10
+18,Final,5,BYU,5,,,WAC (Mountain)
+18,Final,6,Nebraska,6,,,Big 12 (North)
+18,Final,7,Penn State,7,,,Big Ten
+18,Final,8,Colorado,8,,,Big 12 (North)
+18,Final,9,Tennessee,9,,,SEC (East)
+18,Final,10,North Carolina,12,2,,ACC
+18,Final,11,Alabama,16,5,,SEC (West)
+18,Final,12,LSU,17,5,,SEC (West)
+18,Final,13,Virginia Tech,10,3,,Big East
+18,Final,14,Miami (FL),19,5,,Big East
+18,Final,15,Northwestern,11,4,,Big Ten
+18,Final,16,Washington,13,3,,Pac-10
+18,Final,17,Kansas State,14,3,,Big 12 (North)
+18,Final,18,Iowa,21,3,,Big Ten
+18,Final,19,Notre Dame,18,1,,Ind
+18,Final,20,Michigan,15,5,,Big Ten
+18,Final,21,Syracuse,23,2,,Big East
+18,Final,22,Wyoming,22,,,WAC (Pacific)
+18,Final,23,Texas,20,3,,Big 12 (South)
+18,Final,24,Auburn,,,,SEC (West)
+18,Final,25,Army,24,1,,Ind
+17,1996-12-09,1,Florida State (11-0),1,,62,ACC
+17,1996-12-09,2,Arizona State (11-0),2,,5,Pac-10
+17,1996-12-09,3,Florida (11-1),4,1,,SEC (East)
+17,1996-12-09,4,Ohio State (10-1),5,1,,Big Ten
+17,1996-12-09,5,BYU (13-1),6,1,,WAC (Mountain)
+17,1996-12-09,6,Nebraska (10-2),3,3,,Big 12 (North)
+17,1996-12-09,7,Penn State (10-2),8,1,,Big Ten
+17,1996-12-09,8,Colorado (9-2),7,1,,Big 12 (North)
+17,1996-12-09,9,Tennessee (9-2),9,,,SEC (East)
+17,1996-12-09,10,Virginia Tech (10-1),15,5,,Big East
+17,1996-12-09,11,Northwestern (9-2),10,1,,Big Ten
+17,1996-12-09,12,North Carolina (9-2),13,1,,ACC
+17,1996-12-09,13,Washington (9-2),12,1,,Pac-10
+17,1996-12-09,14,Kansas State (9-2),14,,,Big 12 (North)
+17,1996-12-09,15,Michigan (8-3),16,1,,Big Ten
+17,1996-12-09,16,Alabama (9-3),11,5,,SEC (West)
+17,1996-12-09,17,LSU (9-2),17,,,SEC (West)
+17,1996-12-09,18,Notre Dame (8-3),18,,,Ind
+17,1996-12-09,19,Miami (FL) (8-3),19,,,Big East
+17,1996-12-09,20,Texas (8-4),,,,Big 12 (South)
+17,1996-12-09,21,Iowa (8-3),21,,,Big Ten
+17,1996-12-09,22,Wyoming (10-2),20,2,,WAC (Pacific)
+17,1996-12-09,23,Syracuse (8-3),22,1,,Big East
+17,1996-12-09,24,Army (10-1),23,1,,Ind
+17,1996-12-09,25,West Virginia (8-3),24,1,,Big East
+16,1996-12-02,1,Florida State (11-0),2,1,61,ACC
+16,1996-12-02,2,Arizona State (11-0),3,1,5,Pac-10
+16,1996-12-02,3,Nebraska (10-1),4,1,1,Big 12 (North)
+16,1996-12-02,4,Florida (10-1),1,3,,SEC (East)
+16,1996-12-02,5,Ohio State (10-1),6,1,,Big Ten
+16,1996-12-02,6,BYU (12-1),7,1,,WAC (Mountain)
+16,1996-12-02,7,Colorado (9-2),5,2,,Big 12 (North)
+16,1996-12-02,8,Penn State (10-2),8,,,Big Ten
+16,1996-12-02,9,Tennessee (9-2),9,,,SEC (East)
+16,1996-12-02,10,Northwestern (9-2),11,1,,Big Ten
+16,1996-12-02,11,Alabama (9-2),15,4,,SEC (West)
+16,1996-12-02,12,Washington (9-2),12,,,Pac-10
+16,1996-12-02,13,North Carolina (9-2),13,,,ACC
+16,1996-12-02,14,Kansas State (9-2),14,,,Big 12 (North)
+16,1996-12-02,15,Virginia Tech (10-1),17,2,,Big East
+16,1996-12-02,16,Michigan (8-3),18,2,,Big Ten
+16,1996-12-02,17,LSU (9-2),19,2,,SEC (West)
+16,1996-12-02,18,Notre Dame (8-3),10,8,,Ind
+16,1996-12-02,19,Miami (FL) (8-3),23,4,,Big East
+16,1996-12-02,20,Wyoming (10-1),21,1,,WAC (Pacific)
+16,1996-12-02,21,Iowa (8-3),22,1,,Big Ten
+16,1996-12-02,22,Syracuse (8-3),16,6,,Big East
+16,1996-12-02,23,Army (9-1),24,1,,Ind
+16,1996-12-02,24,West Virginia (8-3),25,1,,Big East
+16,1996-12-02,25,Virginia (7-4),20,5,,ACC
+15,1996-11-25,1,Florida (10-0),1,,59,SEC (East)
+15,1996-11-25,2,Florida State (10-0),3,1,5,ACC
+15,1996-11-25,3,Arizona State (11-0),4,1,3,Pac-10
+15,1996-11-25,4,Nebraska (9-1),5,1,,Big 12 (North)
+15,1996-11-25,5,Colorado (9-1),6,1,,Big 12 (North)
+15,1996-11-25,6,Ohio State (10-1),2,4,,Big Ten
+15,1996-11-25,7,BYU (12-1),8,1,,WAC (Mountain)
+15,1996-11-25,8,Penn State (10-2),7,1,,Big Ten
+15,1996-11-25,9,Tennessee (8-2),9,,,SEC (East)
+15,1996-11-25,10,Notre Dame (8-2),10,,,Ind
+15,1996-11-25,11,Northwestern (9-2),11,,,Big Ten
+15,1996-11-25,12,Washington (9-2),12,,,Pac-10
+15,1996-11-25,13,North Carolina (9-2),13,,,ACC
+15,1996-11-25,14,Kansas State (9-2),14,,,Big 12 (North)
+15,1996-11-25,15,Alabama (9-2),15,,,SEC (West)
+15,1996-11-25,16,Syracuse (8-2),16,,,Big East
+15,1996-11-25,17,Virginia Tech (9-1),17,,,Big East
+15,1996-11-25,18,Michigan (8-3),21,3,,Big Ten
+15,1996-11-25,19,LSU (8-2),18,1,,SEC (West)
+15,1996-11-25,20,Virginia (7-3),19,1,,ACC
+15,1996-11-25,21,Wyoming (10-1),20,1,,WAC (Pacific)
+15,1996-11-25,22,Iowa (8-3),24,2,,Big Ten
+15,1996-11-25,23,Miami (FL) (7-3),25,2,,Big East
+15,1996-11-25,24,Army (9-1),,,,Ind
+15,1996-11-25,25,West Virginia (8-3),23,2,,Big East
+14,1996-11-18,1,Florida (10-0),1,,54,SEC (East)
+14,1996-11-18,2,Ohio State (10-0),2,,7,Big Ten
+14,1996-11-18,3,Florida State (9-0),3,,4,ACC
+14,1996-11-18,4,Arizona State (10-0),4,,2,Pac-10
+14,1996-11-18,5,Nebraska (9-1),5,,,Big 12 (North)
+14,1996-11-18,6,Colorado (9-1),6,,,Big 12 (North)
+14,1996-11-18,7,Penn State (9-2),11,4,,Big Ten
+14,1996-11-18,8,BYU (11-1),10,2,,WAC (Mountain)
+14,1996-11-18,9,Tennessee (7-2),12,3,,SEC (East)
+14,1996-11-18,10,Notre Dame (7-2),14,4,,Ind
+14,1996-11-18,11,Northwestern (9-2),13,2,,Big Ten
+14,1996-11-18,12,Washington (8-2),15,3,,Pac-10
+14,1996-11-18,13,North Carolina (8-2),6,7,,ACC
+14,1996-11-18,14,Kansas State (8-2),9,5,,Big 12 (North)
+14,1996-11-18,15,Alabama (8-2),8,7,,SEC (West)
+14,1996-11-18,16,Syracuse (7-2),19,3,,Big East
+14,1996-11-18,17,Virginia Tech (8-1),21,4,,Big East
+14,1996-11-18,18,LSU (7-2),17,1,,SEC (West)
+14,1996-11-18,19,Virginia (7-3),24,5,,ACC
+14,1996-11-18,20,Wyoming (10-1),23,3,,WAC (Pacific)
+14,1996-11-18,21,Michigan (7-3),16,5,,Big Ten
+14,1996-11-18,22,Clemson (7-3),,,,ACC
+14,1996-11-18,23,West Virginia (8-2),,,,Big East
+14,1996-11-18,24,Iowa (7-3),,,,Big Ten
+14,1996-11-18,25,Miami (FL) (6-3),18,7,,Big East
+13,1996-11-11,1,Florida (9-0),1,,46,SEC (East)
+13,1996-11-11,2,Ohio State (9-0),2,,17,Big Ten
+13,1996-11-11,3,Florida State (8-0),3,,2,ACC
+13,1996-11-11,4,Arizona State (10-0),4,,2,Pac-10
+13,1996-11-11,5,Nebraska (8-1),5,,,Big 12 (North)
+13,1996-11-11,6,Colorado (8-1),7,1,,Big 12 (North)
+13,1996-11-11,6,North Carolina (8-1),8,2,,ACC
+13,1996-11-11,8,Alabama (8-1),10,2,,SEC (West)
+13,1996-11-11,9,Kansas State (8-1),13,4,,Big 12 (North)
+13,1996-11-11,10,BYU (10-1),12,2,,WAC (Mountain)
+13,1996-11-11,11,Penn State (8-2),14,3,,Big Ten
+13,1996-11-11,12,Tennessee (6-2),6,6,,SEC (East)
+13,1996-11-11,13,Northwestern (8-2),18,5,,Big Ten
+13,1996-11-11,14,Notre Dame (6-2),17,3,,Ind
+13,1996-11-11,15,Washington (7-2),19,4,,Pac-10
+13,1996-11-11,16,Michigan (7-2),9,7,,Big Ten
+13,1996-11-11,17,LSU (6-2),11,6,,SEC (West)
+13,1996-11-11,18,Miami (FL) (6-2),21,3,,Big East
+13,1996-11-11,19,Syracuse (6-2),24,5,,Big East
+13,1996-11-11,20,Auburn (7-2),22,2,,SEC (West)
+13,1996-11-11,21,Virginia Tech (7-1),25,4,,Big East
+13,1996-11-11,22,Army (9-0),,,,Ind
+13,1996-11-11,23,Wyoming (9-1),16,7,,WAC (Pacific)
+13,1996-11-11,24,Virginia (6-3),15,9,,ACC
+13,1996-11-11,25,Southern Mississippi (8-2),20,5,,CUSA
+12,1996-11-04,1,Florida (8-0),1,,59,SEC (East)
+12,1996-11-04,2,Ohio State (8-0),2,,5,Big Ten
+12,1996-11-04,3,Florida State (7-0),3,,2,ACC
+12,1996-11-04,4,Arizona State (9-0),4,,1,Pac-10
+12,1996-11-04,5,Nebraska (7-1),5,,,Big 12 (North)
+12,1996-11-04,6,Tennessee (6-1),6,,,SEC (East)
+12,1996-11-04,7,Colorado (7-1),7,,,Big 12 (North)
+12,1996-11-04,8,North Carolina (7-1),8,,,ACC
+12,1996-11-04,9,Michigan (7-1),9,,,Big Ten
+12,1996-11-04,10,Alabama (7-1),10,,,SEC (West)
+12,1996-11-04,11,LSU (6-1),12,1,,SEC (West)
+12,1996-11-04,12,BYU (9-1),13,1,,WAC (Mountain)
+12,1996-11-04,13,Kansas State (7-1),14,1,,Big 12 (North)
+12,1996-11-04,14,Penn State (8-2),15,1,,Big Ten
+12,1996-11-04,15,Virginia (6-2),16,1,,ACC
+12,1996-11-04,16,Wyoming (9-0),17,1,,WAC (Pacific)
+12,1996-11-04,17,Notre Dame (5-2),19,2,,Ind
+12,1996-11-04,18,Northwestern (7-2),11,7,,Big Ten
+12,1996-11-04,19,Washington (6-2),21,2,,Pac-10
+12,1996-11-04,20,Southern Mississippi (8-1),23,3,,CUSA
+12,1996-11-04,21,Miami (FL) (6-2),22,1,,Big East
+12,1996-11-04,22,Auburn (6-2),24,2,,SEC (West)
+12,1996-11-04,23,Iowa (6-2),25,2,,Big Ten
+12,1996-11-04,24,Syracuse (5-2),,,,Big East
+12,1996-11-04,25,Virginia Tech (6-1),,,,Big East
+11,1996-10-28,1,Florida (7-0),1,,59,SEC (East)
+11,1996-10-28,2,Ohio State (7-0),2,,4,Big Ten
+11,1996-10-28,3,Florida State (6-0),3,,3,ACC
+11,1996-10-28,4,Arizona State (8-0),4,,1,Pac-10
+11,1996-10-28,5,Nebraska (6-1),5,,,Big 12 (North)
+11,1996-10-28,6,Tennessee (5-1),6,,,SEC (East)
+11,1996-10-28,7,Colorado (6-1),8,1,,Big 12 (North)
+11,1996-10-28,8,North Carolina (6-1),9,1,,ACC
+11,1996-10-28,9,Michigan (6-1),10,1,,Big Ten
+11,1996-10-28,10,Alabama (7-1),7,3,,SEC (West)
+11,1996-10-28,11,Northwestern (7-1),11,,,Big Ten
+11,1996-10-28,12,LSU (6-1),13,1,,SEC (West)
+11,1996-10-28,13,BYU (8-1),15,2,,WAC (Mountain)
+11,1996-10-28,14,Kansas State (7-1),16,2,,Big 12 (North)
+11,1996-10-28,15,Penn State (7-2),17,2,,Big Ten
+11,1996-10-28,16,Virginia (5-2),14,2,,ACC
+11,1996-10-28,17,Wyoming (8-0),18,1,,WAC (Pacific)
+11,1996-10-28,18,West Virginia (7-1),12,6,,Big East
+11,1996-10-28,19,Notre Dame (4-2),19,,,Ind
+11,1996-10-28,20,Utah (7-1),21,1,,WAC (Mountain)
+11,1996-10-28,21,Washington (5-2),23,2,,Pac-10
+11,1996-10-28,22,Miami (FL) (5-2),25,3,,Big East
+11,1996-10-28,23,Southern Mississippi (7-1),24,1,,CUSA
+11,1996-10-28,24,Auburn (5-2),22,2,,SEC (West)
+11,1996-10-28,25,Iowa (5-2),20,5,,Big Ten
+10,1996-10-21,1,Florida (7-0),1,,57,SEC (East)
+10,1996-10-21,2,Ohio State (6-0),2,,4,Big Ten
+10,1996-10-21,3,Florida State (5-0),3,,5,ACC
+10,1996-10-21,4,Arizona State (7-0),4,,1,Pac-10
+10,1996-10-21,5,Nebraska (5-1),5,,,Big 12 (North)
+10,1996-10-21,6,Tennessee (4-1),6,,,SEC (East)
+10,1996-10-21,7,Alabama (7-0),7,,,SEC (West)
+10,1996-10-21,8,Colorado (5-1),9,1,,Big 12 (North)
+10,1996-10-21,9,North Carolina (5-1),11,2,,ACC
+10,1996-10-21,10,Michigan (5-1),13,3,,Big Ten
+10,1996-10-21,11,Northwestern (6-1),14,3,,Big Ten
+10,1996-10-21,12,West Virginia (7-0),15,3,,Big East
+10,1996-10-21,13,LSU (5-1),17,4,,SEC (West)
+10,1996-10-21,14,Virginia (5-1),20,6,,ACC
+10,1996-10-21,15,BYU (7-1),18,3,,WAC (Mountain)
+10,1996-10-21,16,Kansas State (6-1),21,5,,Big 12 (North)
+10,1996-10-21,17,Penn State (6-2),10,7,,Big Ten
+10,1996-10-21,18,Wyoming (8-0),23,5,,WAC (Pacific)
+10,1996-10-21,19,Notre Dame (4-2),8,11,,Ind
+10,1996-10-21,20,Iowa (5-1),,,,Big Ten
+10,1996-10-21,21,Utah (6-1),24,3,,WAC (Mountain)
+10,1996-10-21,22,Auburn (5-2),16,6,,SEC (West)
+10,1996-10-21,23,Washington (4-2),25,2,,Pac-10
+10,1996-10-21,24,Southern Mississippi (6-1),,,,CUSA
+10,1996-10-21,25,Miami (FL) (4-2),12,13,,Big East
+9,1996-10-14,1,Florida (6-0),1,,54,SEC (East)
+9,1996-10-14,2,Ohio State (5-0),2,,7,Big Ten
+9,1996-10-14,3,Florida State (5-0),3,,5,ACC
+9,1996-10-14,4,Arizona State (6-0),4,,1,Pac-10
+9,1996-10-14,5,Nebraska (4-1),5,,,Big 12 (North)
+9,1996-10-14,6,Tennessee (4-1),7,1,,SEC (East)
+9,1996-10-14,7,Alabama (6-0),8,1,,SEC (West)
+9,1996-10-14,8,Notre Dame (4-1),11,3,,Ind
+9,1996-10-14,9,Colorado (4-1),9,,,Big 12 (North)
+9,1996-10-14,10,Penn State (6-1),10,,,Big Ten
+9,1996-10-14,11,North Carolina (5-1),13,2,,ACC
+9,1996-10-14,12,Miami (FL) (4-1),6,6,,Big East
+9,1996-10-14,13,Michigan (4-1),14,1,,Big Ten
+9,1996-10-14,14,Northwestern (5-1),15,1,,Big Ten
+9,1996-10-14,15,West Virginia (6-0),17,2,,Big East
+9,1996-10-14,16,Auburn (5-1),18,2,,SEC (West)
+9,1996-10-14,17,LSU (4-1),12,5,,SEC (West)
+9,1996-10-14,18,BYU (6-1),19,1,,WAC (Mountain)
+9,1996-10-14,19,California (5-0),21,2,,Pac-10
+9,1996-10-14,20,Virginia (4-1),20,,,ACC
+9,1996-10-14,21,Kansas State (5-1),22,1,,Big 12 (North)
+9,1996-10-14,22,Georgia Tech (4-1),23,1,,ACC
+9,1996-10-14,23,Wyoming (7-0),24,1,,WAC (Pacific)
+9,1996-10-14,24,Utah (5-1),,,,WAC (Mountain)
+9,1996-10-14,25,Washington (3-2),16,9,,Pac-10
+8,1996-10-07,1,Florida (5-0),1,,38,SEC (East)
+8,1996-10-07,2,Ohio State (4-0),3,1,24,Big Ten
+8,1996-10-07,3,Florida State (4-0),2,1,4,ACC
+8,1996-10-07,4,Arizona State (5-0),5,1,1,Pac-10
+8,1996-10-07,5,Nebraska (3-1),7,2,,Big 12 (North)
+8,1996-10-07,6,Miami (FL) (4-0),8,2,,Big East
+8,1996-10-07,7,Tennessee (3-1),9,2,,SEC (East)
+8,1996-10-07,8,Alabama (5-0),13,5,,SEC (West)
+8,1996-10-07,9,Colorado (3-1),10,1,,Big 12 (North)
+8,1996-10-07,10,Penn State (5-1),4,6,,Big Ten
+8,1996-10-07,11,Notre Dame (3-1),11,,,Ind
+8,1996-10-07,12,LSU (4-0),14,2,,SEC (West)
+8,1996-10-07,13,North Carolina (4-1),15,2,,ACC
+8,1996-10-07,14,Michigan (4-1),6,8,,Big Ten
+8,1996-10-07,15,Northwestern (4-1),22,7,,Big Ten
+8,1996-10-07,16,Washington (3-1),18,2,,Pac-10
+8,1996-10-07,17,West Virginia (6-0),19,2,,Big East
+8,1996-10-07,18,Auburn (4-1),20,2,,SEC (West)
+8,1996-10-07,19,BYU (5-1),21,2,,WAC (Mountain)
+8,1996-10-07,20,Virginia (4-1),12,8,,ACC
+8,1996-10-07,21,California (5-0),,,,Pac-10
+8,1996-10-07,22,Kansas State (4-1),16,6,,Big 12 (North)
+8,1996-10-07,23,Georgia Tech (4-1),,,,ACC
+8,1996-10-07,24,Wyoming (6-0),25,1,,WAC (Pacific)
+8,1996-10-07,25,Texas (3-2),23,2,,Big 12 (South)
+7,1996-09-30,1,Florida (4-0),1,,57,SEC (East)
+7,1996-09-30,2,Florida State (3-0),2,,8,ACC
+7,1996-09-30,3,Ohio State (3-0),4,1,1,Big Ten
+7,1996-09-30,4,Penn State (5-0),3,1,,Big Ten
+7,1996-09-30,5,Arizona State (4-0),6,1,1,Pac-10
+7,1996-09-30,6,Michigan (4-0),7,1,,Big Ten
+7,1996-09-30,7,Nebraska (2-1),8,1,,Big 12 (North)
+7,1996-09-30,8,Miami (FL) (4-0),10,2,,Big East
+7,1996-09-30,9,Tennessee (2-1),9,,,SEC (East)
+7,1996-09-30,10,Colorado (3-1),12,2,,Big 12 (North)
+7,1996-09-30,11,Notre Dame (3-1),5,6,,Ind
+7,1996-09-30,12,Virginia (4-0),19,7,,ACC
+7,1996-09-30,13,Alabama (4-0),14,1,,SEC (West)
+7,1996-09-30,14,LSU (3-0),17,3,,SEC (West)
+7,1996-09-30,15,North Carolina (3-1),11,4,,ACC
+7,1996-09-30,16,Kansas State (4-0),16,,,Big 12 (North)
+7,1996-09-30,17,USC (3-1),15,2,,Pac-10
+7,1996-09-30,18,Washington (2-1),21,3,,Pac-10
+7,1996-09-30,19,West Virginia (5-0),23,4,,Big East
+7,1996-09-30,20,Auburn (3-1),22,2,,SEC (West)
+7,1996-09-30,21,BYU (4-1),24,3,,WAC (Mountain)
+7,1996-09-30,22,Northwestern (3-1),25,3,,Big Ten
+7,1996-09-30,23,Texas (2-2),13,10,,Big 12 (South)
+7,1996-09-30,24,Utah (4-1),,,,WAC (Mountain)
+7,1996-09-30,25,Wyoming (5-0),,,,WAC (Pacific)
+6,1996-09-23,1,Florida (3-0),4,3,52,SEC (East)
+6,1996-09-23,2,Florida State (2-0),3,1,13,ACC
+6,1996-09-23,3,Penn State (4-0),5,2,1,Big Ten
+6,1996-09-23,4,Ohio State (2-0),7,3,,Big Ten
+6,1996-09-23,5,Notre Dame (3-0),9,4,,Ind
+6,1996-09-23,6,Arizona State (3-0),17,11,1,Pac-10
+6,1996-09-23,7,Michigan (3-0),8,1,,Big Ten
+6,1996-09-23,8,Nebraska (1-1),1,7,,Big 12 (North)
+6,1996-09-23,9,Tennessee (2-1),2,7,,SEC (East)
+6,1996-09-23,10,Miami (FL) (3-0),10,,,Big East
+6,1996-09-23,11,North Carolina (3-0),11,,,ACC
+6,1996-09-23,12,Colorado (2-1),12,,,Big 12 (North)
+6,1996-09-23,13,Texas (2-1),6,7,,Big 12 (South)
+6,1996-09-23,14,Alabama (4-0),13,1,,SEC (West)
+6,1996-09-23,15,USC (3-1),15,,,Pac-10
+6,1996-09-23,16,Kansas State (4-0),16,,,Big 12 (North)
+6,1996-09-23,17,LSU (2-0),21,4,,SEC (West)
+6,1996-09-23,18,Virginia Tech (3-0),18,,,Big East
+6,1996-09-23,19,Virginia (3-0),20,1,,ACC
+6,1996-09-23,20,Kansas (2-0),22,2,,Big 12 (North)
+6,1996-09-23,21,Washington (2-1),24,3,,Pac-10
+6,1996-09-23,22,Auburn (3-1),13,9,,SEC (West)
+6,1996-09-23,23,West Virginia (4-0),,,,Big East
+6,1996-09-23,24,BYU (3-1),,,,WAC (Mountain)
+6,1996-09-23,25,Northwestern (2-1),,,,Big Ten
+5,1996-09-16,1,Nebraska (1-0),1,,58,Big 12 (North)
+5,1996-09-16,2,Tennessee (2-0),2,,5,SEC (East)
+5,1996-09-16,3,Florida State (1-0),3,,4,ACC
+5,1996-09-16,4,Florida (2-0),4,,,SEC (East)
+5,1996-09-16,5,Penn State (3-0),6,1,,Big Ten
+5,1996-09-16,6,Texas (2-0),7,1,,Big 12 (South)
+5,1996-09-16,7,Ohio State (1-0),8,1,,Big Ten
+5,1996-09-16,8,Michigan (2-0),11,3,,Big Ten
+5,1996-09-16,9,Notre Dame (2-0),9,,,Ind
+5,1996-09-16,10,Miami (FL) (3-0),10,,,Big East
+5,1996-09-16,11,North Carolina (2-0),12,1,,ACC
+5,1996-09-16,12,Colorado (2-1),5,7,,Big 12 (North)
+5,1996-09-16,13,Alabama (3-0),13,,,SEC (West)
+5,1996-09-16,13,Auburn (3-0),15,2,,SEC (West)
+5,1996-09-16,15,USC (2-1),16,1,,Pac-10
+5,1996-09-16,16,Kansas State (3-0),17,1,,Big 12 (North)
+5,1996-09-16,17,Arizona State (2-0),18,1,,Pac-10
+5,1996-09-16,18,Virginia Tech (2-0),19,1,,Big East
+5,1996-09-16,19,Iowa (2-0),21,2,,Big Ten
+5,1996-09-16,20,Virginia (2-0),22,2,,ACC
+5,1996-09-16,21,LSU (1-0),20,1,,SEC (West)
+5,1996-09-16,22,Kansas (2-0),24,2,,Big 12 (North)
+5,1996-09-16,23,Syracuse (0-1),23,,,Big East
+5,1996-09-16,24,Washington (1-1),,,,Pac-10
+5,1996-09-16,25,Oregon (3-0),,,,Pac-10
+4,1996-09-09,1,Nebraska (1-0),1,,57,Big 12 (North)
+4,1996-09-09,2,Tennessee (2-0),2,,4,SEC (East)
+4,1996-09-09,3,Florida State (1-0),3,,3,ACC
+4,1996-09-09,4,Florida (2-0),4,,,SEC (East)
+4,1996-09-09,5,Colorado (2-0),5,,3,Big 12 (North)
+4,1996-09-09,6,Penn State (2-0),7,1,,Big Ten
+4,1996-09-09,7,Texas (2-0),8,1,,Big 12 (South)
+4,1996-09-09,8,Ohio State (1-0),10,2,,Big Ten
+4,1996-09-09,9,Notre Dame (1-0),6,3,1,Ind
+4,1996-09-09,10,Miami (FL) (2-0),11,1,,Big East
+4,1996-09-09,11,Michigan (1-0),12,1,,Big Ten
+4,1996-09-09,12,North Carolina (2-0),24,12,,ACC
+4,1996-09-09,13,Alabama (2-0),14,1,,SEC (West)
+4,1996-09-09,14,BYU (2-0),16,2,,WAC (Mountain)
+4,1996-09-09,15,Auburn (2-0),18,3,,SEC (West)
+4,1996-09-09,16,USC (1-1),19,3,,Pac-10
+4,1996-09-09,17,Kansas State (2-0),21,4,,Big 12 (North)
+4,1996-09-09,18,Arizona State (1-0),20,2,,Pac-10
+4,1996-09-09,19,Virginia Tech (1-0),15,4,,Big East
+4,1996-09-09,20,LSU (1-0),17,3,,SEC (West)
+4,1996-09-09,21,Iowa (1-0),22,1,,Big Ten
+4,1996-09-09,22,Virginia (1-0),23,1,,ACC
+4,1996-09-09,23,Syracuse (0-1),9,14,,Big East
+4,1996-09-09,24,Kansas (1-0),,,,Big 12 (North)
+4,1996-09-09,25,Texas A&M (0-1),25,,,Big 12 (South)
+3,1996-09-02,1,Nebraska,1,,49,Big 12 (North)
+3,1996-09-02,2,Tennessee (1-0),2,,8,SEC (East)
+3,1996-09-02,3,Florida State,3,,5,ACC
+3,1996-09-02,4,Florida (1-0),4,,1,SEC (East)
+3,1996-09-02,5,Colorado (1-0),5,,3,Big 12 (North)
+3,1996-09-02,6,Notre Dame,6,,1,Ind
+3,1996-09-02,7,Penn State (1-0),7,,,Big Ten
+3,1996-09-02,8,Texas (1-0),8,,,Big 12 (South)
+3,1996-09-02,9,Syracuse,10,1,,Big East
+3,1996-09-02,10,Ohio State,9,1,,Big Ten
+3,1996-09-02,11,Miami (FL) (1-0),11,,,Big East
+3,1996-09-02,12,Michigan (1-0),12,,,Big Ten
+3,1996-09-02,13,Northwestern,15,2,,Big Ten
+3,1996-09-02,14,Alabama (1-0),13,1,,SEC (West)
+3,1996-09-02,15,Virginia Tech,14,1,,Big East
+3,1996-09-02,16,BYU (2-0),19,3,,WAC (Mountain)
+3,1996-09-02,17,LSU,18,1,,SEC (West)
+3,1996-09-02,18,Auburn (1-0),16,2,,SEC (West)
+3,1996-09-02,19,USC (0-1),17,2,,Pac-10
+3,1996-09-02,20,Arizona State,20,,,Pac-10
+3,1996-09-02,21,Kansas State (1-0),21,,,Big 12 (North)
+3,1996-09-02,22,Iowa,22,,,Big Ten
+3,1996-09-02,23,Virginia,24,1,,ACC
+3,1996-09-02,24,North Carolina (1-0),,,,ACC
+3,1996-09-02,25,Texas A&M (0-1),23,2,,Big 12 (South)
+2,1996-08-26,1,Nebraska,1,,50,Big 12 (North)
+2,1996-08-26,2,Tennessee,2,,8,SEC (East)
+2,1996-08-26,3,Florida State,3,,5,ACC
+2,1996-08-26,4,Florida,4,,,SEC (East)
+2,1996-08-26,5,Colorado,5,,3,Big 12 (North)
+2,1996-08-26,6,Notre Dame,6,,1,Ind
+2,1996-08-26,7,Penn State (1-0),11,4,,Big Ten
+2,1996-08-26,8,Texas,8,,,Big 12 (South)
+2,1996-08-26,9,Ohio State,9,,,Big Ten
+2,1996-08-26,10,Syracuse,10,,,Big East
+2,1996-08-26,11,Miami (FL),12,1,,Big East
+2,1996-08-26,12,Michigan,14,2,,Big Ten
+2,1996-08-26,13,Alabama,15,2,,SEC (West)
+2,1996-08-26,14,Virginia Tech,16,2,,Big East
+2,1996-08-26,15,Northwestern,18,3,,Big Ten
+2,1996-08-26,16,Auburn,17,1,,SEC (West)
+2,1996-08-26,17,USC (0-1),7,10,,Pac-10
+2,1996-08-26,18,LSU,19,1,,SEC (West)
+2,1996-08-26,19,BYU (1-0),,,,WAC (Mountain)
+2,1996-08-26,20,Arizona State,20,,,Pac-10
+2,1996-08-26,21,Kansas State,21,,,Big 12 (North)
+2,1996-08-26,22,Iowa,22,,,Big Ten
+2,1996-08-26,23,Texas A&M (0-1),13,10,,Big 12 (South)
+2,1996-08-26,24,Virginia,23,1,,ACC
+2,1996-08-26,25,Kansas,24,1,,Big 12 (North)
+1,Preseason,1,Nebraska,NA,—,50,Big 12 (North)
+1,Preseason,2,Tennessee,NA,—,7,SEC (East)
+1,Preseason,3,Florida State,NA,—,5,ACC
+1,Preseason,4,Florida,NA,—,1,SEC (East)
+1,Preseason,5,Colorado,NA,—,3,Big 12 (North)
+1,Preseason,6,Notre Dame,NA,—,1,Ind
+1,Preseason,7,USC,NA,—,,Pac-10
+1,Preseason,8,Texas,NA,—,,Big 12 (South)
+1,Preseason,9,Ohio State,NA,—,,Big Ten
+1,Preseason,10,Syracuse,NA,—,,Big East
+1,Preseason,11,Penn State,NA,—,,Big Ten
+1,Preseason,12,Miami (FL),NA,—,,Big East
+1,Preseason,13,Texas A&M,NA,—,,Big 12 (South)
+1,Preseason,14,Michigan,NA,—,,Big Ten
+1,Preseason,15,Alabama,NA,—,,SEC (West)
+1,Preseason,16,Virginia Tech,NA,—,,Big East
+1,Preseason,17,Auburn,NA,—,,SEC (West)
+1,Preseason,18,Northwestern,NA,—,,Big Ten
+1,Preseason,19,LSU,NA,—,,SEC (West)
+1,Preseason,20,Arizona State,NA,—,,Pac-10
+1,Preseason,21,Kansas State,NA,—,,Big 12 (North)
+1,Preseason,22,Iowa,NA,—,,Big Ten
+1,Preseason,23,Virginia,NA,—,,ACC
+1,Preseason,24,Kansas,NA,—,,Big 12 (North)
+1,Preseason,25,Clemson,NA,—,,ACC

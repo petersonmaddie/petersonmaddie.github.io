@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.81.0" />
+
+
+<title>Breaking down the accuracy of preseason rankings - Maddie Peterson&#39;s Github Site</title>
+<meta property="og:title" content="Breaking down the accuracy of preseason rankings - Maddie Peterson&#39;s Github Site">
+
+
+  <link href='http://petersonmaddie.github.io/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="http://petersonmaddie.github.io/">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/PetersonMaddie0">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">18 min read</span>
+    
+
+    <h1 class="article-title">Breaking down the accuracy of preseason rankings</h1>
+
+    
+    <span class="article-date">2021-04-17</span>
+    
+
+    <div class="article-content">
+      
+<script src="http://petersonmaddie.github.io/2021/04/17/breaking-down-the-accuracy-of-preseason-rankings/index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>“Drinking the Kool-Aid” is a phrase all-too-familiar to the Nebraska fan-base. It usually begins during the spring, when talk comes out about how the football team is practicing. Fans everywhere buy in and get an idea in their head that we’re going to end the season as conference champions. The 2019 college football season is an excellent example of this for Nebraska. In the preseason AP poll, Nebraska was ranked 24th. This is a big deal considering the team went 4-8 in the 2018 season. I remember texting my brother after that AP poll came out and he was convinced that we could work our way up and end the season in the top five. That was also when there was a lot of hype around quarterback Adrian Martinez and his Heisman-odds.</p>
+<p>Well. Let’s just say the season did not go as planned. Nebraska ended with a 5-7 record, which isn’t ideal. Nebraska fans were crushed after their hopes had been built up in the preseason. This seems to happen time and time again, which is the inspiration for this project. How accurate are preseason rankings anyways? Let’s find out!</p>
+<p>First, I loaded some libraries I needed and scraped the data from the rankings of each week (from the preseason to the final rankings) from the past thirty seasons.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+## ✓ tibble  3.0.5     ✓ dplyr   1.0.3
+## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(ggalt)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggalt&#39;:
+##   method                  from   
+##   grid.draw.absoluteGrob  ggplot2
+##   grobHeight.absoluteGrob ggplot2
+##   grobWidth.absoluteGrob  ggplot2
+##   grobX.absoluteGrob      ggplot2
+##   grobY.absoluteGrob      ggplot2</code></pre>
+<pre class="r"><code>library(ggrepel)
+library(gt)
+library(waffle)
+library(cowplot)</code></pre>
+<pre class="r"><code>twenty&lt;- read_csv(&quot;2020rank.csv&quot;) %&gt;% mutate(Year= &quot;2020&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>nineteen&lt;- read_csv(&quot;2019rank.csv&quot;) %&gt;% mutate(Year= &quot;2019&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>eighteen&lt;- read_csv(&quot;2018rank.csv&quot;) %&gt;% mutate(Year= &quot;2018&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>seventeen&lt;- read_csv(&quot;2017rank.csv&quot;) %&gt;% mutate(Year= &quot;2017&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>sixteen&lt;- read_csv(&quot;2016rank.csv&quot;) %&gt;% mutate(Year= &quot;2016&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>fifteen&lt;- read_csv(&quot;2015rank.csv&quot;) %&gt;% mutate(Year= &quot;2015&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>fourteen&lt;- read_csv(&quot;2014rank.csv&quot;) %&gt;% mutate(Year= &quot;2014&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>thirteen&lt;- read_csv(&quot;2013rank.csv&quot;) %&gt;% mutate(Year= &quot;2013&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>twelve&lt;- read_csv(&quot;2012rank.csv&quot;) %&gt;% mutate(Year= &quot;2012&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>eleven&lt;- read_csv(&quot;2011rank.csv&quot;) %&gt;% mutate(Year= &quot;2011&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ten&lt;- read_csv(&quot;2010rank.csv&quot;) %&gt;% mutate(Year= &quot;2010&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>nine&lt;- read_csv(&quot;2009rank.csv&quot;) %&gt;% mutate(Year= &quot;2009&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>eight&lt;- read_csv(&quot;2008rank.csv&quot;) %&gt;% mutate(Year= &quot;2008&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>seven&lt;- read_csv(&quot;2007rank.csv&quot;) %&gt;% mutate(Year= &quot;2007&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>six&lt;- read_csv(&quot;2006rank.csv&quot;) %&gt;% mutate(Year= &quot;2006&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>five&lt;- read_csv(&quot;2005rank.csv&quot;) %&gt;% mutate(Year= &quot;2005&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>four&lt;- read_csv(&quot;2004rank.csv&quot;) %&gt;% mutate(Year= &quot;2004&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>three&lt;- read_csv(&quot;2003rank.csv&quot;) %&gt;% mutate(Year= &quot;2003&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>two&lt;- read_csv(&quot;2002rank.csv&quot;) %&gt;% mutate(Year= &quot;2002&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>one&lt;- read_csv(&quot;2001rank.csv&quot;) %&gt;% mutate(Year= &quot;2001&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>zeros&lt;- read_csv(&quot;2000rank.csv&quot;) %&gt;% mutate(Year= &quot;2000&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetynine&lt;- read_csv(&quot;1999rank.csv&quot;) %&gt;% mutate(Year= &quot;1999&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetyeight&lt;- read_csv(&quot;1998rank.csv&quot;) %&gt;% mutate(Year= &quot;1998&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetyseven&lt;- read_csv(&quot;1997rank.csv&quot;) %&gt;% mutate(Year= &quot;1997&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetysix&lt;- read_csv(&quot;1996rank.csv&quot;) %&gt;% mutate(Year= &quot;1996&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetyfive&lt;- read_csv(&quot;1995rank.csv&quot;) %&gt;% mutate(Year= &quot;1995&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetyfour&lt;- read_csv(&quot;1994rank.csv&quot;) %&gt;% mutate(Year= &quot;1994&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetythree&lt;- read_csv(&quot;1993rank.csv&quot;) %&gt;% mutate(Year= &quot;1993&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetytwo&lt;- read_csv(&quot;1992rank.csv&quot;) %&gt;% mutate(Year= &quot;1992&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninetyone&lt;- read_csv(&quot;1991rank.csv&quot;) %&gt;% mutate(Year= &quot;1991&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<pre class="r"><code>ninety&lt;-read_csv(&quot;1990rank.csv&quot;) %&gt;% mutate(Year= &quot;1990&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character()
+## )</code></pre>
+<p>I then binded all the datasets together so that all of the years were in one piece of data.</p>
+<pre class="r"><code>allyears&lt;- bind_rows(twenty, nineteen, eighteen, seventeen, sixteen, fifteen, fourteen, thirteen, twelve, eleven, ten, nine, eight, seven, six, five, four, three, two, one, zeros, ninetynine,  ninetyeight,  ninetyseven, ninetysix, ninetyfive, ninetyfour, ninetythree, ninetytwo, ninetyone, ninety)</code></pre>
+<p>Next, I filtered to create some dataframes. I created one with just the preseason and final rankings, one wiht just the preseason, one with just the final, and one with just the number one ranked teams in the preseason and the final.</p>
+<pre class="r"><code>preandfinal&lt;- allyears %&gt;% filter(Date==&quot;Preseason&quot; | Date==&quot;Final&quot;)
+preseason&lt;- allyears %&gt;% filter(Date==&quot;Preseason&quot;)
+final&lt;- allyears %&gt;% filter(Date==&quot;Final&quot;)
+numberonepreandfinal &lt;-preandfinal %&gt;% filter(Rk== 1)
+write_csv(numberonepreandfinal, &quot;polls.csv&quot;)
+polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   Wk = col_double(),
+##   Date = col_character(),
+##   Rk = col_double(),
+##   School = col_character(),
+##   Prev = col_double(),
+##   Chng = col_character(),
+##   `1st` = col_double(),
+##   Conf = col_character(),
+##   Year = col_double()
+## )</code></pre>
+<p>A lot of work had to be done with the data in order to come to conclusions. It had to be made into wide data instead of long data so that there was only one line for each season instead of two. I also selected just the year, the school, and the rankings because that’s all I really needed for this. The main thing I wanted to find out first was how many times the school ranked #1 in the preseason ended the season at #1. To find this, I mutated a new column that told me if the preseason ranking was the same as the final ranking or not.</p>
+<pre class="r"><code>firstlast &lt;- polls %&gt;% 
+  select(Year, Date, School) %&gt;% 
+  pivot_wider(names_from=Date, values_from=School) %&gt;% 
+  select(Year, Preseason, Final) %&gt;% 
+  separate(Final, into=c(&quot;Final&quot;, &quot;Record&quot;), sep=&quot; \\(&quot;) %&gt;% 
+  select(-Record) %&gt;% 
+  mutate(Same = (Preseason == Final)) %&gt;%
+  group_by(Same) %&gt;%
+  tally()</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 18 rows [12, 13,
+## 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31].</code></pre>
+<pre class="r"><code>polls&lt;-polls %&gt;% 
+  select(Year, Date, School) %&gt;% 
+  pivot_wider(names_from=Date, values_from=School) %&gt;% 
+  select(Year, Preseason, Final) %&gt;% 
+  separate(Final, into=c(&quot;Final&quot;, &quot;Record&quot;), sep=&quot; \\(&quot;) %&gt;% 
+  select(-Record) </code></pre>
+<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 18 rows [12, 13,
+## 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31].</code></pre>
+<p>Time to look at some data! I created a chart that has each year, what team was ranked #1 in the preseason and then what team was ranked #1 at the end of the season. I then highlighted in blue each year that the same team was ranked #1 before and after the season.</p>
+<pre class="r"><code>polls %&gt;%
+  gt() %&gt;% 
+  cols_label(
+    Year = &quot;Year&quot;,
+    Preseason= &quot;Preseason&quot;,
+    Final = &quot;Final&quot;
+  ) %&gt;%
+  tab_header(
+    title = &quot;If you start at the top, you can count on not ending at the top&quot;,
+    subtitle = &quot;In the past 30 seasons, the AP poll has only predicted the correct national champion four times.&quot;
+  ) %&gt;% tab_style(
+    style = cell_text(color = &quot;black&quot;, weight = &quot;bold&quot;, align = &quot;left&quot;),
+    locations = cells_title(&quot;title&quot;)
+  ) %&gt;% tab_style(
+    style = cell_text(color = &quot;black&quot;, align = &quot;left&quot;),
+    locations = cells_title(&quot;subtitle&quot;)
+  ) %&gt;%
+  tab_source_note(
+    source_note = &quot;By Maddie Peterson&quot;
+  ) %&gt;%
+  tab_source_note(
+    source_note = &quot;Source: Sports Reference&quot;
+  )  %&gt;% 
+  tab_style(
+    style = cell_fill(color = &quot;#add8e6&quot;),
+    locations = cells_body(
+      columns = vars(Final, Preseason, Year),
+      rows = Preseason == Final
+    )
+  )%&gt;% 
+  opt_row_striping() %&gt;% 
+  opt_table_lines(&quot;none&quot;) %&gt;% 
+  tab_style(
+    style = cell_borders(sides = c(&quot;top&quot;, &quot;bottom&quot;), 
+                         color = &quot;grey&quot;, weight = px(1)),
+    locations = cells_column_labels(everything())
+  )</code></pre>
+<pre><code>## Warning: The `.dots` argument of `group_by()` is deprecated as of dplyr 1.0.0.</code></pre>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#fozoelacpg .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: none;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#fozoelacpg .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#fozoelacpg .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#fozoelacpg .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#fozoelacpg .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#fozoelacpg .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#fozoelacpg .gt_column_spanner {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#fozoelacpg .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fozoelacpg .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fozoelacpg .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#fozoelacpg .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#fozoelacpg .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#fozoelacpg .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#fozoelacpg .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fozoelacpg .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fozoelacpg .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: none;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#fozoelacpg .gt_table_body {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#fozoelacpg .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fozoelacpg .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#fozoelacpg .gt_left {
+  text-align: left;
+}
+
+#fozoelacpg .gt_center {
+  text-align: center;
+}
+
+#fozoelacpg .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#fozoelacpg .gt_font_normal {
+  font-weight: normal;
+}
+
+#fozoelacpg .gt_font_bold {
+  font-weight: bold;
+}
+
+#fozoelacpg .gt_font_italic {
+  font-style: italic;
+}
+
+#fozoelacpg .gt_super {
+  font-size: 65%;
+}
+
+#fozoelacpg .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="fozoelacpg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <th colspan="3" class="gt_heading gt_title gt_font_normal" style="color: black; text-align: left; font-weight: bold;">If you start at the top, you can count on not ending at the top</th>
+    </tr>
+    <tr>
+      <th colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="color: black; text-align: left;">In the past 30 seasons, the AP poll has only predicted the correct national champion four times.</th>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" style="border-top-width: 1px; border-top-style: solid; border-top-color: grey; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey;">Year</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="border-top-width: 1px; border-top-style: solid; border-top-color: grey; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey;">Preseason</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="border-top-width: 1px; border-top-style: solid; border-top-color: grey; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey;">Final</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_right">2020</td>
+      <td class="gt_row gt_left">Clemson</td>
+      <td class="gt_row gt_left">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2019</td>
+      <td class="gt_row gt_left gt_striped">Clemson</td>
+      <td class="gt_row gt_left gt_striped">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2018</td>
+      <td class="gt_row gt_left">Alabama</td>
+      <td class="gt_row gt_left">Clemson</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped" style="background-color: #ADD8E6;">2017</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Alabama</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2016</td>
+      <td class="gt_row gt_left">Alabama</td>
+      <td class="gt_row gt_left">Clemson</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2015</td>
+      <td class="gt_row gt_left gt_striped">Ohio State</td>
+      <td class="gt_row gt_left gt_striped">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2014</td>
+      <td class="gt_row gt_left">Florida State</td>
+      <td class="gt_row gt_left">Ohio State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2013</td>
+      <td class="gt_row gt_left gt_striped">Alabama</td>
+      <td class="gt_row gt_left gt_striped">Florida State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2012</td>
+      <td class="gt_row gt_left">Alabama</td>
+      <td class="gt_row gt_left">Florida State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2011</td>
+      <td class="gt_row gt_left gt_striped">Oklahoma</td>
+      <td class="gt_row gt_left gt_striped">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2010</td>
+      <td class="gt_row gt_left">Alabama</td>
+      <td class="gt_row gt_left">Auburn</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2009</td>
+      <td class="gt_row gt_left gt_striped">Florida</td>
+      <td class="gt_row gt_left gt_striped">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2008</td>
+      <td class="gt_row gt_left">Georgia</td>
+      <td class="gt_row gt_left">Florida</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2007</td>
+      <td class="gt_row gt_left gt_striped">USC</td>
+      <td class="gt_row gt_left gt_striped">LSU</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2006</td>
+      <td class="gt_row gt_left">Ohio State</td>
+      <td class="gt_row gt_left">Florida</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2005</td>
+      <td class="gt_row gt_left gt_striped">USC</td>
+      <td class="gt_row gt_left gt_striped">Texas</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right" style="background-color: #ADD8E6;">2004</td>
+      <td class="gt_row gt_left" style="background-color: #ADD8E6;">USC</td>
+      <td class="gt_row gt_left" style="background-color: #ADD8E6;">USC</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2003</td>
+      <td class="gt_row gt_left gt_striped">Oklahoma</td>
+      <td class="gt_row gt_left gt_striped">USC</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2002</td>
+      <td class="gt_row gt_left">Miami (FL)</td>
+      <td class="gt_row gt_left">Ohio State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">2001</td>
+      <td class="gt_row gt_left gt_striped">Florida</td>
+      <td class="gt_row gt_left gt_striped">Miami</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">2000</td>
+      <td class="gt_row gt_left">Nebraska</td>
+      <td class="gt_row gt_left">Oklahoma</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped" style="background-color: #ADD8E6;">1999</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Florida State</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Florida State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">1998</td>
+      <td class="gt_row gt_left">Ohio State</td>
+      <td class="gt_row gt_left">Tennessee</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">1997</td>
+      <td class="gt_row gt_left gt_striped">Penn State</td>
+      <td class="gt_row gt_left gt_striped">Michigan</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">1996</td>
+      <td class="gt_row gt_left">Nebraska</td>
+      <td class="gt_row gt_left">Florida</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">1995</td>
+      <td class="gt_row gt_left gt_striped">Florida State</td>
+      <td class="gt_row gt_left gt_striped">Nebraska</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">1994</td>
+      <td class="gt_row gt_left">Florida</td>
+      <td class="gt_row gt_left">Nebraska</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped" style="background-color: #ADD8E6;">1993</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Florida State</td>
+      <td class="gt_row gt_left gt_striped" style="background-color: #ADD8E6;">Florida State</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">1992</td>
+      <td class="gt_row gt_left">Miami (FL)</td>
+      <td class="gt_row gt_left">Alabama</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right gt_striped">1991</td>
+      <td class="gt_row gt_left gt_striped">Florida State</td>
+      <td class="gt_row gt_left gt_striped">Miami</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_right">1990</td>
+      <td class="gt_row gt_left">Miami (FL)</td>
+      <td class="gt_row gt_left">Colorado</td>
+    </tr>
+  </tbody>
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="3">By Maddie Peterson</td>
+    </tr>
+    <tr>
+      <td class="gt_sourcenote" colspan="3">Source: Sports Reference</td>
+    </tr>
+  </tfoot>
+  
+</table></div>
+<p>Wow, so only four times in the past thirty years has the preseason #1 team stayed there. Already, this tells us something about how much we should be buying in to preseason polls. Next, I have a whole lot of code that basically finds us the mean and median ending spot of each preseason rank. I use a dumbbell chart to show off the results.</p>
+<pre class="r"><code>pre &lt;- preseason %&gt;% select(Year, Date, Rk, School)
+fin &lt;- final %&gt;% select(Year, Date, Rk, School) %&gt;% separate(School, into=c(&quot;School&quot;, &quot;Record&quot;), sep=&quot; \\(&quot;) %&gt;% select(-Record)</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Additional pieces discarded in 4 rows [22, 47, 88,
+## 120].</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 483 rows [276,
+## 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292,
+## 293, 295, 296, ...].</code></pre>
+<pre class="r"><code>firstweeklastweek &lt;- pre %&gt;% left_join(fin, by=c(&quot;Year&quot;, &quot;School&quot;))
+avgandmed&lt;-firstweeklastweek %&gt;% na.omit() %&gt;% group_by(`Rk.x`) %&gt;% summarize(AvgFinish = mean(`Rk.y`), MedianFinish = median(`Rk.y`)) </code></pre>
+<pre class="r"><code>ggplot() + 
+  geom_dumbbell(
+    data=avgandmed, 
+    aes(y=`Rk.x`, x=`Rk.x`, xend=AvgFinish),
+    size = 1,
+    color = &quot;grey&quot;,
+    colour_x = &quot;green&quot;,
+    colour_xend = &quot;red&quot;)  +  labs(title = &quot;So where do number one ranked teams end up?&quot;, subtitle= &quot;This dumbbell chart shows the average spot each preseason ranking ends up in.&quot;, x=&quot;Preseason Rankings&quot;, y=&quot;&quot;,  caption=&quot;Source: Sports Reference | By Maddie Peterson&quot;) + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 16, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=10), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/04/17/breaking-down-the-accuracy-of-preseason-rankings/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+In this chart, the green dots are the preseason rank and the red dots are the average spot that the rank ends up. So for the preseason #1 team, they average ending as the fifth-ranked team. All of the top ten ranked teams average ending the season lower ranked than they start. The eleventh spot is where it flips and every team after that averages ending at a higher spot than they started. The 20th, 24th, and 25th lines look the longest, meaning that those spots average ending the farthest away from their starting rank.</p>
+<pre class="r"><code>rankgroup&lt;-
+  
+firstweeklastweek %&gt;%
+  mutate(PreseasonRankGroup = case_when(
+  Rk.x &lt;= 5 ~ &quot;Top Five&quot;,
+  Rk.x &gt; 5 &amp; Rk.x &lt;=10 ~ &quot;6-10&quot;,
+  Rk.x &gt; 10 &amp; Rk.x &lt;=15 ~ &quot;11-15&quot;,
+  Rk.x &gt; 15 &amp; Rk.x &lt;=20 ~ &quot;16-20&quot;,
+  Rk.x &gt; 20 &amp; Rk.x &lt;=25 ~ &quot;21-25&quot;
+),
+PostSeasonRankGroup = case_when(
+  Rk.y &lt;= 5 ~ &quot;Top Five&quot;,
+  Rk.y &gt; 5 &amp; Rk.y &lt;=10 ~ &quot;6-10&quot;,
+  Rk.y &gt; 10 &amp; Rk.y &lt;=15 ~ &quot;11-15&quot;,
+  Rk.y &gt; 15 &amp; Rk.y &lt;=20 ~ &quot;16-20&quot;,
+  Rk.y &gt; 20 &amp; Rk.y &lt;=25 ~ &quot;21-25&quot;,
+  is.na(Rk.y) ~ &quot;Out of Top 25&quot;
+)) %&gt;% group_by(PreseasonRankGroup, PostSeasonRankGroup) %&gt;% summarize(total=n()) %&gt;% arrange(PreseasonRankGroup)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;PreseasonRankGroup&#39;. You can override using the `.groups` argument.</code></pre>
+<pre class="r"><code>top5 &lt;- c(&quot;Top 5&quot;=64, &quot;6-10&quot;=38, &quot;11-15&quot;=19, &quot;16-20&quot;=8, &quot;21-25&quot;=4, &quot;Out&quot;=22)
+`6-10`&lt;- c(&quot;Top 5&quot;=34, &quot;6-10&quot;=25, &quot;11-15&quot;=23, &quot;16-20&quot;=18, &quot;21-25&quot;=14, &quot;Out&quot;=41)
+`11-15`&lt;-c(&quot;Top 5&quot;=21, &quot;6-10&quot;=20, &quot;11-15&quot;=20, &quot;16-20&quot;=24, &quot;21-25&quot;=6, &quot;Out&quot;=64)
+`16-20`&lt;-c(&quot;Top 5&quot;=8, &quot;6-10&quot;=13, &quot;11-15&quot;=18, &quot;16-20&quot;=16, &quot;21-25&quot;=18, &quot;Out&quot;=83)
+`21-25`&lt;-c(&quot;Top 5&quot;=4, &quot;6-10&quot;=13, &quot;11-15&quot;=12, &quot;16-20&quot;=19, &quot;21-25&quot;=12, &quot;Out&quot;=94)</code></pre>
+<pre class="r"><code>w1 &lt;- waffle(top5, rows=10) +
+  labs(title=&quot;Started in the top five&quot;) + theme(
+     plot.title = element_text(size = 9, face = &quot;bold&quot;)
+  )
+w2 &lt;- waffle(`6-10`, rows=10) +
+  labs(title=&quot;Started ranked 6-10&quot;)+ theme(
+     plot.title = element_text(size = 9, face = &quot;bold&quot;)
+  )
+w3 &lt;- waffle(`11-15`, rows=10)+
+  labs(title=&quot;Started ranked 11-15&quot;)+ theme(
+     plot.title = element_text(size = 9, face = &quot;bold&quot;)
+  )
+w4 &lt;- waffle(`16-20`, rows=10)+
+  labs(title=&quot;Started ranked 16-20&quot;)+ theme(
+     plot.title = element_text(size = 9, face = &quot;bold&quot;)
+  )
+w5 &lt;- waffle(`21-25`, rows=10)+
+  labs(title=&quot;Started ranked 21-25&quot;)+ theme(
+     plot.title = element_text(size = 9, face = &quot;bold&quot;)
+  )</code></pre>
+<pre class="r"><code>plot_grid(w1, w2, w3, w4,w5) +  labs(title = &quot;Breaking down the ending positions&quot;, subtitle= &quot;Each chart shows the proportion of teams that ended in each rank category.&quot;, y=&quot;&quot;,  caption=&quot;Source: Sports Reference | By Maddie Peterson&quot;) + theme_minimal() + 
+  theme(
+    plot.title = element_text(size = 16, face = &quot;bold&quot;),
+    axis.title = element_text(size = 8), 
+    plot.subtitle = element_text(size=10), 
+    panel.grid.minor = element_blank()
+    )</code></pre>
+<p><img src="http://petersonmaddie.github.io/2021/04/17/breaking-down-the-accuracy-of-preseason-rankings/index_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

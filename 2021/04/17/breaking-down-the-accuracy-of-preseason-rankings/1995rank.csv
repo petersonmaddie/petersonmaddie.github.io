@@ -1,0 +1,426 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+17,Final,1,Nebraska,1,,62,Big 8
+17,Final,2,Florida,2,,,SEC (East)
+17,Final,3,Tennessee,4,1,,SEC (East)
+17,Final,4,Florida State,8,4,,ACC
+17,Final,5,Colorado,7,2,,Big 8
+17,Final,6,Ohio State,4,2,,Big Ten
+17,Final,7,Kansas State,10,3,,Big 8
+17,Final,8,Northwestern,3,5,,Big Ten
+17,Final,9,Kansas,11,2,,Big 8
+17,Final,10,Virginia Tech,13,3,,Big East
+17,Final,11,Notre Dame,6,5,,Ind
+17,Final,12,USC,17,5,,Pac-10
+17,Final,13,Penn State,15,2,,Big Ten
+17,Final,14,Texas,9,5,,SWC
+17,Final,15,Texas A&M,19,4,,SWC
+17,Final,16,Virginia,18,2,,ACC
+17,Final,17,Michigan,14,3,,Big Ten
+17,Final,18,Oregon,12,6,,Pac-10
+17,Final,19,Syracuse,,,,Big East
+17,Final,20,Miami (FL),22,2,,Big East
+17,Final,21,Alabama,21,,,SEC (West)
+17,Final,22,Auburn,16,6,,SEC (West)
+17,Final,23,Texas Tech,,,,SWC
+17,Final,24,Toledo,25,1,,MAC
+17,Final,25,Iowa,,,,Big Ten
+16,1995-12-05,1,Nebraska (11-0-0),1,,50,Big 8
+16,1995-12-05,2,Florida (12-0-0),2,,12,SEC (East)
+16,1995-12-05,3,Northwestern (10-1-0),3,,,Big Ten
+16,1995-12-05,4,Ohio State (11-1-0),5,1,,Big Ten
+16,1995-12-05,4,Tennessee (10-1-0),4,,,SEC (East)
+16,1995-12-05,6,Notre Dame (9-2-0),6,,,Ind
+16,1995-12-05,7,Colorado (9-2-0),7,,,Big 8
+16,1995-12-05,8,Florida State (9-2-0),8,,,ACC
+16,1995-12-05,9,Texas (10-1-1),9,,,SWC
+16,1995-12-05,10,Kansas State (9-2-0),10,,,Big 8
+16,1995-12-05,11,Kansas (9-2-0),11,,,Big 8
+16,1995-12-05,12,Oregon (9-2-0),12,,,Pac-10
+16,1995-12-05,13,Virginia Tech (9-2-0),13,,,Big East
+16,1995-12-05,14,Michigan (9-3-0),14,,,Big Ten
+16,1995-12-05,15,Penn State (8-3-0),15,,,Big Ten
+16,1995-12-05,16,Auburn (8-3-0),17,1,,SEC (West)
+16,1995-12-05,17,USC (8-2-1),18,1,,Pac-10
+16,1995-12-05,18,Virginia (8-4-0),19,1,,ACC
+16,1995-12-05,19,Texas A&M (8-3-0),16,3,,SWC
+16,1995-12-05,20,Washington (7-3-1),20,,,Pac-10
+16,1995-12-05,21,Alabama (8-3-0),21,,,SEC (West)
+16,1995-12-05,22,Miami (FL) (8-3-0),22,,,Big East
+16,1995-12-05,23,Clemson (8-3-0),24,1,,ACC
+16,1995-12-05,24,Arkansas (8-4-0),23,1,,SEC (West)
+16,1995-12-05,25,Toledo (10-0-1),25,,,MAC
+15,1995-11-28,1,Nebraska (11-0-0),1,,51,Big 8
+15,1995-11-28,2,Florida (11-0-0),3,1,11,SEC (East)
+15,1995-11-28,3,Northwestern (10-1-0),4,1,,Big Ten
+15,1995-11-28,4,Tennessee (10-1-0),5,1,,SEC (East)
+15,1995-11-28,5,Ohio State (11-1-0),2,3,,Big Ten
+15,1995-11-28,6,Notre Dame (9-2-0),7,1,,Ind
+15,1995-11-28,7,Colorado (9-2-0),8,1,,Big 8
+15,1995-11-28,8,Florida State (9-2-0),6,2,,ACC
+15,1995-11-28,9,Texas (9-1-1),9,,,SWC
+15,1995-11-28,10,Kansas State (9-2-0),10,,,Big 8
+15,1995-11-28,11,Kansas (9-2-0),11,,,Big 8
+15,1995-11-28,12,Oregon (9-2-0),12,,,Pac-10
+15,1995-11-28,13,Virginia Tech (9-2-0),13,,,Big East
+15,1995-11-28,14,Michigan (9-3-0),18,4,,Big Ten
+15,1995-11-28,15,Penn State (8-3-0),14,1,,Big Ten
+15,1995-11-28,16,Texas A&M (8-2-0),15,1,,SWC
+15,1995-11-28,17,Auburn (8-3-0),16,1,,SEC (West)
+15,1995-11-28,18,USC (8-2-1),17,1,,Pac-10
+15,1995-11-28,19,Virginia (8-4-0),19,,,ACC
+15,1995-11-28,20,Washington (7-3-1),20,,,Pac-10
+15,1995-11-28,21,Alabama (8-3-0),21,,,SEC (West)
+15,1995-11-28,22,Miami (FL) (8-3-0),25,3,,Big East
+15,1995-11-28,23,Arkansas (8-3-0),23,,,SEC (West)
+15,1995-11-28,24,Clemson (8-3-0),24,,,ACC
+15,1995-11-28,25,Toledo (10-0-1),,,,MAC
+14,1995-11-21,1,Nebraska (10-0-0),1,,44,Big 8
+14,1995-11-21,2,Ohio State (11-0-0),2,,13,Big Ten
+14,1995-11-21,3,Florida (10-0-0),3,,5,SEC (East)
+14,1995-11-21,4,Northwestern (10-1-0),5,1,,Big Ten
+14,1995-11-21,5,Tennessee (9-1-0),4,1,,SEC (East)
+14,1995-11-21,6,Florida State (9-1-0),6,,,ACC
+14,1995-11-21,7,Notre Dame (9-2-0),8,1,,Ind
+14,1995-11-21,8,Colorado (9-2-0),9,1,,Big 8
+14,1995-11-21,9,Texas (8-1-1),10,1,,SWC
+14,1995-11-21,10,Kansas State (9-2-0),7,3,,Big 8
+14,1995-11-21,11,Kansas (9-2-0),15,4,,Big 8
+14,1995-11-21,12,Oregon (9-2-0),16,4,,Pac-10
+14,1995-11-21,13,Virginia Tech (9-2-0),20,7,,Big East
+14,1995-11-21,14,Penn State (7-3-0),19,5,,Big Ten
+14,1995-11-21,15,Texas A&M (7-2-0),18,3,,SWC
+14,1995-11-21,16,Auburn (8-3-0),21,5,,SEC (West)
+14,1995-11-21,17,USC (8-2-1),11,6,,Pac-10
+14,1995-11-21,18,Michigan (8-3-0),12,6,,Big Ten
+14,1995-11-21,19,Virginia (8-4-0),13,6,,ACC
+14,1995-11-21,20,Washington (7-3-1),22,2,,Pac-10
+14,1995-11-21,21,Alabama (8-3-0),17,4,,SEC (West)
+14,1995-11-21,22,Syracuse (8-2-0),23,1,,Big East
+14,1995-11-21,23,Arkansas (8-3-0),14,9,,SEC (West)
+14,1995-11-21,24,Clemson (8-3-0),24,,,ACC
+14,1995-11-21,25,Miami (FL) (7-3-0),25,,,Big East
+13,1995-11-14,1,Nebraska (10-0-0),1,,45,Big 8
+13,1995-11-14,2,Ohio State (10-0-0),2,,12,Big Ten
+13,1995-11-14,3,Florida (9-0-0),3,,5,SEC (East)
+13,1995-11-14,4,Tennessee (8-1-0),4,,,SEC (East)
+13,1995-11-14,5,Northwestern (9-1-0),5,,,Big Ten
+13,1995-11-14,6,Florida State (8-1-0),6,,,ACC
+13,1995-11-14,7,Kansas State (9-1-0),7,,,Big 8
+13,1995-11-14,8,Notre Dame (8-2-0),8,,,Ind
+13,1995-11-14,9,Colorado (8-2-0),9,,,Big 8
+13,1995-11-14,10,Texas (7-1-1),11,1,,SWC
+13,1995-11-14,11,USC (8-1-1),12,1,,Pac-10
+13,1995-11-14,12,Michigan (8-2-0),13,1,,Big Ten
+13,1995-11-14,13,Virginia (8-3-0),14,1,,ACC
+13,1995-11-14,14,Arkansas (8-2-0),15,1,,SEC (West)
+13,1995-11-14,15,Kansas (8-2-0),10,5,,Big 8
+13,1995-11-14,16,Oregon (8-2-0),17,1,,Pac-10
+13,1995-11-14,17,Alabama (8-2-0),16,1,,SEC (West)
+13,1995-11-14,18,Texas A&M (6-2-0),18,,,SWC
+13,1995-11-14,19,Penn State (6-3-0),19,,,Big Ten
+13,1995-11-14,20,Virginia Tech (8-2-0),21,1,,Big East
+13,1995-11-14,21,Auburn (7-3-0),20,1,,SEC (West)
+13,1995-11-14,22,Washington (6-3-1),22,,,Pac-10
+13,1995-11-14,23,Syracuse (7-2-0),23,,,Big East
+13,1995-11-14,24,Clemson (7-3-0),24,,,ACC
+13,1995-11-14,25,Miami (FL) (6-3-0),,,,Big East
+12,1995-11-07,1,Nebraska (9-0-0),1,,45,Big 8
+12,1995-11-07,2,Ohio State (9-0-0),4,2,12,Big Ten
+12,1995-11-07,3,Florida (8-0-0),3,,5,SEC (East)
+12,1995-11-07,4,Tennessee (8-1-0),5,1,,SEC (East)
+12,1995-11-07,5,Northwestern (8-1-0),6,1,,Big Ten
+12,1995-11-07,6,Florida State (7-1-0),2,4,,ACC
+12,1995-11-07,7,Kansas State (8-1-0),9,2,,Big 8
+12,1995-11-07,8,Notre Dame (8-2-0),8,,,Ind
+12,1995-11-07,9,Colorado (7-2-0),10,1,,Big 8
+12,1995-11-07,10,Kansas (8-1-0),11,1,,Big 8
+12,1995-11-07,11,Texas (6-1-1),13,2,,SWC
+12,1995-11-07,12,USC (7-1-1),14,2,,Pac-10
+12,1995-11-07,13,Michigan (7-2-0),7,6,,Big Ten
+12,1995-11-07,14,Virginia (7-3-0),24,10,,ACC
+12,1995-11-07,15,Arkansas (7-2-0),18,3,,SEC (West)
+12,1995-11-07,16,Alabama (7-2-0),16,,,SEC (West)
+12,1995-11-07,17,Oregon (7-2-0),19,2,,Pac-10
+12,1995-11-07,18,Texas A&M (5-2-0),17,1,,SWC
+12,1995-11-07,19,Penn State (6-3-0),12,7,,Big Ten
+12,1995-11-07,20,Auburn (6-3-0),21,1,,SEC (West)
+12,1995-11-07,21,Virginia Tech (7-2-0),,,,Big East
+12,1995-11-07,22,Washington (5-3-1),15,7,,Pac-10
+12,1995-11-07,23,Syracuse (6-2-0),20,3,,Big East
+12,1995-11-07,24,Clemson (6-3-0),,,,ACC
+12,1995-11-07,25,San Diego State (7-2-0),,,,WAC
+11,1995-10-31,1,Nebraska (8-0-0),2,1,23,Big 8
+11,1995-10-31,2,Florida State (7-0-0),1,1,31,ACC
+11,1995-10-31,3,Florida (7-0-0),3,,2,SEC (East)
+11,1995-10-31,4,Ohio State (8-0-0),4,,6,Big Ten
+11,1995-10-31,5,Tennessee (7-1-0),5,,,SEC (East)
+11,1995-10-31,6,Northwestern (7-1-0),8,2,,Big Ten
+11,1995-10-31,7,Michigan (7-1-0),9,2,,Big Ten
+11,1995-10-31,8,Notre Dame (7-2-0),12,4,,Ind
+11,1995-10-31,9,Kansas State (7-1-0),14,5,,Big 8
+11,1995-10-31,10,Colorado (6-2-0),7,3,,Big 8
+11,1995-10-31,11,Kansas (7-1-0),6,5,,Big 8
+11,1995-10-31,12,Penn State (6-2-0),16,4,,Big Ten
+11,1995-10-31,13,Texas (5-1-1),15,2,,SWC
+11,1995-10-31,14,USC (6-1-1),13,1,,Pac-10
+11,1995-10-31,15,Washington (5-2-1),17,2,,Pac-10
+11,1995-10-31,16,Alabama (6-2-0),18,2,,SEC (West)
+11,1995-10-31,17,Texas A&M (5-2-0),19,2,,SWC
+11,1995-10-31,18,Arkansas (6-2-0),,,,SEC (West)
+11,1995-10-31,19,Oregon (6-2-0),10,9,,Pac-10
+11,1995-10-31,20,Syracuse (6-1-0),21,1,,Big East
+11,1995-10-31,21,Auburn (5-3-0),11,10,,SEC (West)
+11,1995-10-31,22,UCLA (6-2-0),24,2,,Pac-10
+11,1995-10-31,23,Texas Tech (5-2-0),22,1,,SWC
+11,1995-10-31,24,Virginia (6-3-0),20,4,,ACC
+11,1995-10-31,25,Oklahoma (5-2-1),23,2,,Big 8
+10,1995-10-24,1,Florida State (7-0-0),1,,34,ACC
+10,1995-10-24,2,Nebraska (7-0-0),2,,20,Big 8
+10,1995-10-24,3,Florida (6-0-0),3,,3,SEC (East)
+10,1995-10-24,4,Ohio State (7-0-0),4,,5,Big Ten
+10,1995-10-24,5,Tennessee (6-1-0),6,1,,SEC (East)
+10,1995-10-24,6,Kansas (7-0-0),7,1,,Big 8
+10,1995-10-24,7,Colorado (6-1-0),9,2,,Big 8
+10,1995-10-24,8,Northwestern (6-1-0),11,3,,Big Ten
+10,1995-10-24,9,Michigan (6-1-0),10,1,,Big Ten
+10,1995-10-24,10,Oregon (6-1-0),12,2,,Pac-10
+10,1995-10-24,11,Auburn (5-2-0),13,2,,SEC (West)
+10,1995-10-24,12,Notre Dame (6-2-0),17,5,,Ind
+10,1995-10-24,13,USC (6-1-0),5,8,,Pac-10
+10,1995-10-24,14,Kansas State (6-1-0),8,6,,Big 8
+10,1995-10-24,15,Texas (5-1-1),16,1,,SWC
+10,1995-10-24,16,Penn State (5-2-0),19,3,,Big Ten
+10,1995-10-24,17,Washington (5-2-0),20,3,,Pac-10
+10,1995-10-24,18,Alabama (5-2-0),21,3,,SEC (West)
+10,1995-10-24,19,Texas A&M (4-2-0),22,3,,SWC
+10,1995-10-24,20,Virginia (6-3-0),14,6,,ACC
+10,1995-10-24,21,Syracuse (6-1-0),,,,Big East
+10,1995-10-24,22,Texas Tech (4-2-0),25,3,,SWC
+10,1995-10-24,23,Oklahoma (4-2-1),15,8,,Big 8
+10,1995-10-24,24,UCLA (5-2-0),,,,Pac-10
+10,1995-10-24,25,Iowa (5-1-0),18,7,,Big Ten
+9,1995-10-17,1,Florida State (6-0-0),1,,38,ACC
+9,1995-10-17,2,Nebraska (6-0-0),2,,16,Big 8
+9,1995-10-17,3,Florida (6-0-0),3,,3,SEC (East)
+9,1995-10-17,4,Ohio State (6-0-0),4,,5,Big Ten
+9,1995-10-17,5,USC (6-0-0),5,,,Pac-10
+9,1995-10-17,6,Tennessee (6-1-0),6,,,SEC (East)
+9,1995-10-17,7,Kansas (6-0-0),10,3,,Big 8
+9,1995-10-17,8,Kansas State (6-0-0),8,,,Big 8
+9,1995-10-17,9,Colorado (5-1-0),9,,,Big 8
+9,1995-10-17,10,Michigan (5-1-0),11,1,,Big Ten
+9,1995-10-17,11,Northwestern (5-1-0),14,3,,Big Ten
+9,1995-10-17,12,Oregon (5-1-0),15,3,,Pac-10
+9,1995-10-17,13,Auburn (4-2-0),7,6,,SEC (West)
+9,1995-10-17,14,Virginia (6-2-0),19,5,,ACC
+9,1995-10-17,15,Oklahoma (4-1-1),13,2,,Big 8
+9,1995-10-17,16,Texas (4-1-1),18,2,,SWC
+9,1995-10-17,17,Notre Dame (5-2-0),17,,,Ind
+9,1995-10-17,18,Iowa (5-0-0),23,5,,Big Ten
+9,1995-10-17,19,Penn State (4-2-0),20,1,,Big Ten
+9,1995-10-17,20,Washington (4-2-0),24,4,,Pac-10
+9,1995-10-17,21,Alabama (4-2-0),11,10,,SEC (West)
+9,1995-10-17,22,Texas A&M (3-2-0),22,,,SWC
+9,1995-10-17,23,Stanford (4-1-1),16,7,,Pac-10
+9,1995-10-17,24,Wisconsin (2-2-1),21,3,,Big Ten
+9,1995-10-17,25,Texas Tech (3-2-0),25,,,SWC
+8,1995-10-10,1,Florida State (5-0-0),1,,40,ACC
+8,1995-10-10,2,Nebraska (5-0-0),2,,16,Big 8
+8,1995-10-10,3,Florida (5-0-0),3,,2,SEC (East)
+8,1995-10-10,4,Ohio State (5-0-0),5,1,4,Big Ten
+8,1995-10-10,5,USC (5-0-0),5,,,Pac-10
+8,1995-10-10,6,Tennessee (5-1-0),10,4,,SEC (East)
+8,1995-10-10,7,Auburn (4-1-0),11,4,,SEC (West)
+8,1995-10-10,8,Kansas State (5-0-0),13,5,,Big 8
+8,1995-10-10,9,Colorado (5-1-0),4,5,,Big 8
+8,1995-10-10,10,Kansas (5-0-0),24,14,,Big 8
+8,1995-10-10,11,Alabama (4-1-0),16,5,,SEC (West)
+8,1995-10-10,11,Michigan (5-1-0),7,4,,Big Ten
+8,1995-10-10,13,Oklahoma (4-1-0),14,1,,Big 8
+8,1995-10-10,14,Northwestern (4-1-0),25,11,,Big Ten
+8,1995-10-10,15,Oregon (4-1-0),17,2,,Pac-10
+8,1995-10-10,16,Stanford (4-0-1),19,3,,Pac-10
+8,1995-10-10,17,Notre Dame (4-2-0),23,6,,Ind
+8,1995-10-10,18,Texas (4-1-0),20,2,,SWC
+8,1995-10-10,19,Virginia (5-2-0),9,10,,ACC
+8,1995-10-10,20,Penn State (3-2-0),12,8,,Big Ten
+8,1995-10-10,21,Wisconsin (2-1-1),22,1,,Big Ten
+8,1995-10-10,22,Texas A&M (2-2-0),8,14,,SWC
+8,1995-10-10,23,Iowa (4-0-0),,,,Big Ten
+8,1995-10-10,24,Washington (3-2-0),15,9,,Pac-10
+8,1995-10-10,25,Texas Tech (2-2-0),,,,SWC
+7,1995-10-03,1,Florida State (4-0-0),1,,37,ACC
+7,1995-10-03,2,Nebraska (5-0-0),2,,17,Big 8
+7,1995-10-03,3,Florida (4-0-0),3,,2,SEC (East)
+7,1995-10-03,4,Colorado (5-0-0),4,,6,Big 8
+7,1995-10-03,5,Ohio State (4-0-0),7,2,,Big Ten
+7,1995-10-03,5,USC (4-0-0),5,,,Pac-10
+7,1995-10-03,7,Michigan (5-0-0),8,1,,Big Ten
+7,1995-10-03,8,Texas A&M (2-1-0),9,1,,SWC
+7,1995-10-03,9,Virginia (5-1-0),11,2,,ACC
+7,1995-10-03,10,Tennessee (4-1-0),12,2,,SEC (East)
+7,1995-10-03,11,Auburn (3-1-0),13,2,,SEC (West)
+7,1995-10-03,12,Penn State (3-1-0),6,6,,Big Ten
+7,1995-10-03,13,Kansas State (4-0-0),16,3,,Big 8
+7,1995-10-03,14,Oklahoma (3-1-0),10,4,,Big 8
+7,1995-10-03,15,Washington (3-1-0),18,3,,Pac-10
+7,1995-10-03,16,Alabama (3-1-0),20,4,,SEC (West)
+7,1995-10-03,17,Oregon (3-1-0),19,2,,Pac-10
+7,1995-10-03,18,Arkansas (4-1-0),23,5,,SEC (West)
+7,1995-10-03,19,Stanford (3-0-1),22,3,,Pac-10
+7,1995-10-03,20,Texas (3-1-0),21,1,,SWC
+7,1995-10-03,21,LSU (3-1-1),14,7,,SEC (West)
+7,1995-10-03,22,Wisconsin (2-1-1),,,,Big Ten
+7,1995-10-03,23,Notre Dame (3-2-0),15,8,,Ind
+7,1995-10-03,24,Kansas (4-0-0),25,1,,Big 8
+7,1995-10-03,25,Northwestern (3-1-0),,,,Big Ten
+6,1995-09-26,1,Florida State (4-0-0),1,,42,ACC
+6,1995-09-26,2,Nebraska (4-0-0),2,,18,Big 8
+6,1995-09-26,3,Florida (3-0-0),4,1,2,SEC (East)
+6,1995-09-26,4,Colorado (4-0-0),7,3,,Big 8
+6,1995-09-26,5,USC (3-0-0),5,,,Pac-10
+6,1995-09-26,6,Penn State (3-0-0),6,,,Big Ten
+6,1995-09-26,7,Ohio State (3-0-0),8,1,,Big Ten
+6,1995-09-26,8,Michigan (4-0-0),9,1,,Big Ten
+6,1995-09-26,9,Texas A&M (2-1-0),3,6,,SWC
+6,1995-09-26,10,Oklahoma (3-0-0),10,,,Big 8
+6,1995-09-26,11,Virginia (4-1-0),11,,,ACC
+6,1995-09-26,12,Tennessee (3-1-0),15,3,,SEC (East)
+6,1995-09-26,13,Auburn (2-1-0),14,1,,SEC (West)
+6,1995-09-26,14,LSU (3-1-0),18,4,,SEC (West)
+6,1995-09-26,15,Notre Dame (3-1-0),21,6,,Ind
+6,1995-09-26,16,Kansas State (3-0-0),19,3,,Big 8
+6,1995-09-26,17,Maryland (4-0-0),24,7,,ACC
+6,1995-09-26,18,Washington (2-1-0),22,4,,Pac-10
+6,1995-09-26,19,Oregon (3-1-0),12,7,,Pac-10
+6,1995-09-26,20,Alabama (2-1-0),23,3,,SEC (West)
+6,1995-09-26,21,Texas (2-1-0),13,8,,SWC
+6,1995-09-26,22,Stanford (3-0-1),,,,Pac-10
+6,1995-09-26,23,Arkansas (3-1-0),,,,SEC (West)
+6,1995-09-26,24,Texas Tech (1-1-0),,,,SWC
+6,1995-09-26,25,Kansas (4-0-0),,,,Big 8
+5,1995-09-19,1,Florida State (3-0-0),1,,36,ACC
+5,1995-09-19,2,Nebraska (3-0-0),2,,19,Big 8
+5,1995-09-19,3,Texas A&M (2-0-0),3,,5,SWC
+5,1995-09-19,4,Florida (3-0-0),4,,2,SEC (East)
+5,1995-09-19,5,USC (2-0-0),6,1,,Pac-10
+5,1995-09-19,6,Penn State (2-0-0),7,1,,Big Ten
+5,1995-09-19,7,Colorado (3-0-0),9,2,,Big 8
+5,1995-09-19,8,Ohio State (2-0-0),10,2,,Big Ten
+5,1995-09-19,9,Michigan (4-0-0),11,2,,Big Ten
+5,1995-09-19,10,Oklahoma (2-0-0),14,4,,Big 8
+5,1995-09-19,11,Virginia (3-1-0),16,5,,ACC
+5,1995-09-19,12,Oregon (3-0-0),20,8,,Pac-10
+5,1995-09-19,13,Texas (2-0-0),15,2,,SWC
+5,1995-09-19,14,Auburn (2-1-0),5,9,,SEC (West)
+5,1995-09-19,15,Tennessee (2-1-0),8,7,,SEC (East)
+5,1995-09-19,16,UCLA (2-1-0),12,4,,Pac-10
+5,1995-09-19,17,Miami (FL) (1-1-0),19,2,,Big East
+5,1995-09-19,18,LSU (2-1-0),,,,SEC (West)
+5,1995-09-19,19,Kansas State (2-0-0),22,3,,Big 8
+5,1995-09-19,20,Georgia (2-1-0),23,3,,SEC (East)
+5,1995-09-19,21,Notre Dame (2-1-0),24,3,,Ind
+5,1995-09-19,22,Washington (1-1-0),18,4,,Pac-10
+5,1995-09-19,23,Alabama (2-1-0),13,10,,SEC (West)
+5,1995-09-19,24,Maryland (3-0-0),,,,ACC
+5,1995-09-19,25,Arizona (2-1-0),17,8,,Pac-10
+4,1995-09-12,1,Florida State (2-0-0),1,,33,ACC
+4,1995-09-12,2,Nebraska (2-0-0),2,,20,Big 8
+4,1995-09-12,3,Texas A&M (1-0-0),3,,4,SWC
+4,1995-09-12,4,Florida (2-0-0),5,1,2,SEC (East)
+4,1995-09-12,5,Auburn (2-0-0),6,1,2,SEC (West)
+4,1995-09-12,6,USC (1-0-0),7,1,,Pac-10
+4,1995-09-12,7,Penn State (1-0-0),4,3,,Big Ten
+4,1995-09-12,8,Tennessee (2-0-0),8,,1,SEC (East)
+4,1995-09-12,9,Colorado (2-0-0),10,1,,Big 8
+4,1995-09-12,10,Ohio State (1-0-0),9,1,,Big Ten
+4,1995-09-12,11,Michigan (3-0-0),11,,,Big Ten
+4,1995-09-12,12,UCLA (2-0-0),12,,,Pac-10
+4,1995-09-12,13,Alabama (2-0-0),13,,,SEC (West)
+4,1995-09-12,14,Oklahoma (1-0-0),14,,,Big 8
+4,1995-09-12,15,Texas (1-0-0),15,,,SWC
+4,1995-09-12,16,Virginia (2-1-0),16,,,ACC
+4,1995-09-12,17,Arizona (2-0-0),17,,,Pac-10
+4,1995-09-12,18,Washington (1-0-0),18,,,Pac-10
+4,1995-09-12,19,Miami (FL) (1-1-0),19,,,Big East
+4,1995-09-12,20,Oregon (2-0-0),24,4,,Pac-10
+4,1995-09-12,21,Air Force (2-0-0),,,,WAC
+4,1995-09-12,22,Kansas State (2-0-0),21,1,,Big 8
+4,1995-09-12,23,Georgia (1-1-0),,,,SEC (East)
+4,1995-09-12,24,Notre Dame (1-1-0),25,1,,Ind
+4,1995-09-12,25,Northwestern (1-0-0),,,,Big Ten
+3,1995-09-05,1,Florida State (1-0-0),1,,38,ACC
+3,1995-09-05,2,Nebraska (1-0-0),2,,14,Big 8
+3,1995-09-05,3,Texas A&M (1-0-0),3,,4,SWC
+3,1995-09-05,4,Penn State,4,,1,Big Ten
+3,1995-09-05,5,Florida (1-0-0),5,,2,SEC (East)
+3,1995-09-05,6,Auburn (1-0-0),6,,2,SEC (West)
+3,1995-09-05,7,USC,7,,,Pac-10
+3,1995-09-05,8,Tennessee (1-0-0),8,,1,SEC (East)
+3,1995-09-05,9,Ohio State (1-0-0),10,1,,Big Ten
+3,1995-09-05,10,Colorado (1-0-0),14,4,,Big 8
+3,1995-09-05,11,Michigan (2-0-0),13,2,,Big Ten
+3,1995-09-05,12,UCLA (1-0-0),15,3,,Pac-10
+3,1995-09-05,13,Alabama (1-0-0),11,2,,SEC (West)
+3,1995-09-05,14,Oklahoma,16,2,,Big 8
+3,1995-09-05,15,Texas (1-0-0),18,3,,SWC
+3,1995-09-05,16,Virginia (1-1-0),17,1,,ACC
+3,1995-09-05,17,Arizona (1-0-0),19,2,,Pac-10
+3,1995-09-05,18,Washington (1-0-0),22,4,,Pac-10
+3,1995-09-05,19,Miami (FL) (0-1-0),12,7,,Big East
+3,1995-09-05,20,Virginia Tech,24,4,,Big East
+3,1995-09-05,21,Kansas State (1-0-0),,,,Big 8
+3,1995-09-05,22,Syracuse (1-0-0),,,,Big East
+3,1995-09-05,23,North Carolina State (1-0-0),,,,ACC
+3,1995-09-05,24,Oregon (1-0-0),,,,Pac-10
+3,1995-09-05,25,Notre Dame (0-1-0),9,16,,Ind
+2,1995-08-29,1,Florida State,1,,32,ACC
+2,1995-08-29,2,Nebraska,2,,15,Big 8
+2,1995-08-29,3,Texas A&M,3,,6,SWC
+2,1995-08-29,4,Penn State,4,,1,Big Ten
+2,1995-08-29,5,Florida,5,,5,SEC (East)
+2,1995-08-29,6,Auburn,6,,2,SEC (West)
+2,1995-08-29,7,USC,7,,,Pac-10
+2,1995-08-29,8,Tennessee,8,,1,SEC (East)
+2,1995-08-29,9,Notre Dame,9,,,Ind
+2,1995-08-29,10,Ohio State (1-0-0),12,2,,Big Ten
+2,1995-08-29,11,Alabama,10,1,,SEC (West)
+2,1995-08-29,12,Miami (FL),11,1,,Big East
+2,1995-08-29,13,Michigan (1-0-0),14,1,,Big Ten
+2,1995-08-29,14,Colorado,13,1,,Big 8
+2,1995-08-29,15,UCLA,16,1,,Pac-10
+2,1995-08-29,16,Oklahoma,15,1,,Big 8
+2,1995-08-29,17,Virginia (0-1-0),17,,,ACC
+2,1995-08-29,18,Texas,18,,,SWC
+2,1995-08-29,19,Arizona,19,,,Pac-10
+2,1995-08-29,20,North Carolina,20,,,ACC
+2,1995-08-29,21,Wisconsin,21,,,Big Ten
+2,1995-08-29,22,Washington,24,2,,Pac-10
+2,1995-08-29,23,West Virginia,23,,,Big East
+2,1995-08-29,24,Virginia Tech,24,,,Big East
+2,1995-08-29,25,Illinois,,,,Big Ten
+1,Preseason,1,Florida State,NA,—,31,ACC
+1,Preseason,2,Nebraska,NA,—,15,Big 8
+1,Preseason,3,Texas A&M,NA,—,6,SWC
+1,Preseason,4,Penn State,NA,—,1,Big Ten
+1,Preseason,5,Florida,NA,—,6,SEC (East)
+1,Preseason,6,Auburn,NA,—,2,SEC (West)
+1,Preseason,7,USC,NA,—,,Pac-10
+1,Preseason,8,Tennessee,NA,—,1,SEC (East)
+1,Preseason,9,Notre Dame,NA,—,,Ind
+1,Preseason,10,Alabama,NA,—,,SEC (West)
+1,Preseason,11,Miami (FL),NA,—,,Big East
+1,Preseason,12,Ohio State,NA,—,,Big Ten
+1,Preseason,13,Colorado,NA,—,,Big 8
+1,Preseason,14,Michigan,NA,—,,Big Ten
+1,Preseason,15,Oklahoma,NA,—,,Big 8
+1,Preseason,16,UCLA,NA,—,,Pac-10
+1,Preseason,17,Virginia,NA,—,,ACC
+1,Preseason,18,Texas,NA,—,,SWC
+1,Preseason,19,Arizona,NA,—,,Pac-10
+1,Preseason,20,North Carolina,NA,—,,ACC
+1,Preseason,21,Wisconsin,NA,—,,Big Ten
+1,Preseason,22,Boston College,NA,—,,Big East
+1,Preseason,23,West Virginia,NA,—,,Big East
+1,Preseason,24,Virginia Tech,NA,—,,Big East
+1,Preseason,24,Washington,NA,—,,Pac-10

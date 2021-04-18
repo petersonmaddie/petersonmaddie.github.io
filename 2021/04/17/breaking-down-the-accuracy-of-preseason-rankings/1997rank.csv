@@ -1,0 +1,451 @@
+Wk,Date,Rk,School,Prev,Chng,1st,Conf
+18,Final,1,Michigan,1,,51,Big Ten
+18,Final,2,Nebraska,2,,18,Big 12 (North)
+18,Final,3,Florida State,4,1,,ACC
+18,Final,4,Florida,6,2,,SEC (East)
+18,Final,5,UCLA,5,,,Pac-10
+18,Final,6,North Carolina,7,1,,ACC
+18,Final,7,Tennessee,3,4,,SEC (East)
+18,Final,8,Kansas State,10,2,,Big 12 (North)
+18,Final,9,Washington State,8,1,,Pac-10
+18,Final,10,Georgia,12,2,,SEC (East)
+18,Final,11,Auburn,13,2,,SEC (West)
+18,Final,12,Ohio State,9,3,,Big Ten
+18,Final,13,LSU,15,2,,SEC (West)
+18,Final,14,Arizona State,16,2,,Pac-10
+18,Final,15,Purdue,17,2,,Big Ten
+18,Final,16,Penn State,11,5,,Big Ten
+18,Final,17,Colorado State,18,1,,WAC (Pacific)
+18,Final,18,Washington,21,3,,Pac-10
+18,Final,19,Southern Mississippi,22,3,,CUSA
+18,Final,20,Texas A&M,20,,,Big 12 (South)
+18,Final,21,Syracuse,14,7,,Big East
+18,Final,22,Ole Miss,,,,SEC (West)
+18,Final,23,Missouri,19,4,,Big 12 (North)
+18,Final,24,Oklahoma State,24,,,Big 12 (South)
+18,Final,25,Georgia Tech,,,,ACC
+17,1997-12-08,1,Michigan (11-0),1,,69,Big Ten
+17,1997-12-08,2,Nebraska (12-0),2,,1,Big 12 (North)
+17,1997-12-08,3,Tennessee (11-1),3,,,SEC (East)
+17,1997-12-08,4,Florida State (10-1),4,,,ACC
+17,1997-12-08,5,UCLA (9-2),5,,,Pac-10
+17,1997-12-08,6,Florida (9-2),6,,,SEC (East)
+17,1997-12-08,7,North Carolina (10-1),7,,,ACC
+17,1997-12-08,8,Washington State (10-1),8,,,Pac-10
+17,1997-12-08,9,Ohio State (10-2),9,,,Big Ten
+17,1997-12-08,10,Kansas State (10-1),10,,,Big 12 (North)
+17,1997-12-08,11,Penn State (9-2),12,1,,Big Ten
+17,1997-12-08,12,Georgia (9-2),13,1,,SEC (East)
+17,1997-12-08,13,Auburn (9-3),11,2,,SEC (West)
+17,1997-12-08,14,Syracuse (9-3),15,1,,Big East
+17,1997-12-08,15,LSU (8-3),16,1,,SEC (West)
+17,1997-12-08,16,Arizona State (8-3),17,1,,Pac-10
+17,1997-12-08,17,Purdue (8-3),18,1,,Big Ten
+17,1997-12-08,18,Colorado State (10-2),20,2,,WAC (Pacific)
+17,1997-12-08,19,Missouri (7-4),19,,,Big 12 (North)
+17,1997-12-08,20,Texas A&M (9-3),14,6,,Big 12 (South)
+17,1997-12-08,21,Washington (7-4),21,,,Pac-10
+17,1997-12-08,22,Southern Mississippi (8-3),22,,,CUSA
+17,1997-12-08,23,Air Force (10-2),23,,,WAC (Pacific)
+17,1997-12-08,24,Oklahoma State (8-3),24,,,Big 12 (South)
+17,1997-12-08,25,Michigan State (7-4),25,,,Big Ten
+16,1997-12-01,1,Michigan (11-0),1,,69,Big Ten
+16,1997-12-01,2,Nebraska (11-0),2,,1,Big 12 (North)
+16,1997-12-01,3,Tennessee (10-1),3,,,SEC (East)
+16,1997-12-01,4,Florida State (10-1),5,1,,ACC
+16,1997-12-01,5,UCLA (9-2),6,1,,Pac-10
+16,1997-12-01,6,Florida (9-2),7,1,,SEC (East)
+16,1997-12-01,7,North Carolina (10-1),8,1,,ACC
+16,1997-12-01,8,Washington State (10-1),10,2,,Pac-10
+16,1997-12-01,9,Ohio State (10-2),9,,,Big Ten
+16,1997-12-01,10,Kansas State (10-1),11,1,,Big 12 (North)
+16,1997-12-01,11,Auburn (9-2),13,2,,SEC (West)
+16,1997-12-01,12,Penn State (9-2),4,8,,Big Ten
+16,1997-12-01,13,Georgia (9-2),14,1,,SEC (East)
+16,1997-12-01,14,Texas A&M (9-2),15,1,,Big 12 (South)
+16,1997-12-01,15,Syracuse (9-3),16,1,,Big East
+16,1997-12-01,16,LSU (8-3),17,1,,SEC (West)
+16,1997-12-01,17,Arizona State (8-3),12,5,,Pac-10
+16,1997-12-01,18,Purdue (8-3),18,,,Big Ten
+16,1997-12-01,19,Missouri (7-4),19,,,Big 12 (North)
+16,1997-12-01,20,Colorado State (9-2),20,,,WAC (Pacific)
+16,1997-12-01,21,Washington (7-4),21,,,Pac-10
+16,1997-12-01,22,Southern Mississippi (8-3),23,1,,CUSA
+16,1997-12-01,23,Air Force (10-2),24,1,,WAC (Pacific)
+16,1997-12-01,24,Oklahoma State (8-3),25,1,,Big 12 (South)
+16,1997-12-01,25,Michigan State (7-4),,,,Big Ten
+15,1997-11-24,1,Michigan (11-0),1,,69,Big Ten
+15,1997-11-24,2,Nebraska (10-0),3,1,1,Big 12 (North)
+15,1997-11-24,3,Tennessee (9-1),5,2,,SEC (East)
+15,1997-11-24,4,Penn State (9-1),6,2,,Big Ten
+15,1997-11-24,5,Florida State (10-1),2,3,,ACC
+15,1997-11-24,6,UCLA (9-2),7,1,,Pac-10
+15,1997-11-24,7,Florida (9-2),10,3,,SEC (East)
+15,1997-11-24,8,North Carolina (10-1),8,,,ACC
+15,1997-11-24,9,Ohio State (10-2),4,5,,Big Ten
+15,1997-11-24,10,Washington State (10-1),11,1,,Pac-10
+15,1997-11-24,11,Kansas State (10-1),9,2,,Big 12 (North)
+15,1997-11-24,12,Arizona State (8-2),12,,,Pac-10
+15,1997-11-24,13,Auburn (9-2),13,,,SEC (West)
+15,1997-11-24,14,Georgia (8-2),14,,,SEC (East)
+15,1997-11-24,15,Texas A&M (8-2),16,1,,Big 12 (South)
+15,1997-11-24,16,Syracuse (8-3),18,2,,Big East
+15,1997-11-24,17,LSU (7-3),20,3,,SEC (West)
+15,1997-11-24,18,Purdue (8-3),23,5,,Big Ten
+15,1997-11-24,19,Missouri (7-4),21,2,,Big 12 (North)
+15,1997-11-24,20,Colorado State (9-2),25,5,,WAC (Pacific)
+15,1997-11-24,21,Washington (7-4),17,4,,Pac-10
+15,1997-11-24,22,Mississippi State (7-3),15,7,,SEC (West)
+15,1997-11-24,23,Southern Mississippi (8-3),,,,CUSA
+15,1997-11-24,24,Air Force (10-2),,,,WAC (Pacific)
+15,1997-11-24,25,Oklahoma State (8-3),,,,Big 12 (South)
+14,1997-11-17,1,Michigan (10-0),1,,44,Big Ten
+14,1997-11-17,2,Florida State (10-0),2,,24,ACC
+14,1997-11-17,3,Nebraska (10-0),3,,2,Big 12 (North)
+14,1997-11-17,4,Ohio State (10-1),4,,,Big Ten
+14,1997-11-17,5,Tennessee (8-1),5,,,SEC (East)
+14,1997-11-17,6,Penn State (8-1),6,,,Big Ten
+14,1997-11-17,7,UCLA (8-2),9,2,,Pac-10
+14,1997-11-17,8,North Carolina (9-1),8,,,ACC
+14,1997-11-17,9,Kansas State (9-1),10,1,,Big 12 (North)
+14,1997-11-17,10,Florida (8-2),12,2,,SEC (East)
+14,1997-11-17,11,Washington State (9-1),14,3,,Pac-10
+14,1997-11-17,12,Arizona State (8-2),15,3,,Pac-10
+14,1997-11-17,13,Auburn (8-2),16,3,,SEC (West)
+14,1997-11-17,14,Georgia (7-2),7,7,,SEC (East)
+14,1997-11-17,15,Mississippi State (7-2),17,2,,SEC (West)
+14,1997-11-17,16,Texas A&M (8-2),18,2,,Big 12 (South)
+14,1997-11-17,17,Washington (7-3),13,4,,Pac-10
+14,1997-11-17,18,Syracuse (8-3),21,3,,Big East
+14,1997-11-17,19,Virginia Tech (7-2),19,,,Big East
+14,1997-11-17,20,LSU (7-3),11,9,,SEC (West)
+14,1997-11-17,21,Missouri (7-4),25,4,,Big 12 (North)
+14,1997-11-17,22,West Virginia (7-2),,,,Big East
+14,1997-11-17,23,Purdue (7-3),19,4,,Big Ten
+14,1997-11-17,24,Wisconsin (8-3),23,1,,Big Ten
+14,1997-11-17,25,Colorado State (8-2),,,,WAC (Pacific)
+13,1997-11-10,1,Michigan (9-0),4,3,44,Big Ten
+13,1997-11-10,2,Florida State (9-0),3,1,23,ACC
+13,1997-11-10,3,Nebraska (9-0),1,2,3,Big 12 (North)
+13,1997-11-10,4,Ohio State (9-1),7,3,,Big Ten
+13,1997-11-10,5,Tennessee (7-1),8,3,,SEC (East)
+13,1997-11-10,6,Penn State (7-1),2,4,,Big Ten
+13,1997-11-10,7,Georgia (7-1),9,2,,SEC (East)
+13,1997-11-10,8,North Carolina (8-1),5,3,,ACC
+13,1997-11-10,9,UCLA (7-2),10,1,,Pac-10
+13,1997-11-10,10,Kansas State (8-1),11,1,,Big 12 (North)
+13,1997-11-10,11,LSU (7-2),14,3,,SEC (West)
+13,1997-11-10,12,Florida (7-2),13,1,,SEC (East)
+13,1997-11-10,13,Washington (7-2),6,7,,Pac-10
+13,1997-11-10,14,Washington State (8-1),16,2,,Pac-10
+13,1997-11-10,15,Arizona State (7-2),15,,,Pac-10
+13,1997-11-10,16,Auburn (7-2),17,1,,SEC (West)
+13,1997-11-10,17,Mississippi State (6-2),19,2,,SEC (West)
+13,1997-11-10,18,Texas A&M (7-2),21,3,,Big 12 (South)
+13,1997-11-10,19,Purdue (7-2),23,4,,Big Ten
+13,1997-11-10,19,Virginia Tech (7-2),20,1,,Big East
+13,1997-11-10,21,Syracuse (7-3),22,1,,Big East
+13,1997-11-10,22,Iowa (6-3),12,10,,Big Ten
+13,1997-11-10,23,Wisconsin (8-2),,,,Big Ten
+13,1997-11-10,24,Oklahoma State (7-2),25,1,,Big 12 (South)
+13,1997-11-10,25,Missouri (6-4),,,,Big 12 (North)
+12,1997-11-03,1,Nebraska (8-0),1,,46,Big 12 (North)
+12,1997-11-03,2,Penn State (7-0),2,,16,Big Ten
+12,1997-11-03,3,Florida State (8-0),3,,5,ACC
+12,1997-11-03,4,Michigan (8-0),4,,1,Big Ten
+12,1997-11-03,5,North Carolina (8-0),5,,2,ACC
+12,1997-11-03,6,Washington (7-1),7,1,,Pac-10
+12,1997-11-03,7,Ohio State (8-1),9,2,,Big Ten
+12,1997-11-03,8,Tennessee (6-1),8,,,SEC (East)
+12,1997-11-03,9,Georgia (7-1),14,5,,SEC (East)
+12,1997-11-03,10,UCLA (7-2),12,2,,Pac-10
+12,1997-11-03,11,Kansas State (7-1),13,2,,Big 12 (North)
+12,1997-11-03,12,Iowa (6-2),15,3,,Big Ten
+12,1997-11-03,13,Florida (6-2),6,7,,SEC (East)
+12,1997-11-03,14,LSU (6-2),16,2,,SEC (West)
+12,1997-11-03,15,Arizona State (6-2),20,5,,Pac-10
+12,1997-11-03,16,Washington State (7-1),10,6,,Pac-10
+12,1997-11-03,17,Auburn (7-2),11,6,,SEC (West)
+12,1997-11-03,18,Toledo (8-0),22,4,,MAC (West)
+12,1997-11-03,19,Mississippi State (6-2),,,,SEC (West)
+12,1997-11-03,20,Virginia Tech (6-2),23,3,,Big East
+12,1997-11-03,21,Texas A&M (6-2),25,4,,Big 12 (South)
+12,1997-11-03,22,Syracuse (6-3),,,,Big East
+12,1997-11-03,23,Purdue (6-2),18,5,,Big Ten
+12,1997-11-03,24,Southern Mississippi (6-2),24,,,CUSA
+12,1997-11-03,25,Oklahoma State (6-2),19,6,,Big 12 (South)
+11,1997-10-27,1,Nebraska (7-0),1,,35,Big 12 (North)
+11,1997-10-27,2,Penn State (6-0),2,,25,Big Ten
+11,1997-10-27,3,Florida State (7-0),3,,8,ACC
+11,1997-10-27,4,Michigan (7-0),5,1,,Big Ten
+11,1997-10-27,5,North Carolina (7-0),4,1,2,ACC
+11,1997-10-27,6,Florida (6-1),6,,,SEC (East)
+11,1997-10-27,7,Washington (6-1),7,,,Pac-10
+11,1997-10-27,8,Tennessee (5-1),8,,,SEC (East)
+11,1997-10-27,9,Ohio State (7-1),9,,,Big Ten
+11,1997-10-27,10,Washington State (7-0),10,,,Pac-10
+11,1997-10-27,11,Auburn (7-1),11,,,SEC (West)
+11,1997-10-27,12,UCLA (6-2),13,1,,Pac-10
+11,1997-10-27,13,Kansas State (6-1),14,1,,Big 12 (North)
+11,1997-10-27,14,Georgia (6-1),16,2,,SEC (East)
+11,1997-10-27,15,Iowa (5-2),18,3,,Big Ten
+11,1997-10-27,16,LSU (5-2),17,1,,SEC (West)
+11,1997-10-27,17,West Virginia (6-1),21,4,,Big East
+11,1997-10-27,18,Purdue (6-1),22,4,,Big Ten
+11,1997-10-27,19,Oklahoma State (6-1),12,7,,Big 12 (South)
+11,1997-10-27,20,Arizona State (5-2),23,3,,Pac-10
+11,1997-10-27,21,Michigan State (5-2),15,6,,Big Ten
+11,1997-10-27,22,Toledo (7-0),24,2,,MAC (West)
+11,1997-10-27,23,Virginia Tech (5-2),19,4,,Big East
+11,1997-10-27,24,Southern Mississippi (5-2),,,,CUSA
+11,1997-10-27,25,Texas A&M (5-2),20,5,,Big 12 (South)
+10,1997-10-20,1,Nebraska (6-0),2,1,33,Big 12 (North)
+10,1997-10-20,2,Penn State (6-0),1,1,26,Big Ten
+10,1997-10-20,3,Florida State (6-0),3,,9,ACC
+10,1997-10-20,4,North Carolina (7-0),4,,2,ACC
+10,1997-10-20,5,Michigan (6-0),5,,,Big Ten
+10,1997-10-20,6,Florida (6-1),7,1,,SEC (East)
+10,1997-10-20,7,Washington (5-1),10,3,,Pac-10
+10,1997-10-20,8,Tennessee (5-1),9,1,,SEC (East)
+10,1997-10-20,9,Ohio State (6-1),11,2,,Big Ten
+10,1997-10-20,10,Washington State (6-0),13,3,,Pac-10
+10,1997-10-20,11,Auburn (6-1),6,5,,SEC (West)
+10,1997-10-20,12,Oklahoma State (6-0),16,4,,Big 12 (South)
+10,1997-10-20,13,UCLA (5-2),17,4,,Pac-10
+10,1997-10-20,14,Kansas State (5-1),20,6,,Big 12 (North)
+10,1997-10-20,15,Michigan State (5-1),12,3,,Big Ten
+10,1997-10-20,16,Georgia (5-1),19,3,,SEC (East)
+10,1997-10-20,17,LSU (5-2),8,9,,SEC (West)
+10,1997-10-20,18,Iowa (4-2),15,3,,Big Ten
+10,1997-10-20,19,Virginia Tech (5-1),22,3,,Big East
+10,1997-10-20,20,Texas A&M (5-1),14,6,,Big 12 (South)
+10,1997-10-20,21,West Virginia (5-1),23,2,,Big East
+10,1997-10-20,22,Purdue (5-1),,,,Big Ten
+10,1997-10-20,23,Arizona State (5-2),,,,Pac-10
+10,1997-10-20,24,Toledo (6-0),,,,MAC (West)
+10,1997-10-20,25,Ole Miss (4-2),,,,SEC (West)
+9,1997-10-13,1,Penn State (5-0),2,1,51,Big Ten
+9,1997-10-13,2,Nebraska (5-0),3,1,14,Big 12 (North)
+9,1997-10-13,3,Florida State (5-0),4,1,3,ACC
+9,1997-10-13,4,North Carolina (6-0),5,1,2,ACC
+9,1997-10-13,5,Michigan (5-0),6,1,,Big Ten
+9,1997-10-13,6,Auburn (6-0),8,2,,SEC (West)
+9,1997-10-13,7,Florida (5-1),1,6,,SEC (East)
+9,1997-10-13,8,LSU (5-1),14,6,,SEC (West)
+9,1997-10-13,9,Tennessee (4-1),9,,,SEC (East)
+9,1997-10-13,10,Washington (4-1),10,,,Pac-10
+9,1997-10-13,11,Ohio State (5-1),7,4,,Big Ten
+9,1997-10-13,12,Michigan State (5-0),11,1,,Big Ten
+9,1997-10-13,13,Washington State (5-0),12,1,,Pac-10
+9,1997-10-13,14,Texas A&M (5-0),15,1,,Big 12 (South)
+9,1997-10-13,15,Iowa (4-1),17,2,,Big Ten
+9,1997-10-13,16,Oklahoma State (6-0),20,4,,Big 12 (South)
+9,1997-10-13,17,UCLA (4-2),18,1,,Pac-10
+9,1997-10-13,18,Air Force (7-0),19,1,,WAC (Pacific)
+9,1997-10-13,19,Georgia (4-1),13,6,,SEC (East)
+9,1997-10-13,20,Kansas State (4-1),22,2,,Big 12 (North)
+9,1997-10-13,21,Georgia Tech (4-1),25,4,,ACC
+9,1997-10-13,22,Virginia Tech (5-1),23,1,,Big East
+9,1997-10-13,23,West Virginia (5-1),,,,Big East
+9,1997-10-13,24,Wisconsin (6-1),,,,Big Ten
+9,1997-10-13,25,Stanford (4-2),16,9,,Pac-10
+8,1997-10-06,1,Florida (5-0),1,,35,SEC (East)
+8,1997-10-06,2,Penn State (4-0),2,,26,Big Ten
+8,1997-10-06,3,Nebraska (4-0),3,,6,Big 12 (North)
+8,1997-10-06,4,Florida State (4-0),4,,1,ACC
+8,1997-10-06,5,North Carolina (5-0),5,,2,ACC
+8,1997-10-06,6,Michigan (4-0),6,,,Big Ten
+8,1997-10-06,7,Ohio State (5-0),7,,,Big Ten
+8,1997-10-06,8,Auburn (5-0),8,,,SEC (West)
+8,1997-10-06,9,Tennessee (3-1),9,,,SEC (East)
+8,1997-10-06,10,Washington (3-1),10,,,Pac-10
+8,1997-10-06,11,Michigan State (4-0),12,1,,Big Ten
+8,1997-10-06,12,Washington State (5-0),15,3,,Pac-10
+8,1997-10-06,13,Georgia (4-0),18,5,,SEC (East)
+8,1997-10-06,14,LSU (4-1),13,1,,SEC (West)
+8,1997-10-06,15,Texas A&M (4-0),21,6,,Big 12 (South)
+8,1997-10-06,16,Stanford (4-1),19,3,,Pac-10
+8,1997-10-06,17,Iowa (4-1),11,6,,Big Ten
+8,1997-10-06,18,UCLA (3-2),22,4,,Pac-10
+8,1997-10-06,19,Air Force (6-0),23,4,,WAC (Pacific)
+8,1997-10-06,20,Oklahoma State (5-0),,,,Big 12 (South)
+8,1997-10-06,21,BYU (3-1),24,3,,WAC (Mountain)
+8,1997-10-06,22,Kansas State (3-1),17,5,,Big 12 (North)
+8,1997-10-06,23,Virginia Tech (4-1),14,9,,Big East
+8,1997-10-06,24,Colorado (2-2),16,8,,Big 12 (North)
+8,1997-10-06,25,Georgia Tech (3-1),,,,ACC
+7,1997-09-29,1,Florida (4-0),1,,36,SEC (East)
+7,1997-09-29,2,Penn State (3-0),2,,25,Big Ten
+7,1997-09-29,3,Nebraska (3-0),3,,6,Big 12 (North)
+7,1997-09-29,4,Florida State (3-0),4,,1,ACC
+7,1997-09-29,5,North Carolina (4-0),5,,2,ACC
+7,1997-09-29,6,Michigan (3-0),6,,,Big Ten
+7,1997-09-29,7,Ohio State (4-0),7,,,Big Ten
+7,1997-09-29,8,Auburn (4-0),8,,,SEC (West)
+7,1997-09-29,9,Tennessee (2-1),9,,,SEC (East)
+7,1997-09-29,10,Washington (2-1),10,,,Pac-10
+7,1997-09-29,11,Iowa (4-0),11,,,Big Ten
+7,1997-09-29,12,Michigan State (3-0),12,,,Big Ten
+7,1997-09-29,13,LSU (3-1),13,,,SEC (West)
+7,1997-09-29,14,Virginia Tech (4-0),14,,,Big East
+7,1997-09-29,15,Washington State (4-0),15,,,Pac-10
+7,1997-09-29,16,Colorado (2-1),16,,,Big 12 (North)
+7,1997-09-29,17,Kansas State (3-0),18,1,,Big 12 (North)
+7,1997-09-29,18,Georgia (3-0),19,1,,SEC (East)
+7,1997-09-29,19,Stanford (3-1),20,1,,Pac-10
+7,1997-09-29,20,Alabama (3-1),21,1,,SEC (West)
+7,1997-09-29,21,Texas A&M (3-0),22,1,,Big 12 (South)
+7,1997-09-29,22,UCLA (2-2),24,2,,Pac-10
+7,1997-09-29,23,Air Force (5-0),,,,WAC (Pacific)
+7,1997-09-29,24,BYU (2-1),23,1,,WAC (Mountain)
+7,1997-09-29,25,Arizona State (3-1),25,,,Pac-10
+6,1997-09-22,1,Florida (3-0),3,2,32,SEC (East)
+6,1997-09-22,2,Penn State (3-0),1,1,28,Big Ten
+6,1997-09-22,3,Nebraska (3-0),7,4,7,Big 12 (North)
+6,1997-09-22,4,Florida State (3-0),5,1,1,ACC
+6,1997-09-22,5,North Carolina (3-0),6,1,2,ACC
+6,1997-09-22,6,Michigan (2-0),8,2,,Big Ten
+6,1997-09-22,7,Ohio State (3-0),9,2,,Big Ten
+6,1997-09-22,8,Auburn (3-0),12,4,,SEC (West)
+6,1997-09-22,9,Tennessee (2-1),4,5,,SEC (East)
+6,1997-09-22,10,Washington (2-1),2,8,,Pac-10
+6,1997-09-22,11,Iowa (3-0),13,2,,Big Ten
+6,1997-09-22,12,Michigan State (3-0),17,5,,Big Ten
+6,1997-09-22,13,LSU (2-1),10,3,,SEC (West)
+6,1997-09-22,14,Virginia Tech (3-0),18,4,,Big East
+6,1997-09-22,15,Washington State (3-0),19,4,,Pac-10
+6,1997-09-22,16,Colorado (1-1),15,1,,Big 12 (North)
+6,1997-09-22,17,Clemson (2-1),16,1,,ACC
+6,1997-09-22,18,Kansas State (2-0),20,2,,Big 12 (North)
+6,1997-09-22,19,Georgia (3-0),25,6,,SEC (East)
+6,1997-09-22,20,Stanford (2-1),21,1,,Pac-10
+6,1997-09-22,21,Alabama (2-1),11,10,,SEC (West)
+6,1997-09-22,22,Texas A&M (2-0),,,,Big 12 (South)
+6,1997-09-22,23,BYU (1-1),,,,WAC (Mountain)
+6,1997-09-22,24,UCLA (1-2),24,,,Pac-10
+6,1997-09-22,25,Arizona State (2-1),14,11,,Pac-10
+5,1997-09-15,1,Penn State (2-0),1,,25,Big Ten
+5,1997-09-15,2,Washington (2-0),3,1,19,Pac-10
+5,1997-09-15,3,Florida (2-0),2,1,14,SEC (East)
+5,1997-09-15,4,Tennessee (2-0),4,,6,SEC (East)
+5,1997-09-15,5,Florida State (2-0),5,,3,ACC
+5,1997-09-15,6,North Carolina (2-0),7,1,1,ACC
+5,1997-09-15,7,Nebraska (2-0),6,1,2,Big 12 (North)
+5,1997-09-15,8,Michigan (1-0),14,6,,Big Ten
+5,1997-09-15,9,Ohio State (2-0),9,,,Big Ten
+5,1997-09-15,10,LSU (2-0),10,,,SEC (West)
+5,1997-09-15,11,Alabama (2-0),15,4,,SEC (West)
+5,1997-09-15,12,Auburn (2-0),16,4,,SEC (West)
+5,1997-09-15,13,Iowa (2-0),18,5,,Big Ten
+5,1997-09-15,14,Arizona State (2-0),24,10,,Pac-10
+5,1997-09-15,15,Colorado (1-1),8,7,,Big 12 (North)
+5,1997-09-15,16,Clemson (2-0),19,3,,ACC
+5,1997-09-15,17,Michigan State (2-0),21,4,,Big Ten
+5,1997-09-15,18,Virginia Tech (2-0),22,4,,Big East
+5,1997-09-15,19,Washington State (2-0),,,,Pac-10
+5,1997-09-15,20,Kansas State (2-0),20,,,Big 12 (North)
+5,1997-09-15,21,Stanford (1-1),17,4,,Pac-10
+5,1997-09-15,22,Miami (FL) (1-1),13,9,,Big East
+5,1997-09-15,23,Colorado State (2-1),25,2,,WAC (Pacific)
+5,1997-09-15,24,UCLA (1-2),,,,Pac-10
+5,1997-09-15,25,Georgia (2-0),,,,SEC (East)
+4,1997-09-08,1,Penn State (1-0),1,,22,Big Ten
+4,1997-09-08,2,Florida (2-0),2,,15,SEC (East)
+4,1997-09-08,3,Washington (1-0),4,1,14,Pac-10
+4,1997-09-08,4,Tennessee (2-0),3,1,6,SEC (East)
+4,1997-09-08,5,Florida State (1-0),5,,4,ACC
+4,1997-09-08,6,Nebraska (1-0),6,,4,Big 12 (North)
+4,1997-09-08,7,North Carolina (1-0),7,,2,ACC
+4,1997-09-08,8,Colorado (1-0),8,,3,Big 12 (North)
+4,1997-09-08,9,Ohio State (1-0),9,,,Big Ten
+4,1997-09-08,10,LSU (1-0),10,,,SEC (West)
+4,1997-09-08,11,Texas (1-0),12,1,,Big 12 (South)
+4,1997-09-08,12,Notre Dame (1-0),11,1,,Ind
+4,1997-09-08,13,Miami (FL) (1-0),13,,,Big East
+4,1997-09-08,14,Michigan,14,,,Big Ten
+4,1997-09-08,15,Alabama (1-0),15,,,SEC (West)
+4,1997-09-08,16,Auburn (1-0),16,,,SEC (West)
+4,1997-09-08,17,Stanford (1-0),17,,,Pac-10
+4,1997-09-08,18,Iowa (1-0),20,2,,Big Ten
+4,1997-09-08,19,Clemson (1-0),18,1,,ACC
+4,1997-09-08,20,Kansas State (1-0),21,1,,Big 12 (North)
+4,1997-09-08,21,Michigan State (1-0),25,4,,Big Ten
+4,1997-09-08,22,Virginia Tech (1-0),,,,Big East
+4,1997-09-08,23,USC (0-1),23,,,Pac-10
+4,1997-09-08,24,Arizona State (1-0),,,,Pac-10
+4,1997-09-08,25,Colorado State (1-1),24,1,,WAC (Pacific)
+3,1997-09-02,1,Penn State,1,,23,Big Ten
+3,1997-09-02,2,Florida (1-0),2,,14,SEC (East)
+3,1997-09-02,3,Tennessee (1-0),5,2,7,SEC (East)
+3,1997-09-02,4,Washington,4,,9,Pac-10
+3,1997-09-02,5,Florida State,3,2,6,ACC
+3,1997-09-02,6,Nebraska (1-0),6,,4,Big 12 (North)
+3,1997-09-02,7,North Carolina,7,,4,ACC
+3,1997-09-02,8,Colorado,8,,3,Big 12 (North)
+3,1997-09-02,9,Ohio State (1-0),9,,,Big Ten
+3,1997-09-02,10,LSU,10,,,SEC (West)
+3,1997-09-02,11,Notre Dame,11,,,Ind
+3,1997-09-02,12,Texas,12,,,Big 12 (South)
+3,1997-09-02,13,Miami (FL) (1-0),14,1,,Big East
+3,1997-09-02,14,Michigan,15,1,,Big Ten
+3,1997-09-02,15,Alabama (1-0),16,1,,SEC (West)
+3,1997-09-02,16,Auburn,17,1,,SEC (West)
+3,1997-09-02,17,Stanford,18,1,,Pac-10
+3,1997-09-02,18,Clemson,20,2,,ACC
+3,1997-09-02,19,BYU,19,,,WAC (Mountain)
+3,1997-09-02,20,Iowa,21,1,,Big Ten
+3,1997-09-02,21,Kansas State,22,1,,Big 12 (North)
+3,1997-09-02,21,Northwestern (1-0),24,3,,Big Ten
+3,1997-09-02,23,USC,23,,,Pac-10
+3,1997-09-02,24,Colorado State (1-0),,,,WAC (Pacific)
+3,1997-09-02,25,Michigan State,25,,,Big Ten
+2,1997-08-25,1,Penn State,1,,22,Big Ten
+2,1997-08-25,2,Florida,2,,14,SEC (East)
+2,1997-08-25,3,Florida State,3,,6,ACC
+2,1997-08-25,4,Washington,4,,9,Pac-10
+2,1997-08-25,5,Tennessee,5,,7,SEC (East)
+2,1997-08-25,6,Nebraska,6,,4,Big 12 (North)
+2,1997-08-25,7,North Carolina,7,,4,ACC
+2,1997-08-25,8,Colorado,8,,3,Big 12 (North)
+2,1997-08-25,9,Ohio State,9,,1,Big Ten
+2,1997-08-25,10,LSU,10,,,SEC (West)
+2,1997-08-25,11,Notre Dame,11,,,Ind
+2,1997-08-25,12,Texas,12,,,Big 12 (South)
+2,1997-08-25,13,Syracuse (1-0),17,4,,Big East
+2,1997-08-25,14,Miami (FL),13,1,,Big East
+2,1997-08-25,15,Michigan,14,1,,Big Ten
+2,1997-08-25,16,Alabama,15,1,,SEC (West)
+2,1997-08-25,17,Auburn,16,1,,SEC (West)
+2,1997-08-25,18,Stanford,18,,,Pac-10
+2,1997-08-25,19,BYU,19,,,WAC (Mountain)
+2,1997-08-25,20,Clemson,20,,,ACC
+2,1997-08-25,21,Iowa,21,,,Big Ten
+2,1997-08-25,22,Kansas State,23,1,,Big 12 (North)
+2,1997-08-25,23,USC,22,1,,Pac-10
+2,1997-08-25,24,Northwestern (1-0),,,,Big Ten
+2,1997-08-25,25,Michigan State,25,,,Big Ten
+1,Preseason,1,Penn State,NA,—,21,Big Ten
+1,Preseason,2,Florida,NA,—,12,SEC (East)
+1,Preseason,3,Florida State,NA,—,7,ACC
+1,Preseason,4,Washington,NA,—,10,Pac-10
+1,Preseason,5,Tennessee,NA,—,8,SEC (East)
+1,Preseason,6,Nebraska,NA,—,4,Big 12 (North)
+1,Preseason,7,North Carolina,NA,—,4,ACC
+1,Preseason,8,Colorado,NA,—,3,Big 12 (North)
+1,Preseason,9,Ohio State,NA,—,1,Big Ten
+1,Preseason,10,LSU,NA,—,,SEC (West)
+1,Preseason,11,Notre Dame,NA,—,,Ind
+1,Preseason,12,Texas,NA,—,,Big 12 (South)
+1,Preseason,13,Miami (FL),NA,—,,Big East
+1,Preseason,14,Michigan,NA,—,,Big Ten
+1,Preseason,15,Alabama,NA,—,,SEC (West)
+1,Preseason,16,Auburn,NA,—,,SEC (West)
+1,Preseason,17,Syracuse,NA,—,,Big East
+1,Preseason,18,Stanford,NA,—,,Pac-10
+1,Preseason,19,BYU,NA,—,,WAC (Mountain)
+1,Preseason,20,Clemson,NA,—,,ACC
+1,Preseason,21,Iowa,NA,—,,Big Ten
+1,Preseason,22,USC,NA,—,,Pac-10
+1,Preseason,23,Kansas State,NA,—,,Big 12 (North)
+1,Preseason,24,Wisconsin,NA,—,,Big Ten
+1,Preseason,25,Michigan State,NA,—,,Big Ten
