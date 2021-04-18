@@ -62,7 +62,7 @@
 
   <article class="article">
     
-    <span class="article-duration">19 min read</span>
+    <span class="article-duration">20 min read</span>
     
 
     <h1 class="article-title">Breaking down the accuracy of preseason rankings</h1>
@@ -76,7 +76,7 @@
 <script src="http://petersonmaddie.github.io/2021/04/17/breaking-down-the-accuracy-of-preseason-rankings/index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>“Drinking the Kool-Aid” is a phrase all-too-familiar to the Nebraska fan-base. It usually begins during the spring, when talk comes out about how the football team is practicing. Fans everywhere buy in and get an idea in their head that we’re going to end the season as conference champions. The 2019 college football season is an excellent example of this for Nebraska. In the preseason AP poll, Nebraska was ranked 24th. This is a big deal considering the team went 4-8 in the 2018 season. I remember texting my brother after that AP poll came out and he was convinced that we could work our way up and end the season in the top five. That was also when there was a lot of hype around quarterback Adrian Martinez and his Heisman-odds.</p>
+<p>“Drinking the Kool-Aid” is a phrase all-too-familiar to the Nebraska fan base. It usually begins during the spring, when talk comes out about how the football team is practicing. Fans everywhere buy in and get an idea in their head that we’re going to end the season as conference champions. The 2019 college football season is an excellent example of this for Nebraska. In the preseason AP poll, Nebraska was ranked 24th. This is a big deal considering the team went 4-8 in the 2018 season. I remember texting my brother after that AP poll came out and he was convinced that we could work our way up and end the season in the top five. That was also when there was a lot of hype around quarterback Adrian Martinez and his Heisman odds.</p>
 <p>Well. Let’s just say the season did not go as planned. Nebraska ended with a 5-7 record, which isn’t ideal. Nebraska fans were crushed after their hopes had been built up in the preseason. This seems to happen time and time again, which is the inspiration for this project. How accurate are preseason rankings anyways? Let’s find out!</p>
 <p>First, I loaded some libraries I needed and scraped the data from the rankings of each week (from the preseason to the final rankings) from the past thirty seasons.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
@@ -505,7 +505,7 @@ library(cowplot)</code></pre>
 ## )</code></pre>
 <p>I then binded all the datasets together so that all of the years were in one piece of data.</p>
 <pre class="r"><code>allyears&lt;- bind_rows(twenty, nineteen, eighteen, seventeen, sixteen, fifteen, fourteen, thirteen, twelve, eleven, ten, nine, eight, seven, six, five, four, three, two, one, zeros, ninetynine,  ninetyeight,  ninetyseven, ninetysix, ninetyfive, ninetyfour, ninetythree, ninetytwo, ninetyone, ninety)</code></pre>
-<p>Next, I filtered to create some dataframes. I created one with just the preseason and final rankings, one wiht just the preseason, one with just the final, and one with just the number one ranked teams in the preseason and the final.</p>
+<p>Next, I filtered to create some dataframes. I created one with just the preseason and final rankings, one with just the preseason, one with just the final, and one with just the number one ranked teams in the preseason and the final.</p>
 <pre class="r"><code>preandfinal&lt;- allyears %&gt;% filter(Date==&quot;Preseason&quot; | Date==&quot;Final&quot;)
 preseason&lt;- allyears %&gt;% filter(Date==&quot;Preseason&quot;)
 final&lt;- allyears %&gt;% filter(Date==&quot;Final&quot;)
@@ -588,7 +588,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#reaqymazbo .gt_table {
+#pkeklavhhl .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -613,7 +613,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-left-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_heading {
+#pkeklavhhl .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -625,7 +625,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_title {
+#pkeklavhhl .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -635,7 +635,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-bottom-width: 0;
 }
 
-#reaqymazbo .gt_subtitle {
+#pkeklavhhl .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -645,13 +645,13 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-top-width: 0;
 }
 
-#reaqymazbo .gt_bottom_border {
+#pkeklavhhl .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_col_headings {
+#pkeklavhhl .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -666,7 +666,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_col_heading {
+#pkeklavhhl .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -686,7 +686,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   overflow-x: hidden;
 }
 
-#reaqymazbo .gt_column_spanner_outer {
+#pkeklavhhl .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -698,15 +698,15 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   padding-right: 4px;
 }
 
-#reaqymazbo .gt_column_spanner_outer:first-child {
+#pkeklavhhl .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#reaqymazbo .gt_column_spanner_outer:last-child {
+#pkeklavhhl .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#reaqymazbo .gt_column_spanner {
+#pkeklavhhl .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -718,7 +718,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   width: 100%;
 }
 
-#reaqymazbo .gt_group_heading {
+#pkeklavhhl .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -740,7 +740,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   vertical-align: middle;
 }
 
-#reaqymazbo .gt_empty_group_heading {
+#pkeklavhhl .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -755,15 +755,15 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   vertical-align: middle;
 }
 
-#reaqymazbo .gt_from_md > :first-child {
+#pkeklavhhl .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#reaqymazbo .gt_from_md > :last-child {
+#pkeklavhhl .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#reaqymazbo .gt_row {
+#pkeklavhhl .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -782,7 +782,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   overflow-x: hidden;
 }
 
-#reaqymazbo .gt_stub {
+#pkeklavhhl .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -794,7 +794,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   padding-left: 12px;
 }
 
-#reaqymazbo .gt_summary_row {
+#pkeklavhhl .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -804,7 +804,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   padding-right: 5px;
 }
 
-#reaqymazbo .gt_first_summary_row {
+#pkeklavhhl .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -814,7 +814,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-top-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_grand_summary_row {
+#pkeklavhhl .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -824,7 +824,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   padding-right: 5px;
 }
 
-#reaqymazbo .gt_first_grand_summary_row {
+#pkeklavhhl .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -834,11 +834,11 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-top-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_striped {
+#pkeklavhhl .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#reaqymazbo .gt_table_body {
+#pkeklavhhl .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -847,7 +847,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-bottom-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_footnotes {
+#pkeklavhhl .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -861,13 +861,13 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_footnote {
+#pkeklavhhl .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#reaqymazbo .gt_sourcenotes {
+#pkeklavhhl .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -881,46 +881,46 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#reaqymazbo .gt_sourcenote {
+#pkeklavhhl .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#reaqymazbo .gt_left {
+#pkeklavhhl .gt_left {
   text-align: left;
 }
 
-#reaqymazbo .gt_center {
+#pkeklavhhl .gt_center {
   text-align: center;
 }
 
-#reaqymazbo .gt_right {
+#pkeklavhhl .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#reaqymazbo .gt_font_normal {
+#pkeklavhhl .gt_font_normal {
   font-weight: normal;
 }
 
-#reaqymazbo .gt_font_bold {
+#pkeklavhhl .gt_font_bold {
   font-weight: bold;
 }
 
-#reaqymazbo .gt_font_italic {
+#pkeklavhhl .gt_font_italic {
   font-style: italic;
 }
 
-#reaqymazbo .gt_super {
+#pkeklavhhl .gt_super {
   font-size: 65%;
 }
 
-#reaqymazbo .gt_footnote_marks {
+#pkeklavhhl .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="reaqymazbo" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="pkeklavhhl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="3" class="gt_heading gt_title gt_font_normal" style="color: black; text-align: left; font-weight: bold;">If you start at the top, you can count on not ending at the top</th>
@@ -1103,7 +1103,7 @@ polls&lt;- read_csv(&quot;polls.csv&quot;)</code></pre>
   </tfoot>
   
 </table></div>
-<p>Wow, so only four times in the past thirty years has the preseason #1 team stayed there. Already, this tells us something about how much we should be buying in to preseason polls. Next, I have a whole lot of code that basically finds us the mean and median ending spot of each preseason rank. I use a dumbbell chart to show off the results.</p>
+<p>Wow, so the #1 preseason team has only stayed at #1 four different times in the past thirty seasons. Already, this tells us something about how much we should be buying in to preseason polls. Next, I have a whole lot of code that basically finds us the mean and median ending spot of each preseason rank. I use a dumbbell chart to show off the results.</p>
 <pre class="r"><code>pre &lt;- preseason %&gt;% select(Year, Date, Rk, School)
 fin &lt;- final %&gt;% select(Year, Date, Rk, School) %&gt;% separate(School, into=c(&quot;School&quot;, &quot;Record&quot;), sep=&quot; \\(&quot;) %&gt;% select(-Record)</code></pre>
 <pre><code>## Warning: Expected 2 pieces. Additional pieces discarded in 4 rows [22, 47, 88,
